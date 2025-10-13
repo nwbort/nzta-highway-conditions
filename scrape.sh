@@ -1,2 +1,10 @@
 #!/bin/bash
 ./download.sh 'https://www.journeys.nzta.govt.nz/assets/map-data-cache/delays.json'
+./download.sh 'https://www.journeys.nzta.govt.nz/assets/map-data-cache/cameras.json'
+./download.sh 'https://www.journeys.nzta.govt.nz/assets/map-data-cache/journeys.json'
+./download.sh 'https://www.journeys.nzta.govt.nz/api/hotspots'
+./download.sh 'https://www.journeys.nzta.govt.nz/assets/map-data-cache/vms.json'
+./download.sh 'https://www.journeys.nzta.govt.nz/assets/map-data-cache/time.json'
+./download.sh 'https://www.journeys.nzta.govt.nz/assets/map-data-cache/chargers.json'
+./download.sh 'https://www.journeys.nzta.govt.nz/assets/map-data-cache/regions.json'
+./download.sh 'https://www.journeys.nzta.govt.nz/api/keyjourneys'
