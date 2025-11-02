@@ -17,7 +17,7 @@
         "description": "SH59 Acheron T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/ACHERON",
-        "lastUpdated": "2025-11-01T14:01:57.323+13:00",
+        "lastUpdated": "2025-11-02T17:30:26.863+13:00",
         "name": "SH59 Acheron T2 - Southbound",
         "regions": [
           {
@@ -64,7 +64,7 @@
         "description": "SH1 Arthur Street - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/ART01",
-        "lastUpdated": "2025-11-01T19:19:27.347+13:00",
+        "lastUpdated": "2025-11-02T16:29:27.307+13:00",
         "name": "SH1 Arthur Street - Northbound",
         "regions": [
           {
@@ -111,7 +111,7 @@
         "description": "SH1 Aotea Quay - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/ATQ01",
-        "lastUpdated": "2025-11-01T18:07:26.857+13:00",
+        "lastUpdated": "2025-11-02T19:41:26.800+13:00",
         "name": "SH1 Aotea Quay - Northbound",
         "regions": [
           {
@@ -154,11 +154,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 8,
-        "currentMessage": "TRAVEL TIMES[nl]QE2 DR[jl4]3[nl]BEALEY AVE[jl4]9",
+        "currentMessage": "TRAVEL TIMES[nl]QE2 DR[jl4]3[nl]BEALEY AVE[jl4]10",
         "description": "Belfast Rd - Eastbound",
         "direction": "Eastbound",
         "identifier": "$WLG://signs/BFS01",
-        "lastUpdated": "2025-11-01T19:30:56.780+13:00",
+        "lastUpdated": "2025-11-02T19:20:57.267+13:00",
         "name": "Belfast Rd - Eastbound",
         "regions": [
           {
@@ -201,11 +201,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 9,
-        "currentMessage": "TRAVEL TIMES[nl]QE2 DR[jl4]4[nl]BEALEY AVE[jl4]9",
+        "currentMessage": "TRAVEL TIMES[nl]QE2 DR[jl4]4[nl]BEALEY AVE[jl4]10",
         "description": "Belfast Rd - Westbound",
         "direction": "Westbound",
         "identifier": "$WLG://signs/BFS02",
-        "lastUpdated": "2025-11-01T19:30:56.780+13:00",
+        "lastUpdated": "2025-11-02T19:20:57.267+13:00",
         "name": "Belfast Rd - Westbound",
         "regions": [
           {
@@ -252,7 +252,7 @@
         "description": "SH2 Belmont - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/BLM01",
-        "lastUpdated": "2025-11-01T19:26:57.343+13:00",
+        "lastUpdated": "2025-11-02T19:31:26.893+13:00",
         "name": "SH2 Belmont - Southbound",
         "regions": [
           {
@@ -346,7 +346,7 @@
         "description": "Boulcott Street - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/BOU01",
-        "lastUpdated": "2025-11-01T19:33:27.407+13:00",
+        "lastUpdated": "2025-11-02T19:33:26.740+13:00",
         "name": "Boulcott Street - Northbound",
         "regions": [
           {
@@ -389,11 +389,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 31,
-        "currentMessage": "WGTN HOSPITAL[jl4]7[nl]J'VILLE[jl4]16[nl]PORIRUA[jl4]24[nl]PETONE[jl4]19[np]WGTN CBD VIA[nl]SH1[jl4]9[nl]THE BAYS[jl4]14[nl]",
+        "currentMessage": "WGTN HOSPITAL[jl4]6[nl]J'VILLE[jl4]16[nl]PORIRUA[jl4]24[nl]PETONE[jl4]18[np]WGTN CBD VIA[nl]SH1[jl4]9[nl]THE BAYS[jl4]14[nl]",
         "description": "SH1 Cobham Drive - Westbound",
         "direction": "Westbound",
         "identifier": "$WLG://signs/COBHAM",
-        "lastUpdated": "2025-11-01T19:40:26.763+13:00",
+        "lastUpdated": "2025-11-02T19:40:26.787+13:00",
         "name": "SH1 Cobham Drive - Westbound",
         "regions": [
           {
@@ -429,6 +429,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          172.92805,
+          -43.750827
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 35,
+        "currentMessage": "SH75 BEFORE[nl]TAI TAPU[nl]PRIOR CRASH[nl]ROAD OPEN",
+        "description": "SH75 Duvauchelle - Westbound",
+        "direction": "Westbound",
+        "identifier": "$WLG://signs/DUV01",
+        "lastUpdated": "2025-11-02T18:50:27.287+13:00",
+        "name": "SH75 Duvauchelle - Westbound",
+        "regions": [
+          {
+            "id": "11",
+            "name": "Canterbury"
+          }
+        ],
+        "ways": [
+          {
+            "id": "861",
+            "name": "075"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "90",
+            "name": "SH75"
+          }
+        ],
+        "legs": [
+          {
+            "id": "little-river-to-akaroa",
+            "name": "Little River to Akaroa",
+            "totalLength": "17.479765401304"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.873699,
           -41.219562
         ]
@@ -436,11 +483,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 37,
-        "currentMessage": "PETONE [jl4]2[nl]WGTN CBD [jl4]12[nl]AIRPORT [jl4]20[np]LOWER HUTT [jl4]3[nl]STOKES VALLEY [jl4]15[nl]UPPER HUTT [jl4]18",
+        "currentMessage": "PETONE [jl4]2[nl]WGTN CBD [jl4]12[nl]AIRPORT [jl4]20[np]LOWER HUTT [jl4]3[nl]STOKES VALLEY [jl4]15[nl]UPPER HUTT [jl4]17",
         "description": "SH2 Dowse Drive - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/DWS01",
-        "lastUpdated": "2025-11-01T19:40:56.780+13:00",
+        "lastUpdated": "2025-11-02T19:40:56.707+13:00",
         "name": "SH2 Dowse Drive - Northbound",
         "regions": [
           {
@@ -624,11 +671,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 53,
-        "currentMessage": "AIRPORT (SH1) [jl4]13[nl]BEALEY AVE [jl4]11[nl]PAPANUI (MAIN NTH RD) [jl4]8",
+        "currentMessage": "AIRPORT (SH1) [jl4]13[nl]BEALEY AVE [jl4]12[nl]PAPANUI (MAIN NTH RD) [jl4]8",
         "description": "SH1 Hellers - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/HEL01",
-        "lastUpdated": "2025-11-01T19:40:56.780+13:00",
+        "lastUpdated": "2025-11-02T19:40:56.707+13:00",
         "name": "SH1 Hellers - Southbound",
         "regions": [
           {
@@ -671,11 +718,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 55,
-        "currentMessage": "SH6 TO WHANGAMOA[nl]ROADWORKS[np]SH6 TO WHANGAMOA[nl]10 MIN DELAYS",
+        "currentMessage": "SH6 TO RAI[nl]VALLEY CLOSING[np]9-28 NOV[nl]SUN-THU NIGHTS",
         "description": "SH6 Hira - Northeast",
         "direction": "Northeast",
         "identifier": "$WLG://signs/HIR01",
-        "lastUpdated": "2025-10-30T22:42:37.120+13:00",
+        "lastUpdated": "2025-11-02T10:00:26.830+13:00",
         "name": "SH6 Hira - Northeast",
         "regions": [
           {
@@ -769,7 +816,7 @@
         "description": "SH2 Hutt Road On Ramp",
         "direction": "All Directions",
         "identifier": "$WLG://signs/HUTTRD-ON",
-        "lastUpdated": "2025-11-01T19:11:57.370+13:00",
+        "lastUpdated": "2025-11-02T19:29:56.717+13:00",
         "name": "SH2 Hutt Road On Ramp",
         "regions": [
           {
@@ -863,7 +910,7 @@
         "description": "SH59 James Street T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/JAMESST",
-        "lastUpdated": "2025-10-31T09:35:28.073+13:00",
+        "lastUpdated": "2025-11-02T17:35:26.680+13:00",
         "name": "SH59 James Street T2 - Southbound",
         "regions": [
           {
@@ -906,11 +953,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 71,
-        "currentMessage": "WGTN CBD [jl4]9[nl]AIRPORT [jl4]18[nl]PETONE [jl4]9",
+        "currentMessage": "WGTN CBD [jl4]9[nl]AIRPORT [jl4]17[nl]PETONE [jl4]9",
         "description": "SH1 Johnsonville On Ramp - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/JV02",
-        "lastUpdated": "2025-11-01T19:37:26.763+13:00",
+        "lastUpdated": "2025-11-02T19:21:27.293+13:00",
         "name": "SH1 Johnsonville On Ramp - Southbound",
         "regions": [
           {
@@ -957,7 +1004,7 @@
         "description": "SH1 Johnsonville - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/JVLE",
-        "lastUpdated": "2025-11-01T19:34:56.783+13:00",
+        "lastUpdated": "2025-11-02T19:28:57.317+13:00",
         "name": "SH1 Johnsonville - Southbound",
         "regions": [
           {
@@ -1004,7 +1051,7 @@
         "description": "SH1 Kaikoura - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/KAI01",
-        "lastUpdated": "2025-10-31T14:23:28.033+13:00",
+        "lastUpdated": "2025-11-02T02:59:57.447+13:00",
         "name": "SH1 Kaikoura - Southbound",
         "regions": [
           {
@@ -1047,11 +1094,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 75,
-        "currentMessage": "J'VILLE[jl4]8[nl]PORIRUA[jl4]15[nl]PETONE[jl4]12",
+        "currentMessage": "J'VILLE[jl4]8[nl]PORIRUA[jl4]15[nl]PETONE[jl4]11",
         "description": "SH1 Karo Drive - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/KARO-NB",
-        "lastUpdated": "2025-11-01T19:17:57.420+13:00",
+        "lastUpdated": "2025-11-02T19:41:56.830+13:00",
         "name": "SH1 Karo Drive - Northbound",
         "regions": [
           {
@@ -1087,53 +1134,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          169.131287,
-          -45.054504
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 76,
-        "currentMessage": "SH6 TO GIBBSTON[nl]VARIOUS WORKS[np]SH6 TO GIBBSTON[nl]1 HR DELAYS",
-        "description": "SH6 Kawarau Gorge - Westbound",
-        "direction": "Westbound",
-        "identifier": "$WLG://signs/KAW01",
-        "lastUpdated": "2025-10-30T22:42:37.120+13:00",
-        "name": "SH6 Kawarau Gorge - Westbound",
-        "regions": [
-          {
-            "id": "13",
-            "name": "Otago"
-          }
-        ],
-        "ways": [
-          {
-            "id": "981",
-            "name": "006"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "107",
-            "name": "SH6"
-          }
-        ],
-        "legs": [
-          {
-            "id": "cromwell-to-gibbston",
-            "name": "Cromwell to Gibbston",
-            "totalLength": "36.16"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-76"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           172.64483,
           -43.378988
         ]
@@ -1145,7 +1145,7 @@
         "description": "SH1 Kaiapoi Bridge - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/KBR01",
-        "lastUpdated": "2025-11-01T19:36:56.767+13:00",
+        "lastUpdated": "2025-11-02T19:41:56.830+13:00",
         "name": "SH1 Kaiapoi Bridge - Southbound",
         "regions": [
           {
@@ -1192,7 +1192,7 @@
         "description": "Kenepuru Drive - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/KEN01",
-        "lastUpdated": "2025-11-01T19:33:27.407+13:00",
+        "lastUpdated": "2025-11-02T19:27:26.690+13:00",
         "name": "Kenepuru Drive - Northbound",
         "regions": [
           {
@@ -1235,11 +1235,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 79,
-        "currentMessage": "TIMES VIA[nl]LOCAL[nl]ROADS[np]TAWA [jl4]7[nl]JOHNSONVILLE[jl4]17[nl]",
+        "currentMessage": "TIMES VIA[nl]LOCAL[nl]ROADS[np]TAWA [jl4]6[nl]JOHNSONVILLE[jl4]17[nl]",
         "description": "Kenepuru Drive - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/KEN02",
-        "lastUpdated": "2025-11-01T19:25:27.330+13:00",
+        "lastUpdated": "2025-11-02T19:21:27.293+13:00",
         "name": "Kenepuru Drive - Southbound",
         "regions": [
           {
@@ -1286,7 +1286,7 @@
         "description": "SH2 Kennedy Good Bridge - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/KGB01",
-        "lastUpdated": "2025-11-01T19:31:26.773+13:00",
+        "lastUpdated": "2025-11-02T19:35:26.763+13:00",
         "name": "SH2 Kennedy Good Bridge - Northbound",
         "regions": [
           {
@@ -1376,11 +1376,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 96,
-        "currentMessage": "OTAKI [jl4]16[nl]LEVIN [jl4]33[nl]PORIRUA [jl4]28",
+        "currentMessage": "OTAKI [jl4]16[nl]LEVIN [jl4]32[nl]PORIRUA [jl4]28",
         "description": "Kapiti Road - Eastbound",
         "direction": "Eastbound",
         "identifier": "$WLG://signs/M2PP-D-10",
-        "lastUpdated": "2025-11-01T19:36:56.767+13:00",
+        "lastUpdated": "2025-11-02T18:47:57.293+13:00",
         "name": "Kapiti Road - Eastbound",
         "regions": [
           {
@@ -1427,7 +1427,7 @@
         "description": "Te Moana Road - Eastbound",
         "direction": "Eastbound",
         "identifier": "$WLG://signs/M2PP-D-15",
-        "lastUpdated": "2025-11-01T19:32:57.360+13:00",
+        "lastUpdated": "2025-11-02T18:42:27.273+13:00",
         "name": "Te Moana Road - Eastbound",
         "regions": [
           {
@@ -1474,7 +1474,7 @@
         "description": "Te Moana Road - Westbound",
         "direction": "Westbound",
         "identifier": "$WLG://signs/M2PP-D-17",
-        "lastUpdated": "2025-11-01T19:32:57.360+13:00",
+        "lastUpdated": "2025-11-02T18:46:57.420+13:00",
         "name": "Te Moana Road - Westbound",
         "regions": [
           {
@@ -1517,11 +1517,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 100,
-        "currentMessage": "PORIRUA [jl4]21[nl]J'VILLE [jl4]26[nl]WGTN CBD [jl4]34",
+        "currentMessage": "PORIRUA [jl4]21[nl]J'VILLE [jl4]25[nl]WGTN CBD [jl4]34",
         "description": "Poplar Avenue - Eastbound",
         "direction": "Eastbound",
         "identifier": "$WLG://signs/M2PP-D-3",
-        "lastUpdated": "2025-11-01T19:38:56.773+13:00",
+        "lastUpdated": "2025-11-02T19:42:57.313+13:00",
         "name": "Poplar Avenue - Eastbound",
         "regions": [
           {
@@ -1564,11 +1564,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 102,
-        "currentMessage": "OTAKI [jl4]16[nl]LEVIN [jl4]33[nl]PORIRUA [jl4]28",
+        "currentMessage": "OTAKI [jl4]16[nl]LEVIN [jl4]32[nl]PORIRUA [jl4]28",
         "description": "Kapiti Road - Westbound",
         "direction": "Westbound",
         "identifier": "$WLG://signs/M2PP-D-8",
-        "lastUpdated": "2025-11-01T19:36:56.767+13:00",
+        "lastUpdated": "2025-11-02T18:46:57.420+13:00",
         "name": "Kapiti Road - Westbound",
         "regions": [
           {
@@ -1615,7 +1615,7 @@
         "description": "SH59 Marina T2 - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/MARINA",
-        "lastUpdated": "2025-11-01T14:01:57.323+13:00",
+        "lastUpdated": "2025-11-02T14:01:56.847+13:00",
         "name": "SH59 Marina T2 - Northbound",
         "regions": [
           {
@@ -1709,7 +1709,7 @@
         "description": "SH2 Melling Bridge - North and Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/MEL01",
-        "lastUpdated": "2025-11-01T19:34:26.800+13:00",
+        "lastUpdated": "2025-11-02T19:17:57.327+13:00",
         "name": "SH2 Melling Bridge - North and Southbound",
         "regions": [
           {
@@ -1756,7 +1756,7 @@
         "description": "Mungavin Avenue - North and Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/MGV01",
-        "lastUpdated": "2025-11-01T19:07:27.403+13:00",
+        "lastUpdated": "2025-11-02T18:09:27.380+13:00",
         "name": "Mungavin Avenue - North and Southbound",
         "regions": [
           {
@@ -1803,7 +1803,7 @@
         "description": "SH1 Molesworth Street - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/MLW01",
-        "lastUpdated": "2025-11-01T19:37:26.763+13:00",
+        "lastUpdated": "2025-11-02T19:35:26.763+13:00",
         "name": "SH1 Molesworth Street - Northbound",
         "regions": [
           {
@@ -1850,7 +1850,7 @@
         "description": "SH2 Manor Park - Southwest",
         "direction": "Southwest",
         "identifier": "$WLG://signs/MPK01",
-        "lastUpdated": "2025-11-01T19:15:57.347+13:00",
+        "lastUpdated": "2025-11-02T18:27:27.263+13:00",
         "name": "SH2 Manor Park - Southwest",
         "regions": [
           {
@@ -1987,11 +1987,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 133,
-        "currentMessage": "J'VILLE [jl4]9[nl]TAWA [jl4]14[nl]WGTN CBD [jl4]11[nl]AIRPORT [jl4]19",
+        "currentMessage": "J'VILLE [jl4]8[nl]TAWA [jl4]14[nl]WGTN CBD [jl4]10[nl]AIRPORT [jl4]18",
         "description": "SH2 Petone - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/PET01",
-        "lastUpdated": "2025-11-01T19:31:56.873+13:00",
+        "lastUpdated": "2025-11-02T19:36:56.673+13:00",
         "name": "SH2 Petone - Southbound",
         "regions": [
           {
@@ -2034,11 +2034,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 134,
-        "currentMessage": "SH1 OARO[nl]TO CONWAY FLAT[nl]ROAD CLOSING[np]SH1 OARO[nl]TO CONWAY FLAT[nl]4-7 NOV NIGHTS[nl]9PM TO 5AM",
+        "currentMessage": "SH6 RAI VALLEY[nl]TO HIRA CLOSING[nl]9-28 NOV[nl]SUN-THU NIGHTS",
         "description": "SH1 Picton - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/PIC01",
-        "lastUpdated": "2025-10-30T22:42:37.120+13:00",
+        "lastUpdated": "2025-11-02T10:01:26.757+13:00",
         "name": "SH1 Picton - Southbound",
         "regions": [
           {
@@ -2081,11 +2081,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 136,
-        "currentMessage": "WGTN CBD[jl4]5[nl]WGTN HOSPITAL[jl4]9[nl]AIRPORT VIA[nl]SH1[jl4]13[nl]THE QUAYS[jl4]17",
+        "currentMessage": "WGTN CBD[jl4]5[nl]WGTN HOSPITAL[jl4]8[nl]AIRPORT VIA[nl]SH1[jl4]13[nl]THE QUAYS[jl4]16",
         "description": "SH1 Placemakers - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/PLCMKRS-SB",
-        "lastUpdated": "2025-11-01T19:39:56.800+13:00",
+        "lastUpdated": "2025-11-02T19:42:57.313+13:00",
         "name": "SH1 Placemakers - Southbound",
         "regions": [
           {
@@ -2132,7 +2132,7 @@
         "description": "SH59 Porirua - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/POR01",
-        "lastUpdated": "2025-11-01T19:40:26.763+13:00",
+        "lastUpdated": "2025-11-02T19:15:27.553+13:00",
         "name": "SH59 Porirua - Southbound",
         "regions": [
           {
@@ -2179,7 +2179,7 @@
         "description": "SH59 Paremata Road - North and Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/PRT01",
-        "lastUpdated": "2025-11-01T19:39:26.773+13:00",
+        "lastUpdated": "2025-11-02T19:27:26.690+13:00",
         "name": "SH59 Paremata Road - North and Southbound",
         "regions": [
           {
@@ -2222,11 +2222,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 142,
-        "currentMessage": "TRAVEL TIMES[nl]TRAM RD[jl4]5[nl]OHOKA RD[jl4]6[nl]LINESIDE[jl4]7",
+        "currentMessage": "TRAVEL TIMES[nl]TRAM RD[jl4]5[nl]OHOKA RD[jl4]7[nl]LINESIDE[jl4]7",
         "description": "SH74 Queen Elizabeth II Dr - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/QED02",
-        "lastUpdated": "2025-11-01T19:38:26.793+13:00",
+        "lastUpdated": "2025-11-02T19:26:56.737+13:00",
         "name": "SH74 Queen Elizabeth II Dr - Northbound",
         "regions": [
           {
@@ -2316,11 +2316,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 145,
-        "currentMessage": "SH6 TO HIRA[nl]ROADWORKS[np]SH6 TO HIRA[nl]10 MIN DELAYS",
+        "currentMessage": "SH6 TO HIRA[nl]ROAD CLOSING[np]9-28 NOV[nl]SUN-THU NIGHTS",
         "description": "SH6 Rai Valley - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/RAI01",
-        "lastUpdated": "2025-10-30T22:42:37.120+13:00",
+        "lastUpdated": "2025-11-02T10:01:56.797+13:00",
         "name": "SH6 Rai Valley - Northbound",
         "regions": [
           {
@@ -2497,6 +2497,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          172.551243,
+          -43.665912
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 164,
+        "currentMessage": "SH75 AFTER[nl]TAI TAPU[nl]PRIOR CRASH[nl]ROAD OPEN",
+        "description": "SH75 Tai Tapu - Eastbound",
+        "direction": "Eastbound",
+        "identifier": "$WLG://signs/TAI01",
+        "lastUpdated": "2025-11-02T18:50:27.287+13:00",
+        "name": "SH75 Tai Tapu - Eastbound",
+        "regions": [
+          {
+            "id": "11",
+            "name": "Canterbury"
+          }
+        ],
+        "ways": [
+          {
+            "id": "856",
+            "name": "075"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "90",
+            "name": "SH75"
+          }
+        ],
+        "legs": [
+          {
+            "id": "motukarara-to-wigram",
+            "name": "Motukarara to Wigram",
+            "totalLength": "23.994818119684"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-164"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.776414,
           -41.297059
         ]
@@ -2504,11 +2551,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 166,
-        "currentMessage": "J'VILLE [jl4]9[nl]PORIRUA [jl4]16[nl]PETONE [jl4]13[nl]",
+        "currentMessage": "J'VILLE [jl4]9[nl]PORIRUA [jl4]16[nl]PETONE [jl4]12[nl]",
         "description": "Taranaki Street - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/TAR01",
-        "lastUpdated": "2025-11-01T19:17:27.353+13:00",
+        "lastUpdated": "2025-11-02T19:41:26.800+13:00",
         "name": "Taranaki Street - Southbound",
         "regions": [
           {
@@ -2555,7 +2602,7 @@
         "description": "SH1 Tinakori Rd - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/TKR01",
-        "lastUpdated": "2025-11-01T19:39:26.773+13:00",
+        "lastUpdated": "2025-11-02T19:15:27.553+13:00",
         "name": "SH1 Tinakori Rd - Northbound",
         "regions": [
           {
@@ -2602,7 +2649,7 @@
         "description": "SH1 Tinakori Rd - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/TKR02",
-        "lastUpdated": "2025-11-01T19:37:26.763+13:00",
+        "lastUpdated": "2025-11-02T19:13:26.780+13:00",
         "name": "SH1 Tinakori Rd - Southbound",
         "regions": [
           {
@@ -2649,7 +2696,7 @@
         "description": "Titahi Bay Road - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/TTB01",
-        "lastUpdated": "2025-11-01T19:36:56.767+13:00",
+        "lastUpdated": "2025-11-02T19:16:57.367+13:00",
         "name": "Titahi Bay Road - Southbound",
         "regions": [
           {
@@ -2739,11 +2786,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 180,
-        "currentMessage": "WGTN CBD [jl4]14[nl]AIRPORT [jl4]22[nl]PORIRUA[jl4]6",
+        "currentMessage": "WGTN CBD [jl4]14[nl]AIRPORT [jl4]21[nl]PORIRUA[jl4]6",
         "description": "Main Road Tawa - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/TWA03",
-        "lastUpdated": "2025-11-01T19:11:57.370+13:00",
+        "lastUpdated": "2025-11-02T19:37:26.693+13:00",
         "name": "Main Road Tawa - Southbound",
         "regions": [
           {
@@ -2833,11 +2880,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 182,
-        "currentMessage": "J'VILLE [jl4]9[nl]PORIRUA [jl4]16[nl]PETONE [jl4]12[nl]",
+        "currentMessage": "J'VILLE [jl4]9[nl]PORIRUA [jl4]15[nl]PETONE [jl4]12[nl]",
         "description": "SH1 Victoria St - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/VIC01",
-        "lastUpdated": "2025-11-01T19:27:27.367+13:00",
+        "lastUpdated": "2025-11-02T19:21:27.293+13:00",
         "name": "SH1 Victoria St - Southbound",
         "regions": [
           {
@@ -2931,7 +2978,7 @@
         "description": "SH1 Wellington Road - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/WEL01",
-        "lastUpdated": "2025-11-01T19:37:26.763+13:00",
+        "lastUpdated": "2025-11-02T19:29:27.313+13:00",
         "name": "SH1 Wellington Road - Northbound",
         "regions": [
           {
@@ -2974,11 +3021,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 190,
-        "currentMessage": "PAEKAKARIKI [jl4]17[nl]PARAPARAUMU [jl4]26[nl]WAIKANAE [jl4]32[nl]",
+        "currentMessage": "SH58 WHITBY[nl]ROAD CLOSING[nl]TONIGHT[nl]9PM TO 4AM",
         "description": "SH59 Whitford Brown - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/WHB01",
-        "lastUpdated": "2025-11-01T19:35:27.363+13:00",
+        "lastUpdated": "2025-11-02T12:00:26.780+13:00",
         "name": "SH59 Whitford Brown - Northbound",
         "regions": [
           {
@@ -3025,7 +3072,7 @@
         "description": "SH1 Waimakariri Bridge - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/WMK01",
-        "lastUpdated": "2025-11-01T15:28:26.693+13:00",
+        "lastUpdated": "2025-11-02T14:51:56.757+13:00",
         "name": "SH1 Waimakariri Bridge - Northbound",
         "regions": [
           {
@@ -3072,7 +3119,7 @@
         "description": "SH1 Waimakariri Bridge - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/WMK02",
-        "lastUpdated": "2025-11-01T18:30:56.773+13:00",
+        "lastUpdated": "2025-11-02T19:40:56.707+13:00",
         "name": "SH1 Waimakariri Bridge - Southbound",
         "regions": [
           {
@@ -3256,11 +3303,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 231,
-        "currentMessage": "SH1 TIRAU[nl]TO PUTARURU[nl]NIGHT CLOSURES[nl]WED & THU[np]SH1 TIRAU[nl]TO PUTARURU[nl]NIGHT CLOSURES[nl]7PM TO 6AM",
+        "currentMessage": "SH1[nl]TOKOROA-PUTARURU[nl]OVERNIGHT WORKS[nl]UNTIL 6AM[np]SH1[nl]TOKOROA-PUTARURU[nl]OVERNIGHT WORKS[nl]EXPECT DELAYS",
         "description": "SH29 Te Poi - Westbound",
         "direction": "Westbound",
         "identifier": "$AKL://signs/KAM04",
-        "lastUpdated": "2025-11-01T06:00:27.363+13:00",
+        "lastUpdated": "2025-11-02T19:01:26.770+13:00",
         "name": "SH29 Te Poi - Westbound",
         "regions": [
           {
@@ -3350,11 +3397,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 238,
-        "currentMessage": "SH1 TIRAU[nl]TO PUTARURU[nl]NIGHT CLOSURES[nl]WED & THU[np]SH1 TIRAU[nl]TO PUTARURU[nl]NIGHT CLOSURES[nl]7PM TO 6AM",
+        "currentMessage": "SH1[nl]TOKOROA-PUTARURU[nl]OVERNIGHT WORKS[nl]UNTIL 6AM[np]SH1[nl]TOKOROA-PUTARURU[nl]OVERNIGHT WORKS[nl]EXPECT DELAYS",
         "description": "SH27 Matamata - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/MAT01",
-        "lastUpdated": "2025-11-01T06:01:27.400+13:00",
+        "lastUpdated": "2025-11-02T19:00:26.807+13:00",
         "name": "SH27 Matamata - Southbound",
         "regions": [
           {
@@ -3397,11 +3444,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 242,
-        "currentMessage": "SH22 CLOSED[nl]2 - 3 NOV[nl]9PM - 5AM[np]SH22 CLOSED[nl]2 - 3 NOV[nl]PLAN AHEAD",
+        "currentMessage": "ROADWORKS AHEAD:[nl]TAKE EXTRA CARE",
         "description": "SH1 Meremere - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/MRE01",
-        "lastUpdated": "2025-11-01T06:01:56.723+13:00",
+        "lastUpdated": "2025-11-02T19:02:26.817+13:00",
         "name": "SH1 Meremere - Northbound",
         "regions": [
           {
@@ -3484,6 +3531,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          175.868155,
+          -38.197477
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 256,
+        "currentMessage": "SH1 ROADWORKS[nl]TOKOROA-PUTARURU[np]SH1 ROADWORKS[nl]EXPECT DELAYS",
+        "description": "SH1 Tokoroa - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/TOK01",
+        "lastUpdated": "2025-11-02T19:00:26.807+13:00",
+        "name": "SH1 Tokoroa - Southbound",
+        "regions": [
+          {
+            "id": "3",
+            "name": "Waikato"
+          }
+        ],
+        "ways": [
+          {
+            "id": "226",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "24",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "tokoroa-to-lichfield",
+            "name": "Tokoroa to Lichfield",
+            "totalLength": "12.021"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.760064,
           -36.805015
         ]
@@ -3491,11 +3585,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 262,
-        "currentMessage": "HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]EXPECT DELAYS[np]HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]MARATHON EVENT",
+        "currentMessage": "HARBOUR BRIDGE:[nl]LANE 4 OPEN",
         "description": "SH1 Esmonde Rd - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-0490-S",
-        "lastUpdated": "2025-11-01T16:49:57.277+13:00",
+        "lastUpdated": "2025-11-02T14:09:26.733+13:00",
         "name": "SH1 Esmonde Rd - Southbound",
         "regions": [
           {
@@ -3538,11 +3632,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 263,
-        "currentMessage": "HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]EXPECT DELAYS[np]HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]MARATHON EVENT",
+        "currentMessage": "HARBOUR BRIDGE:[nl]LANE 4 OPEN",
         "description": "SH1 Fanshawe St - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-001-0500-N",
-        "lastUpdated": "2025-11-01T11:48:26.757+13:00",
+        "lastUpdated": "2025-11-02T11:44:27.403+13:00",
         "name": "SH1 Fanshawe St - Northbound",
         "regions": [
           {
@@ -3571,6 +3665,53 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.783837,
+          -36.879374
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 266,
+        "currentMessage": "EVENT TONIGHT[nl]EDEN PARK[nl]EXPECT DELAYS",
+        "description": "SH1 Newmarket - Northbound",
+        "direction": "Northbound",
+        "identifier": "$AKL://signs/V-001-0510-N",
+        "lastUpdated": "2025-11-02T14:42:26.713+13:00",
+        "name": "SH1 Newmarket - Northbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "44",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "3",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "redoubt-rd-to-hobson-st",
+            "name": "Redoubt Rd to Hobson St",
+            "totalLength": "20.283491539539"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-266"
       }
     },
     {
@@ -3625,6 +3766,147 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.734828,
+          -36.868062
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 282,
+        "currentMessage": "EVENT TONIGHT[nl]EDEN PARK[nl]EXPECT DELAYS",
+        "description": "SH16 Western Springs - Eastbound",
+        "direction": "Eastbound",
+        "identifier": "$AKL://signs/V-016-0010-E",
+        "lastUpdated": "2025-11-02T14:00:27+13:00",
+        "name": "SH16 Western Springs - Eastbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "8",
+            "name": "016"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "1",
+            "name": "SH16"
+          }
+        ],
+        "legs": [
+          {
+            "id": "st-lukes-to-newton",
+            "name": "St Lukes to Newton",
+            "totalLength": "2.8267053808904"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-282"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.738182,
+          -36.868622
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 283,
+        "currentMessage": "EVENT TONIGHT[nl]EDEN PARK[nl]EXPECT DELAYS",
+        "description": "SH16 St Lukes Rd - Westbound",
+        "direction": "Westbound",
+        "identifier": "$AKL://signs/V-016-0010-W",
+        "lastUpdated": "2025-11-02T14:00:27+13:00",
+        "name": "SH16 St Lukes Rd - Westbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "7",
+            "name": "016"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "1",
+            "name": "SH16"
+          }
+        ],
+        "legs": [
+          {
+            "id": "newton-to-st-lukes",
+            "name": "Newton to St Lukes",
+            "totalLength": "2.8502260752686"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-283"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.691508,
+          -36.871763
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 287,
+        "currentMessage": "EVENT TONIGHT[nl]EDEN PARK[nl]EXPECT DELAYS",
+        "description": "SH16 Rosebank Bridge - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-016-0300-E",
+        "lastUpdated": "2025-11-02T14:00:27+13:00",
+        "name": "SH16 Rosebank Bridge - Southbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "13",
+            "name": "016"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "1",
+            "name": "SH16"
+          }
+        ],
+        "legs": [
+          {
+            "id": "rosebank-to-te-atatu",
+            "name": "Rosebank to Te Atatu",
+            "totalLength": "3.5127680973342"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-287"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.749592,
           -36.812197
         ]
@@ -3632,11 +3914,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 306,
-        "currentMessage": "HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]EXPECT DELAYS[np]HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]MARATHON EVENT",
+        "currentMessage": "HARBOUR BRIDGE:[nl]LANE 4 OPEN",
         "description": "Onewa Rd - Eastbound",
         "direction": "Eastbound",
         "identifier": "$AKL://signs/V-999-0400-N",
-        "lastUpdated": "2025-11-01T16:49:57.277+13:00",
+        "lastUpdated": "2025-11-02T14:09:26.733+13:00",
         "name": "Onewa Rd - Eastbound",
         "regions": [
           {
@@ -3679,11 +3961,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 315,
-        "currentMessage": "SH22 CLOSED[nl]2 - 3 NOV[nl]9PM - 5AM[np]SH22 CLOSED[nl]2 - 3 NOV[nl]PLAN AHEAD",
+        "currentMessage": "SH22 CLOSED[nl]TONIGHT[nl]9PM - 5AM[np]SH22 CLOSED[nl]TONIGHT[nl]PLAN AHEAD",
         "description": "SH1 - SCI - Alfriston Rd (S) VMS",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-6050-S",
-        "lastUpdated": "2025-11-01T06:00:27.363+13:00",
+        "lastUpdated": "2025-11-02T06:00:27.680+13:00",
         "name": "SH1 - SCI - Alfriston Rd (S) VMS",
         "regions": [
           {
@@ -3719,6 +4001,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.919335,
+          -37.053941
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 318,
+        "currentMessage": "ROADWORKS:[nl]AFTER RAMARAMA[nl]TAKE EXTRA CARE",
+        "description": "SH1 - SCI - Morewa (S) VMS",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-001-6180-S",
+        "lastUpdated": "2025-11-02T19:18:57.267+13:00",
+        "name": "SH1 - SCI - Morewa (S) VMS",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "1272",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "3",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "redoubt-rd-to-papakura",
+            "name": "Redoubt Rd to Papakura",
+            "totalLength": "10.043383431619"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-318"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.675187,
           -36.521453
         ]
@@ -3726,11 +4055,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 323,
-        "currentMessage": "OTEHA [jl4]16 MINS[nl]SH18 [jl4]19 MINS[nl]FANSHAWE[jl4]26 MINS[nl]VIA MOTORWAY",
+        "currentMessage": "OTEHA [jl4]15 MINS[nl]SH18 [jl4]19 MINS[nl]FANSHAWE[jl4]26 MINS[nl]VIA MOTORWAY",
         "description": "Old SH1 Rest Area - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-001-3425-N",
-        "lastUpdated": "2025-11-01T19:37:26.763+13:00",
+        "lastUpdated": "2025-11-02T19:33:26.740+13:00",
         "name": "Old SH1 Rest Area - Northbound",
         "regions": [
           {
@@ -3773,11 +4102,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 326,
-        "currentMessage": "CITY CENTRE VIA[nl]SH1 [jl4]13 MINS[nl]SH18/16 [jl4]25 MINS",
+        "currentMessage": "CITY CENTRE VIA[nl]SH1 [jl4]13 MINS[nl]SH18/16 [jl4]24 MINS",
         "description": "SH1 Pinehill - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-4365-S",
-        "lastUpdated": "2025-11-01T19:28:27.353+13:00",
+        "lastUpdated": "2025-11-02T19:36:26.757+13:00",
         "name": "SH1 Pinehill - Southbound",
         "regions": [
           {
@@ -3820,11 +4149,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 330,
-        "currentMessage": "OTEHA [jl4]26 MINS[nl]SH18 [jl4]30 MINS[nl]FANSHAWE[jl4]37 MINS[nl]VIA MOTORWAY",
+        "currentMessage": "OTEHA [jl4]26 MINS[nl]SH18 [jl4]29 MINS[nl]FANSHAWE[jl4]36 MINS[nl]VIA MOTORWAY",
         "description": "SH1 Kaipara Flats Rd - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-2760-S",
-        "lastUpdated": "2025-11-01T19:17:27.353+13:00",
+        "lastUpdated": "2025-11-02T19:42:27.297+13:00",
         "name": "SH1 Kaipara Flats Rd - Southbound",
         "regions": [
           {
@@ -3867,11 +4196,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 332,
-        "currentMessage": "WELLSFORD [jl4]15 MINS[nl]SH12 [jl4]37 MINS[nl]WHANGAREI [jl4]75 MINS[nl]VIA SH1",
+        "currentMessage": "WELLSFORD [jl4]16 MINS[nl]SH12 [jl4]37 MINS[nl]WHANGAREI [jl4]76 MINS[nl]VIA SH1",
         "description": "Old SH1 Hudson Rd - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-001-2770-N",
-        "lastUpdated": "2025-11-01T19:40:26.763+13:00",
+        "lastUpdated": "2025-11-02T19:40:26.787+13:00",
         "name": "Old SH1 Hudson Rd - Northbound",
         "regions": [
           {
@@ -3914,11 +4243,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 334,
-        "currentMessage": "WELLSFORD [jl4]16 MINS[nl]SH12 BRYNDERWYN [jl4]38 MINS[nl]WHANGAREI [jl4]76 MINS[np]ESTIMATED[nl]MINUTES[nl]VIA SH1",
+        "currentMessage": "WELLSFORD [jl4]16 MINS[nl]SH12 BRYNDERWYN [jl4]37 MINS[nl]WHANGAREI [jl4]76 MINS[np]ESTIMATED[nl]MINUTES[nl]VIA SH1",
         "description": "SH1 Carran Rd - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-2870-N",
-        "lastUpdated": "2025-11-01T19:40:26.763+13:00",
+        "lastUpdated": "2025-11-02T18:56:27.310+13:00",
         "name": "SH1 Carran Rd - Southbound",
         "regions": [
           {
@@ -3947,6 +4276,53 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-334"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.791,
+          -38.07225
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 337,
+        "currentMessage": "SH1[nl]TOKOROA-PUTARURU[nl]OVERNIGHT WORKS[nl]UNTIL 6AM[np]SH1[nl]TOKOROA-PUTARURU[nl]OVERNIGHT WORKS[nl]EXPECT DELAYS",
+        "description": "SH1 Lichfield - Northbound",
+        "direction": "Northbound",
+        "identifier": "$AKL://signs/LCH01",
+        "lastUpdated": "2025-11-02T19:00:26.807+13:00",
+        "name": "SH1 Lichfield - Northbound",
+        "regions": [
+          {
+            "id": "3",
+            "name": "Waikato"
+          }
+        ],
+        "ways": [
+          {
+            "id": "223",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "24",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "tirau-to-lichfield",
+            "name": "Tirau to Lichfield",
+            "totalLength": "20.434"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-337"
       }
     },
     {
@@ -4008,11 +4384,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 352,
-        "currentMessage": "SH6 TO[nl]KAWATIRI[nl]ROAD NOW OPEN[nl]STOP ON REQUEST",
+        "currentMessage": "SH6 TO[nl]KAWATIRI[nl]ROAD NOW OPEN[nl]STOP ON REQUEST[np]SH6 FROM HIRA[nl]ROAD CLOSING[nl]9-28 NOV[nl]SUN-THU NIGHTS",
         "description": "SH6 Murchison - Northeast",
         "direction": "Northeast",
         "identifier": "$WLG://signs/MCH02_NEW",
-        "lastUpdated": "2025-10-30T22:42:37.120+13:00",
+        "lastUpdated": "2025-11-02T10:10:56.707+13:00",
         "name": "Murchison (NE) VMS_NEW",
         "regions": [
           {
@@ -4189,6 +4565,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.982909,
+          -37.175167
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 378,
+        "currentMessage": "ROADWORKS AHEAD:[nl]TAKE EXTRA CARE",
+        "description": "Bombay (S) VMS",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-001-6700-S",
+        "lastUpdated": "2025-11-02T19:18:57.267+13:00",
+        "name": "Bombay (S) VMS",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "47",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "3",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "sh22-interchange-to-waikato-boundary",
+            "name": "SH22 Interchange to Waikato Boundary",
+            "totalLength": "16.258"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.746475,
           -36.777921
         ]
@@ -4196,11 +4619,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 379,
-        "currentMessage": "HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]EXPECT DELAYS[np]HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]MARATHON EVENT",
+        "currentMessage": "ROADWORKS AHEAD:[nl]TAKE EXTRA CARE",
         "description": "Wairau (S) VMS_NEW",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-0480-S_NEW",
-        "lastUpdated": "2025-11-01T19:04:57.337+13:00",
+        "lastUpdated": "2025-11-02T19:38:27.253+13:00",
         "name": "Wairau (S) VMS_NEW",
         "regions": [
           {
@@ -4243,11 +4666,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 382,
-        "currentMessage": "J'VILLE [jl4]22[nl]WGTN CBD [jl4]30[np]AIRPORT [jl4]38[nl]PETONE [jl4]29",
+        "currentMessage": "J'VILLE [jl4]21[nl]WGTN CBD [jl4]30[np]AIRPORT [jl4]37[nl]PETONE [jl4]30",
         "description": null,
         "direction": "Southbound",
         "identifier": "$WLG://signs/PAE01",
-        "lastUpdated": "2025-11-01T19:38:56.773+13:00",
+        "lastUpdated": "2025-11-02T19:42:57.313+13:00",
         "name": "Paekakariki (S) VMS",
         "regions": [
           {
@@ -4294,7 +4717,7 @@
         "description": null,
         "direction": "Northbound",
         "identifier": "$WLG://signs/HOR01",
-        "lastUpdated": "2025-11-01T19:26:57.343+13:00",
+        "lastUpdated": "2025-11-02T18:32:56.830+13:00",
         "name": "Horokiri (N) VMS",
         "regions": [
           {
@@ -4337,11 +4760,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 384,
-        "currentMessage": "VIA SH58[nl]LOWER HUTT [jl4]17[nl]UPPER HUTT [jl4]22[np]PETONE VIA[nl]SH1 [jl4]20[nl]SH58 [jl4]21",
+        "currentMessage": "SH58 WHITBY[nl]ROAD CLOSING[nl]TONIGHT[nl]9PM TO 4AM",
         "description": null,
         "direction": "Southbound",
         "identifier": "$WLG://signs/FLI01",
-        "lastUpdated": "2025-11-01T19:18:57.387+13:00",
+        "lastUpdated": "2025-11-02T12:00:26.780+13:00",
         "name": "Flighty's (S) VMS",
         "regions": [
           {
@@ -4388,7 +4811,7 @@
         "description": null,
         "direction": "Southbound",
         "identifier": "$WLG://signs/WHI01",
-        "lastUpdated": "2025-11-01T19:36:56.767+13:00",
+        "lastUpdated": "2025-11-02T19:16:57.367+13:00",
         "name": "Whitby (S) VMS",
         "regions": [
           {
@@ -4431,11 +4854,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 386,
-        "currentMessage": "LOWER HUTT [jl4]18[nl]UPPER HUTT [jl4]21",
+        "currentMessage": "SH58 WHITBY[nl]ROAD CLOSING[nl]TONIGHT[np]SH58 WHITBY[nl]ROAD CLOSING[nl]9PM TO 4AM",
         "description": null,
         "direction": "Northbound",
         "identifier": "$WLG://signs/WTG01",
-        "lastUpdated": "2025-11-01T19:18:57.387+13:00",
+        "lastUpdated": "2025-11-02T12:00:26.780+13:00",
         "name": "Waitangirua (N) VMS",
         "regions": [
           {
@@ -4478,11 +4901,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 387,
-        "currentMessage": "LEVIN [jl4]51[nl]OTAKI [jl4]33[nl]PARAPARAUMU[jl4]21[nl]WAIKANAE[jl4]27",
+        "currentMessage": "LEVIN [jl4]50[nl]OTAKI [jl4]33[nl]PARAPARAUMU[jl4]21[nl]WAIKANAE[jl4]27",
         "description": null,
         "direction": "Northbound",
         "identifier": "$WLG://signs/DCK01",
-        "lastUpdated": "2025-11-01T19:38:56.773+13:00",
+        "lastUpdated": "2025-11-02T19:18:57.267+13:00",
         "name": "Duck Creek (N) VMS",
         "regions": [
           {
@@ -4525,11 +4948,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 388,
-        "currentMessage": "J'VILLE [jl4]9[nl]WGTN CBD [jl4]17[np]AIRPORT [jl4]25[nl]PETONE [jl4]16",
+        "currentMessage": "J'VILLE [jl4]9[nl]WGTN CBD [jl4]17[np]AIRPORT [jl4]24[nl]PETONE [jl4]16",
         "description": null,
         "direction": "Southbound",
         "identifier": "$WLG://signs/KEN03",
-        "lastUpdated": "2025-11-01T19:16:57.357+13:00",
+        "lastUpdated": "2025-11-02T19:42:57.313+13:00",
         "name": "SH1 Kenepuru (S) VMS",
         "regions": [
           {
@@ -4623,7 +5046,7 @@
         "description": null,
         "direction": "Southbound",
         "identifier": "$WLG://signs/WTF02",
-        "lastUpdated": "2025-11-01T19:32:57.360+13:00",
+        "lastUpdated": "2025-11-02T19:24:56.720+13:00",
         "name": "Waterfall Rd (S) VMS",
         "regions": [
           {
@@ -4670,7 +5093,7 @@
         "description": null,
         "direction": "Eastbound",
         "identifier": "$WLG://signs/LNF01",
-        "lastUpdated": "2025-11-01T19:36:56.767+13:00",
+        "lastUpdated": "2025-11-02T19:16:57.367+13:00",
         "name": "Lanes Flat (E) VMS",
         "regions": [
           {
@@ -4713,11 +5136,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 393,
-        "currentMessage": "WGTN CBD [jl4]21[nl]AIRPORT [jl4]29[np]PARAPARAUMU[jl4]19[nl]WAIKANAE [jl4]25",
+        "currentMessage": "SH58 WHITBY[nl]ROAD CLOSING[nl]TONIGHT[np]SH58 WHITBY[nl]ROAD CLOSING[nl]9PM TO 4AM",
         "description": null,
         "direction": "Westbound",
         "identifier": "$WLG://signs/BRA01",
-        "lastUpdated": "2025-11-01T19:16:57.357+13:00",
+        "lastUpdated": "2025-11-02T12:00:26.780+13:00",
         "name": "Bradey Rd (W) VMS",
         "regions": [
           {
@@ -4753,46 +5176,93 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.75287,
-          -36.788421
+          173.815936,
+          -41.483664
         ]
       },
       "properties": {
         "featureType": "vmssign",
-        "id": 395,
-        "currentMessage": "HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]EXPECT DELAYS[np]HARBOUR BRIDGE:[nl]SUNDAY 4AM-12PM[nl]MARATHON EVENT",
+        "id": 397,
+        "currentMessage": "SH6 TO HIRA[nl]ROADWORKS[nl]EXPECT UP TO[nl]10 MIN DELAYS[np]SH6 RAI VALLEY[nl]TO HIRA CLOSING[nl]9-28 NOV[nl]SUN-THU NIGHTS",
         "description": null,
         "direction": "Northbound",
-        "identifier": "$AKL://signs/V-001-0485-N_NEW",
-        "lastUpdated": "2025-11-01T11:48:26.757+13:00",
-        "name": "Northcote (N) VMS_NEW",
+        "identifier": "$WLG://signs/RNW01_NEW",
+        "lastUpdated": "2025-11-02T10:09:26.713+13:00",
+        "name": "Renwick (N) VMS_NEW",
         "regions": [
           {
-            "id": "2",
-            "name": "Auckland"
+            "id": "10",
+            "name": "Nelson/Marlborough"
           }
         ],
         "ways": [
           {
-            "id": "38",
-            "name": "01N"
+            "id": "685",
+            "name": "006"
           }
         ],
         "journeys": [
           {
-            "id": "3",
-            "name": "SH1"
+            "id": "77",
+            "name": "SH6"
           }
         ],
         "legs": [
           {
-            "id": "sh18-interchange-to-oteha",
-            "name": "SH18 Interchange to Oteha",
-            "totalLength": "9.0191029578275"
+            "id": "renwick-to-havelock",
+            "name": "Renwick to Havelock",
+            "totalLength": "24.201"
           }
         ],
         "type": "vms",
-        "uniq": "Traffic-time-sign-395"
+        "uniq": "Traffic-time-sign-397"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.334759,
+          -37.277604
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 401,
+        "currentMessage": "SH1 SOUTHBOUND:[nl]ROADWORKS[nl]AFTER POKENO[nl]TAKE EXTRA CARE",
+        "description": "Hauraki (W) VMS_NEW",
+        "direction": "Westbound",
+        "identifier": "$AKL://signs/HKI01_NEW",
+        "lastUpdated": "2025-11-02T19:01:57.147+13:00",
+        "name": "Hauraki (W) VMS_NEW",
+        "regions": [
+          {
+            "id": "3",
+            "name": "Waikato"
+          }
+        ],
+        "ways": [
+          {
+            "id": "175",
+            "name": "002"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "19",
+            "name": "SH2"
+          }
+        ],
+        "legs": [
+          {
+            "id": "pokeno-to-waitakaruru",
+            "name": "Pokeno to Waitakaruru",
+            "totalLength": "32.417"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-401"
       }
     },
     {
@@ -4841,7 +5311,54 @@
         "type": "vms",
         "uniq": "Traffic-time-sign-402"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.73182,
+          -36.756009
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 408,
+        "currentMessage": "ROADWORKS:[nl]AFTER TRISTRAM AVE[nl]TAKE EXTRA CARE",
+        "description": "Sunnynook (S) VMS_NEW",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-001-0470-S_NEW",
+        "lastUpdated": "2025-11-02T19:38:27.253+13:00",
+        "name": "Sunnynook (S) VMS_NEW",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "37",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "3",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "oteha-to-sh18-interchange",
+            "name": "Oteha to SH18 Interchange",
+            "totalLength": "9.02"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-408"
+      }
     }
   ],
-  "lastUpdated": 1761979270
+  "lastUpdated": 1762065785
 }
