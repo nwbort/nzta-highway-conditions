@@ -23,7 +23,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -71,7 +71,7 @@
           "line": [
             {
               "left": "SH1 GILLIES",
-              "right": 7
+              "right": 8
             },
             {
               "left": "CITY CENTRE",
@@ -84,7 +84,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -132,7 +132,7 @@
           "line": [
             {
               "left": "CITY CENTRE",
-              "right": 7
+              "right": 8
             },
             {
               "left": "SH1 BRIDGE",
@@ -140,12 +140,12 @@
             },
             {
               "left": "GRT NORTH",
-              "right": 9
+              "right": 10
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -205,7 +205,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -260,12 +260,12 @@
             },
             {
               "left": "AIRPORT",
-              "right": 19
+              "right": 20
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -321,12 +321,12 @@
             },
             {
               "left": "AIRPORT",
-              "right": 30
+              "right": 31
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -384,7 +384,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -435,7 +435,7 @@
             },
             {
               "left": "NEW NORTH",
-              "right": 6
+              "right": 5
             },
             {
               "left": "CITY CENTRE",
@@ -444,7 +444,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -505,7 +505,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -565,7 +565,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -616,16 +616,16 @@
             },
             {
               "left": "SH1",
-              "right": "3h 39m"
+              "right": "3h 33m"
             },
             {
               "left": "SH7,65,62",
-              "right": "5h 27m"
+              "right": "5h 18m"
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -689,7 +689,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -731,6 +731,69 @@
     {
       "type": "Feature",
       "properties": {
+        "id": 499,
+        "name": "WDV01  - WOODVILLE (S)",
+        "page": {
+          "line": [
+            {
+              "center": "WGTN VIA"
+            },
+            {
+              "left": "SH2 ",
+              "right": "2h 28m"
+            },
+            {
+              "left": "SH57/SH1 ",
+              "right": "2h 09m"
+            },
+            {
+              "center": ""
+            }
+          ],
+          "pageTime": 5
+        },
+        "updated": "8:27:53 pm",
+        "mode": "AUTOMATIC",
+        "virtual": false,
+        "enabled": 1,
+        "region": {
+          "id": 8,
+          "name": "Manawatu-Whanganui"
+        },
+        "TasJourneyId": 64,
+        "journey": {
+          "id": 64,
+          "name": "SH2",
+          "startLatitude": -40.043796823426035,
+          "startLongitude": 176.25080559185378,
+          "endLatitude": -40.63458956680088,
+          "endLongitude": 175.71241168117825,
+          "time": "00:00:00"
+        },
+        "journeyLeg": {
+          "name": "Dannevirke to Woodville",
+          "totalLength": 29.948,
+          "sequenceNumber": 0,
+          "time": "00:00:00",
+          "effectiveSpeedLimit": 0,
+          "coverage": 0,
+          "flow": 0,
+          "freeFlowTime": 0
+        },
+        "type": "tts",
+        "uniq": "Traffic-time-sign-499"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.87786,
+          -40.340509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": 517,
         "name": "SH1 NS Newlands NLDS",
         "page": {
@@ -750,7 +813,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -792,6 +855,71 @@
     {
       "type": "Feature",
       "properties": {
+        "id": 525,
+        "name": "OKA01 - OHAKEA (N)",
+        "page": {
+          "line": [
+            {
+              "left": "WAIOURU ",
+              "right": "1h 29m"
+            },
+            {
+              "left": "TAUPO ",
+              "right": "2h 57m"
+            },
+            {
+              "left": "WHANGANUI ",
+              "right": "0h 35m"
+            },
+            {
+              "left": "N PLYMOUTH ",
+              "right": "2h 42m"
+            }
+          ],
+          "pageTime": 5
+        },
+        "updated": "8:27:53 pm",
+        "mode": "AUTOMATIC",
+        "virtual": false,
+        "enabled": 1,
+        "region": {
+          "id": 8,
+          "name": "Manawatu-Whanganui"
+        },
+        "TasJourneyId": 67,
+        "journey": {
+          "id": 67,
+          "name": "SH1",
+          "startLatitude": -39.30273699790837,
+          "startLongitude": 175.7412353857543,
+          "endLatitude": -40.64799384234463,
+          "endLongitude": 175.26033175936644,
+          "time": "00:00:00"
+        },
+        "journeyLeg": {
+          "name": "Bulls to Sanson",
+          "totalLength": 6.442,
+          "sequenceNumber": 0,
+          "time": "00:00:00",
+          "effectiveSpeedLimit": 0,
+          "coverage": 0,
+          "flow": 0,
+          "freeFlowTime": 0
+        },
+        "type": "tts",
+        "uniq": "Traffic-time-sign-525"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.389849,
+          -40.194845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": 537,
         "name": "WCC NS Tinakori Rd",
         "page": {
@@ -814,7 +942,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -878,7 +1006,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -942,7 +1070,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -990,7 +1118,7 @@
           "line": [
             {
               "left": "J'VILLE ",
-              "right": 7
+              "right": 8
             },
             {
               "left": "PORIRUA ",
@@ -1006,7 +1134,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1062,12 +1190,12 @@
             },
             {
               "left": "SH1",
-              "right": 18
+              "right": 19
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1128,7 +1256,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1189,7 +1317,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1241,7 +1369,7 @@
             },
             {
               "left": "DOMINION Rd",
-              "right": 8
+              "right": 9
             },
             {
               "left": "SH16",
@@ -1250,7 +1378,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1311,7 +1439,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1372,7 +1500,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1433,7 +1561,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1493,7 +1621,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1554,7 +1682,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1602,7 +1730,7 @@
           "line": [
             {
               "left": "Johnsonville",
-              "right": 8
+              "right": 9
             },
             {
               "left": "Porirua",
@@ -1614,11 +1742,11 @@
             },
             {
               "left": "Paraparaumu",
-              "right": 42
+              "right": 41
             },
             {
               "left": "Waikanae",
-              "right": 48
+              "right": 46
             },
             {
               "left": "Petone",
@@ -1631,7 +1759,7 @@
           ],
           "pageTime": 0
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1688,7 +1816,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1736,7 +1864,7 @@
           "line": [
             {
               "left": "J'VILLE",
-              "right": 8
+              "right": 9
             },
             {
               "left": "PORIRUA",
@@ -1749,7 +1877,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1813,7 +1941,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1873,7 +2001,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1934,7 +2062,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -1991,7 +2119,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2048,7 +2176,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2105,7 +2233,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2162,7 +2290,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2223,7 +2351,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2271,7 +2399,7 @@
           "line": [
             {
               "left": "J'VILLE ",
-              "right": 8
+              "right": 9
             },
             {
               "left": "TAWA ",
@@ -2288,7 +2416,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2336,11 +2464,11 @@
           "line": [
             {
               "left": "FEATHERSTON ",
-              "right": 37
+              "right": 38
             },
             {
               "left": "PAREMATA ",
-              "right": 18
+              "right": 19
             },
             {
               "center": ""
@@ -2348,7 +2476,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2412,7 +2540,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2476,7 +2604,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2532,12 +2660,12 @@
             },
             {
               "left": "PETONE",
-              "right": 18
+              "right": 17
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2598,7 +2726,7 @@
           ],
           "pageTime": 6
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2659,7 +2787,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2720,7 +2848,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2781,7 +2909,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2837,12 +2965,12 @@
             },
             {
               "left": "PETONE ",
-              "right": 19
+              "right": 18
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2903,7 +3031,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -2964,7 +3092,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3012,7 +3140,7 @@
           "line": [
             {
               "left": "Pt Chev",
-              "right": 8
+              "right": 7
             },
             {
               "left": "CBD",
@@ -3020,12 +3148,12 @@
             },
             {
               "left": "Mt Albert",
-              "right": 7
+              "right": 6
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3085,7 +3213,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3133,11 +3261,11 @@
           "line": [
             {
               "left": "Mission Bay",
-              "right": 8
+              "right": 9
             },
             {
               "left": "St Heliers ",
-              "right": 13
+              "right": 14
             },
             {
               "left": "Glen Innes",
@@ -3146,7 +3274,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3207,7 +3335,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3259,7 +3387,7 @@
             },
             {
               "left": "LEVIN ",
-              "right": 30
+              "right": 31
             },
             {
               "left": "PORIRUA ",
@@ -3268,7 +3396,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3329,7 +3457,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3381,7 +3509,7 @@
             },
             {
               "left": "OTAKI",
-              "right": 50
+              "right": 48
             },
             {
               "center": ""
@@ -3389,7 +3517,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3445,12 +3573,12 @@
             },
             {
               "left": "OTAKI",
-              "right": 53
+              "right": 51
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3492,6 +3620,62 @@
     {
       "type": "Feature",
       "properties": {
+        "id": 1065,
+        "name": "Hastings (S) VMS",
+        "page": {
+          "line": [
+            {
+              "left": "WOODVILLE",
+              "right": "1h 28m"
+            },
+            {
+              "center": ""
+            }
+          ],
+          "pageTime": 5
+        },
+        "updated": "8:27:53 pm",
+        "mode": "AUTOMATIC",
+        "virtual": false,
+        "enabled": 1,
+        "region": {
+          "id": 6,
+          "name": "Hawkes Bay"
+        },
+        "TasJourneyId": 55,
+        "journey": {
+          "id": 55,
+          "name": "SH2",
+          "startLatitude": -38.91436937239358,
+          "startLongitude": 177.8115087050061,
+          "endLatitude": -39.99560649814766,
+          "endLongitude": 176.5567287716113,
+          "time": "00:00:00"
+        },
+        "journeyLeg": {
+          "name": "Paki Paki to Te Hauke",
+          "totalLength": 20.23,
+          "sequenceNumber": 0,
+          "time": "00:00:00",
+          "effectiveSpeedLimit": 0,
+          "coverage": 0,
+          "flow": 0,
+          "freeFlowTime": 0
+        },
+        "type": "tts",
+        "uniq": "Traffic-time-sign-1065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7934394,
+          -39.69375421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": 1080,
         "name": "HEL01 Hellers (S)",
         "page": {
@@ -3502,16 +3686,16 @@
             },
             {
               "left": "BEALEY AVE ",
-              "right": 11
+              "right": 12
             },
             {
               "left": "PAPANUI (MAIN NTH RD) ",
-              "right": 7
+              "right": 8
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3572,7 +3756,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3627,7 +3811,7 @@
             },
             {
               "left": "OHOKA RD",
-              "right": 7
+              "right": 6
             },
             {
               "left": "LINESIDE",
@@ -3636,7 +3820,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3691,12 +3875,12 @@
             },
             {
               "left": "BEALEY AVE",
-              "right": 9
+              "right": 10
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3751,12 +3935,12 @@
             },
             {
               "left": "BEALEY AVE",
-              "right": 9
+              "right": 10
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3804,7 +3988,7 @@
           "line": [
             {
               "left": "PORT",
-              "right": 23
+              "right": 24
             },
             {
               "left": "BEALEY AVE",
@@ -3817,7 +4001,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3875,7 +4059,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "BLANK",
         "virtual": false,
         "enabled": 1,
@@ -3936,7 +4120,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -3988,7 +4172,7 @@
             },
             {
               "left": "PARAPARAUMU ",
-              "right": 30
+              "right": 29
             },
             {
               "center": ""
@@ -3996,7 +4180,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4051,7 +4235,7 @@
             },
             {
               "left": "PORIRUA",
-              "right": 19
+              "right": 21
             },
             {
               "center": "VIA SH1"
@@ -4059,7 +4243,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4107,7 +4291,7 @@
           "line": [
             {
               "left": "J'VILLE ",
-              "right": 13
+              "right": 14
             },
             {
               "left": "WGTN CBD ",
@@ -4116,7 +4300,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4173,7 +4357,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4221,24 +4405,24 @@
           "line": [
             {
               "left": "LEVIN ",
-              "right": 57
+              "right": 56
             },
             {
               "left": "OTAKI ",
-              "right": 40
+              "right": 38
             },
             {
               "left": "PARAPARAUMU",
-              "right": 26
+              "right": 25
             },
             {
               "left": "WAIKANAE",
-              "right": 32
+              "right": 31
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4294,7 +4478,7 @@
             },
             {
               "left": "AIRPORT",
-              "right": 35
+              "right": 34
             },
             {
               "left": "LYTTELTON",
@@ -4303,7 +4487,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4363,7 +4547,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4418,12 +4602,12 @@
             },
             {
               "left": "SH18/16 ",
-              "right": "25 MINS"
+              "right": "24 MINS"
             }
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4484,7 +4668,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4532,11 +4716,11 @@
           "line": [
             {
               "left": "LEVIN",
-              "right": 16
+              "right": 17
             },
             {
               "left": "SANSON",
-              "right": 55
+              "right": 56
             },
             {
               "center": ""
@@ -4544,7 +4728,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4608,7 +4792,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4656,11 +4840,11 @@
           "line": [
             {
               "left": "WELLSFORD ",
-              "right": "16 MINS"
+              "right": "19 MINS"
             },
             {
               "left": "SH12 ",
-              "right": "42 MINS"
+              "right": "41 MINS"
             },
             {
               "left": "WHANGAREI ",
@@ -4672,7 +4856,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4736,7 +4920,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4800,7 +4984,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4864,7 +5048,7 @@
           ],
           "pageTime": 5
         },
-        "updated": "8:11:01 pm",
+        "updated": "8:27:53 pm",
         "mode": "AUTOMATIC",
         "virtual": false,
         "enabled": 1,
@@ -4904,5 +5088,5 @@
       }
     }
   ],
-  "lastUpdated": 1770188933
+  "lastUpdated": 1770276351
 }
