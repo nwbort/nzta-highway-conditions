@@ -17,7 +17,7 @@
         "description": "SH59 Acheron T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/ACHERON",
-        "lastUpdated": "2026-06-15T09:30:21.697+12:00",
+        "lastUpdated": "2026-06-16T09:30:24.143+12:00",
         "name": "SH59 Acheron T2 - Southbound",
         "regions": [
           {
@@ -64,7 +64,7 @@
         "description": "SH1 Dunedin - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/DND01",
-        "lastUpdated": "2026-06-15T11:59:22.357+12:00",
+        "lastUpdated": "2026-06-16T13:09:24.163+12:00",
         "name": "SH1 Dunedin - Northbound",
         "regions": [
           {
@@ -158,7 +158,7 @@
         "description": "Hutt Road - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/HUTTRD",
-        "lastUpdated": "2026-06-15T21:47:52.807+12:00",
+        "lastUpdated": "2026-06-16T21:28:55.487+12:00",
         "name": "Hutt Road - Northbound",
         "regions": [
           {
@@ -205,7 +205,7 @@
         "description": "SH2 Hutt Road Off Ramp",
         "direction": "All Directions",
         "identifier": "$WLG://signs/HUTTRD-OFF",
-        "lastUpdated": "2026-06-15T21:31:23.353+12:00",
+        "lastUpdated": "2026-06-16T21:04:55.600+12:00",
         "name": "SH2 Hutt Road Off Ramp",
         "regions": [
           {
@@ -252,7 +252,7 @@
         "description": "SH59 James Street T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/JAMESST",
-        "lastUpdated": "2026-06-15T09:32:52.277+12:00",
+        "lastUpdated": "2026-06-16T09:32:53.680+12:00",
         "name": "SH59 James Street T2 - Southbound",
         "regions": [
           {
@@ -299,7 +299,7 @@
         "description": "SH59 Marina T2 - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/MARINA",
-        "lastUpdated": "2026-06-15T18:00:52.253+12:00",
+        "lastUpdated": "2026-06-16T18:00:54.107+12:00",
         "name": "SH59 Marina T2 - Northbound",
         "regions": [
           {
@@ -393,7 +393,7 @@
         "description": "SH2 Petone - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/PET01",
-        "lastUpdated": "2026-06-15T21:31:23.353+12:00",
+        "lastUpdated": "2026-06-16T21:04:55.600+12:00",
         "name": "SH2 Petone - Southbound",
         "regions": [
           {
@@ -440,7 +440,7 @@
         "description": "SH1 Waipara - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/WAI01",
-        "lastUpdated": "2026-06-15T07:36:22.233+12:00",
+        "lastUpdated": "2026-06-16T18:00:24.163+12:00",
         "name": "SH1 Waipara - Northbound",
         "regions": [
           {
@@ -534,7 +534,7 @@
         "description": "SH2 Weigh Station - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/WGHSTN-SB",
-        "lastUpdated": "2026-06-15T21:31:23.353+12:00",
+        "lastUpdated": "2026-06-16T21:04:55.600+12:00",
         "name": "SH2 Weigh Station - Southbound",
         "regions": [
           {
@@ -577,11 +577,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 190,
-        "currentMessage": "SH59 PUKERUA BAY[nl]CLOSURE[nl]TONIGHT[nl]POSTPONED",
+        "currentMessage": "SH59 PUKERUA BAY[nl]ROAD CLOSED[nl]USE SH1",
         "description": "SH59 Whitford Brown - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/WHB01",
-        "lastUpdated": "2026-06-15T14:28:22.200+12:00",
+        "lastUpdated": "2026-06-16T23:22:55.520+12:00",
         "name": "SH59 Whitford Brown - Northbound",
         "regions": [
           {
@@ -675,7 +675,7 @@
         "description": "SH1 Waitati - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/WTI01",
-        "lastUpdated": "2026-06-15T11:59:22.357+12:00",
+        "lastUpdated": "2026-06-16T13:09:24.163+12:00",
         "name": "SH1 Waitati - Southbound",
         "regions": [
           {
@@ -704,6 +704,53 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.591184,
+          -36.793239
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 209,
+        "currentMessage": "SH16 EASTBOUND:[nl]MOTORWAY CLOSED[nl]GT NORTH RD[nl]TO ST LUKES",
+        "description": "SH16 Brigham Creek Rd - Eastbound",
+        "direction": "Eastbound",
+        "identifier": "$AKL://signs/Brigham_E",
+        "lastUpdated": "2026-06-16T23:00:55.573+12:00",
+        "name": "SH16 Brigham Creek Rd - Eastbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "15",
+            "name": "016"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "1",
+            "name": "SH16"
+          }
+        ],
+        "legs": [
+          {
+            "id": "te-atatu-to-taupake-road",
+            "name": "Te Atatu to Taupake Road",
+            "totalLength": "11.348"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-209"
       }
     },
     {
@@ -758,234 +805,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.334107,
-          -37.2776
+          174.617499,
+          -36.831825
         ]
       },
       "properties": {
         "featureType": "vmssign",
-        "id": 221,
-        "currentMessage": "SH1 NORTHBOUND:[nl]MOTORWAY CLOSED[nl]DRURY-PAPAKURA",
-        "description": "SH2 Hauraki - Westbound",
-        "direction": "Westbound",
-        "identifier": "$AKL://signs/HKI01",
-        "lastUpdated": "2026-06-15T21:04:22.820+12:00",
-        "name": "SH2 Hauraki - Westbound",
+        "id": 223,
+        "currentMessage": "ROADWORKS:[nl]MOTORWAY CLOSED[nl]GT NORTH-ST LUKES",
+        "description": "SH16 Royal Rd - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/ITS-Royalrd-E01",
+        "lastUpdated": "2026-06-16T23:00:55.573+12:00",
+        "name": "SH16 Royal Rd - Southbound",
         "regions": [
           {
-            "id": "3",
-            "name": "Waikato"
+            "id": "2",
+            "name": "Auckland"
           }
         ],
         "ways": [
           {
-            "id": "175",
-            "name": "002"
+            "id": "15",
+            "name": "016"
           }
         ],
         "journeys": [
           {
-            "id": "19",
-            "name": "SH2"
+            "id": "1",
+            "name": "SH16"
           }
         ],
         "legs": [
           {
-            "id": "pokeno-to-waitakaruru",
-            "name": "Pokeno to Waitakaruru",
-            "totalLength": "32.417"
+            "id": "te-atatu-to-taupake-road",
+            "name": "Te Atatu to Taupake Road",
+            "totalLength": "11.348"
           }
         ],
         "type": "vms",
-        "uniq": "Traffic-time-sign-221"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.055239,
-          -37.777807
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 228,
-        "currentMessage": "SLIPPERY ROAD[nl]REDUCE SPEED",
-        "description": "SH29 Kaimais - Westbound",
-        "direction": "Westbound",
-        "identifier": "$AKL://signs/KAM01",
-        "lastUpdated": "2026-06-15T18:41:51.680+12:00",
-        "name": "SH29 Kaimais - Westbound",
-        "regions": [
-          {
-            "id": "4",
-            "name": "Bay Of Plenty"
-          }
-        ],
-        "ways": [
-          {
-            "id": "391",
-            "name": "029"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "44",
-            "name": "SH29"
-          }
-        ],
-        "legs": [
-          {
-            "id": "tauranga-to-kaimai-mamaku-forest-park",
-            "name": "Tauranga to Kaimai-Mamaku Forest Park",
-            "totalLength": "27.86"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-228"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.893052,
-          -37.880066
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 229,
-        "currentMessage": "SLIPPERY ROAD[nl]REDUCE SPEED",
-        "description": "SH29 Kaimais - Eastbound",
-        "direction": "Eastbound",
-        "identifier": "$AKL://signs/KAM02",
-        "lastUpdated": "2026-06-15T18:41:51.680+12:00",
-        "name": "SH29 Kaimais - Eastbound",
-        "regions": [
-          {
-            "id": "3",
-            "name": "Waikato"
-          }
-        ],
-        "ways": [
-          {
-            "id": "293",
-            "name": "029"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "32",
-            "name": "SH29"
-          }
-        ],
-        "legs": [
-          {
-            "id": "kaimai-mamaku-forest-park-to-te-poi",
-            "name": "Kaimai-Mamaku Forest Park to Te Poi",
-            "totalLength": "5.6889807331048"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-229"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.00172,
-          -37.822208
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 230,
-        "currentMessage": "SLIPPERY ROAD[nl]REDUCE SPEED",
-        "description": "SH29 Kaimais Lower - Westbound",
-        "direction": "Westbound",
-        "identifier": "$AKL://signs/KAM03",
-        "lastUpdated": "2026-06-15T18:41:51.680+12:00",
-        "name": "SH29 Kaimais Lower - Westbound",
-        "regions": [
-          {
-            "id": "4",
-            "name": "Bay Of Plenty"
-          }
-        ],
-        "ways": [
-          {
-            "id": "391",
-            "name": "029"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "44",
-            "name": "SH29"
-          }
-        ],
-        "legs": [
-          {
-            "id": "tauranga-to-kaimai-mamaku-forest-park",
-            "name": "Tauranga to Kaimai-Mamaku Forest Park",
-            "totalLength": "27.86"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-230"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.207106,
-          -37.722737
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 257,
-        "currentMessage": "SH1C NORTHBOUND [nl]CLOSED[nl]USE WAIRERE DR,[nl]TE RAPA RD",
-        "description": "SH1 Te Rapa - Northbound",
-        "direction": "Northbound",
-        "identifier": "$AKL://signs/TPA01",
-        "lastUpdated": "2026-06-15T20:00:23.367+12:00",
-        "name": "SH1 Te Rapa - Northbound",
-        "regions": [
-          {
-            "id": "3",
-            "name": "Waikato"
-          }
-        ],
-        "ways": [
-          {
-            "id": "1251",
-            "name": "01C"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "343",
-            "name": "SH1C"
-          }
-        ],
-        "legs": [
-          {
-            "id": "hamilton-north-to-hamilton-south",
-            "name": "Hamilton North to Hamilton South",
-            "totalLength": "24.39"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-257"
+        "uniq": "Traffic-time-sign-223"
       }
     },
     {
@@ -1000,11 +859,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 262,
-        "currentMessage": "SH16 WEST CLOSED:[nl]GT NORTH - PATIKI[nl]SH16 TO SH20 LINK",
+        "currentMessage": "HARBOUR BRIDGE:[nl]LANE 5 OPEN",
         "description": "SH1 Esmonde Rd - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-0490-S",
-        "lastUpdated": "2026-06-15T21:55:22.800+12:00",
+        "lastUpdated": "2026-06-16T20:57:54.930+12:00",
         "name": "SH1 Esmonde Rd - Southbound",
         "regions": [
           {
@@ -1051,7 +910,7 @@
         "description": "SH1 Fanshawe St - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-001-0500-N",
-        "lastUpdated": "2026-06-15T19:42:53.320+12:00",
+        "lastUpdated": "2026-06-16T20:47:54.933+12:00",
         "name": "SH1 Fanshawe St - Northbound",
         "regions": [
           {
@@ -1087,19 +946,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.769913,
-          -36.868745
+          174.853764,
+          -36.938933
         ]
       },
       "properties": {
         "featureType": "vmssign",
-        "id": 265,
-        "currentMessage": "SH16 WEST CLOSED:[nl]GT NORTH - PATIKI[nl]SH16 TO SH20 LINK",
-        "description": "SH1 Mountain Rd - Northbound",
-        "direction": "Northbound",
-        "identifier": "$AKL://signs/V-001-0505-N",
-        "lastUpdated": "2026-06-15T21:55:22.800+12:00",
-        "name": "SH1 Mountain Rd - Northbound",
+        "id": 269,
+        "currentMessage": "ROADWORKS:[nl]MOTORWAY CLOSED[nl]MANUKAU - PAPAKURA",
+        "description": "SH1 Princes St - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-001-0550-S",
+        "lastUpdated": "2026-06-16T21:57:55.453+12:00",
+        "name": "SH1 Princes St - Southbound",
         "regions": [
           {
             "id": "2",
@@ -1108,7 +967,7 @@
         ],
         "ways": [
           {
-            "id": "44",
+            "id": "43",
             "name": "01N"
           }
         ],
@@ -1120,13 +979,13 @@
         ],
         "legs": [
           {
-            "id": "redoubt-rd-to-hobson-st",
-            "name": "Redoubt Rd to Hobson St",
-            "totalLength": "20.283491539539"
+            "id": "hobson-st-to-redoubt-rd",
+            "name": "Hobson St to Redoubt Rd",
+            "totalLength": "20.268"
           }
         ],
         "type": "vms",
-        "uniq": "Traffic-time-sign-265"
+        "uniq": "Traffic-time-sign-269"
       }
     },
     {
@@ -1134,19 +993,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.783837,
-          -36.879374
+          174.876404,
+          -36.970372
         ]
       },
       "properties": {
         "featureType": "vmssign",
-        "id": 266,
-        "currentMessage": "ROADWORKS:[nl]RIGHT LANE CLOSED",
-        "description": "SH1 Newmarket - Northbound",
-        "direction": "Northbound",
-        "identifier": "$AKL://signs/V-001-0510-N",
-        "lastUpdated": "2026-06-15T21:13:52.807+12:00",
-        "name": "SH1 Newmarket - Northbound",
+        "id": 270,
+        "currentMessage": "ROADWORKS:[nl]MOTORWAY CLOSED[nl]MANUKAU - PAPAKURA",
+        "description": "SH1 Sandbrook Reserve - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-001-0560-S",
+        "lastUpdated": "2026-06-16T22:28:55.483+12:00",
+        "name": "SH1 Sandbrook Reserve - Southbound",
         "regions": [
           {
             "id": "2",
@@ -1155,7 +1014,7 @@
         ],
         "ways": [
           {
-            "id": "44",
+            "id": "43",
             "name": "01N"
           }
         ],
@@ -1167,60 +1026,13 @@
         ],
         "legs": [
           {
-            "id": "redoubt-rd-to-hobson-st",
-            "name": "Redoubt Rd to Hobson St",
-            "totalLength": "20.283491539539"
+            "id": "hobson-st-to-redoubt-rd",
+            "name": "Hobson St to Redoubt Rd",
+            "totalLength": "20.268"
           }
         ],
         "type": "vms",
-        "uniq": "Traffic-time-sign-266"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.827556,
-          -36.915417
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 268,
-        "currentMessage": "ROADWORKS:[nl]LANE CLOSED AFTER[nl]MARKET RD",
-        "description": "SH1 Ellerslie - Northbound",
-        "direction": "Northbound",
-        "identifier": "$AKL://signs/V-001-0530-N",
-        "lastUpdated": "2026-06-15T21:14:52.817+12:00",
-        "name": "SH1 Ellerslie - Northbound",
-        "regions": [
-          {
-            "id": "2",
-            "name": "Auckland"
-          }
-        ],
-        "ways": [
-          {
-            "id": "44",
-            "name": "01N"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "3",
-            "name": "SH1"
-          }
-        ],
-        "legs": [
-          {
-            "id": "redoubt-rd-to-hobson-st",
-            "name": "Redoubt Rd to Hobson St",
-            "totalLength": "20.283491539539"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-268"
+        "uniq": "Traffic-time-sign-270"
       }
     },
     {
@@ -1235,11 +1047,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 272,
-        "currentMessage": "SH20 ROADWORKS:[nl]TUNNEL CLOSED[nl]USE SH1 FOR NORTH",
+        "currentMessage": "SH20 WESTBOUND:[nl]LANE CLOSED[nl]AFTER LAMBIE DR",
         "description": "SH1 Orams Rd - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-001-0570-N",
-        "lastUpdated": "2026-06-15T20:43:53.347+12:00",
+        "lastUpdated": "2026-06-16T22:28:25.457+12:00",
         "name": "SH1 Orams Rd - Northbound",
         "regions": [
           {
@@ -1286,7 +1098,7 @@
         "description": "SH1 Link Dr - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-001-4470-N",
-        "lastUpdated": "2026-06-15T21:02:52.813+12:00",
+        "lastUpdated": "2026-06-16T21:03:55.477+12:00",
         "name": "SH1 Link Dr - Northbound",
         "regions": [
           {
@@ -1322,53 +1134,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.772656,
-          -36.853604
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 281,
-        "currentMessage": "SH16 WEST CLOSED:[nl]GT NORTH - PATIKI[nl]SH16 TO SH20 LINK",
-        "description": "SH16 Stanley St - Westbound",
-        "direction": "Westbound",
-        "identifier": "$AKL://signs/V-016-0005-W",
-        "lastUpdated": "2026-06-16T00:24:23.570+12:00",
-        "name": "SH16 Stanley St - Westbound",
-        "regions": [
-          {
-            "id": "2",
-            "name": "Auckland"
-          }
-        ],
-        "ways": [
-          {
-            "id": "11",
-            "name": "016"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "1",
-            "name": "SH16"
-          }
-        ],
-        "legs": [
-          {
-            "id": "great-north-to-rosebank",
-            "name": "Great North to Rosebank",
-            "totalLength": "8.555"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-281"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           174.734828,
           -36.868062
         ]
@@ -1376,11 +1141,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 282,
-        "currentMessage": "ROADWORKS:[nl]AFTER SYMONDS ST[nl]TAKE EXTRA CARE",
+        "currentMessage": "LINK TO PORT:[nl]WELLESLEY ST[nl]OFFRAMP CLOSED",
         "description": "SH16 Western Springs - Eastbound",
         "direction": "Eastbound",
         "identifier": "$AKL://signs/V-016-0010-E",
-        "lastUpdated": "2026-06-15T21:13:52.807+12:00",
+        "lastUpdated": "2026-06-16T22:52:55.473+12:00",
         "name": "SH16 Western Springs - Eastbound",
         "regions": [
           {
@@ -1416,19 +1181,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.738182,
-          -36.868622
+          174.673181,
+          -36.869478
         ]
       },
       "properties": {
         "featureType": "vmssign",
-        "id": 283,
-        "currentMessage": "MOTORWAY CLOSED:[nl]GT NORTH - PATIKI[nl]SH16 TO SH20 LINK",
-        "description": "SH16 St Lukes Rd - Westbound",
-        "direction": "Westbound",
-        "identifier": "$AKL://signs/V-016-0010-W",
-        "lastUpdated": "2026-06-15T23:52:53.600+12:00",
-        "name": "SH16 St Lukes Rd - Westbound",
+        "id": 284,
+        "currentMessage": "ROADWORKS:[nl]MOTORWAY CLOSED[nl]GT NORTH-ST LUKES",
+        "description": "SH16 Rosebank Rd - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-016-0030-E",
+        "lastUpdated": "2026-06-16T23:00:55.573+12:00",
+        "name": "SH16 Rosebank Rd - Southbound",
         "regions": [
           {
             "id": "2",
@@ -1437,7 +1202,7 @@
         ],
         "ways": [
           {
-            "id": "7",
+            "id": "14",
             "name": "016"
           }
         ],
@@ -1449,13 +1214,13 @@
         ],
         "legs": [
           {
-            "id": "newton-to-st-lukes",
-            "name": "Newton to St Lukes",
-            "totalLength": "2.8502260752686"
+            "id": "te-atatu-to-rosebank",
+            "name": "Te Atatu to Rosebank",
+            "totalLength": "3.5039149672094"
           }
         ],
         "type": "vms",
-        "uniq": "Traffic-time-sign-283"
+        "uniq": "Traffic-time-sign-284"
       }
     },
     {
@@ -1474,7 +1239,7 @@
         "description": "SH16 Huruhuru Rd - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-016-0040-W",
-        "lastUpdated": "2026-06-15T21:10:23.027+12:00",
+        "lastUpdated": "2026-06-16T21:02:25.487+12:00",
         "name": "SH16 Huruhuru Rd - Northbound",
         "regions": [
           {
@@ -1517,11 +1282,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 286,
-        "currentMessage": "MOTORWAY CLOSED:[nl]GT NORTH - PATIKI[nl]SH16 TO SH20 LINK",
+        "currentMessage": "SH18 EAST CLOSED:[nl]BRIGHAM CREEK RD[nl]TO SQUADRON DR",
         "description": "SH16 Chamberlain Park - Westbound",
         "direction": "Westbound",
         "identifier": "$AKL://signs/V-016-0180-W",
-        "lastUpdated": "2026-06-15T23:52:23.577+12:00",
+        "lastUpdated": "2026-06-16T21:02:25.487+12:00",
         "name": "SH16 Chamberlain Park - Westbound",
         "regions": [
           {
@@ -1557,6 +1322,100 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.691508,
+          -36.871763
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 287,
+        "currentMessage": "ROADWORKS:[nl]MOTORWAY CLOSED[nl]GT NORTH - ST LUKES",
+        "description": "SH16 Rosebank Bridge - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-016-0300-E",
+        "lastUpdated": "2026-06-16T23:00:55.573+12:00",
+        "name": "SH16 Rosebank Bridge - Southbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "13",
+            "name": "016"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "1",
+            "name": "SH16"
+          }
+        ],
+        "legs": [
+          {
+            "id": "rosebank-to-te-atatu",
+            "name": "Rosebank to Te Atatu",
+            "totalLength": "3.5127680973342"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-287"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.65177,
+          -36.793226
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 289,
+        "currentMessage": "SH16 EASTBOUND:[nl]MOTORWAY CLOSED[nl]GT NORTH - ST LUKES",
+        "description": "SH18 Clarks Lane - Westbound",
+        "direction": "Westbound",
+        "identifier": "$AKL://signs/V-018-0100-W",
+        "lastUpdated": "2026-06-16T23:00:55.573+12:00",
+        "name": "SH18 Clarks Lane - Westbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "25",
+            "name": "018"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "2",
+            "name": "SH18"
+          }
+        ],
+        "legs": [
+          {
+            "id": "greenhithe-to-sh16-sh18-interchange",
+            "name": "Greenhithe to SH16 / SH18 Interchange",
+            "totalLength": "5.3036558150051"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-289"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.767578,
           -36.921849
         ]
@@ -1568,7 +1427,7 @@
         "description": "SH20 Beachcroft Ave - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-020-0470-N",
-        "lastUpdated": "2026-06-15T20:43:53.347+12:00",
+        "lastUpdated": "2026-06-16T21:43:25.467+12:00",
         "name": "SH20 Beachcroft Ave - Northbound",
         "regions": [
           {
@@ -1604,6 +1463,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.792564,
+          -36.945475
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 293,
+        "currentMessage": "ROADWORKS:[nl]MOTORWAY CLOSED[nl]MANUKAU - PAPAKURA",
+        "description": "SH20 Hastie Ave - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-020-0480-S",
+        "lastUpdated": "2026-06-16T21:57:55.453+12:00",
+        "name": "SH20 Hastie Ave - Southbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "52",
+            "name": "020"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "4",
+            "name": "SH20"
+          }
+        ],
+        "legs": [
+          {
+            "id": "sh20a-to-onehunga",
+            "name": "SH20A to Onehunga",
+            "totalLength": "2.5358624144523"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-293"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.7923,
           -36.945593
         ]
@@ -1615,7 +1521,7 @@
         "description": "SH20 Coronation Rd - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-020-0490-N",
-        "lastUpdated": "2026-06-15T20:43:53.347+12:00",
+        "lastUpdated": "2026-06-16T21:43:25.467+12:00",
         "name": "SH20 Coronation Rd - Northbound",
         "regions": [
           {
@@ -1651,19 +1557,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.711078,
-          -36.898506
+          174.860295,
+          -36.99782
         ]
       },
       "properties": {
         "featureType": "vmssign",
-        "id": 299,
-        "currentMessage": "WORKERS IN TUNNEL[nl]DO NOT PROCEED",
-        "description": "SH20 Waterview Portal  - Northbound",
-        "direction": "Northbound",
-        "identifier": "$AKL://signs/V-020-9220-N",
-        "lastUpdated": "2026-06-15T20:52:23.377+12:00",
-        "name": "SH20 Waterview Portal  - Northbound",
+        "id": 296,
+        "currentMessage": "ROADWORKS:[nl]MOTORWAY CLOSED[nl]MANUKAU - PAPAKURA",
+        "description": "SH20 Cavendish Dr - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-020-0530-S",
+        "lastUpdated": "2026-06-16T21:57:55.453+12:00",
+        "name": "SH20 Cavendish Dr - Southbound",
         "regions": [
           {
             "id": "2",
@@ -1672,7 +1578,7 @@
         ],
         "ways": [
           {
-            "id": "53",
+            "id": "50",
             "name": "020"
           }
         ],
@@ -1684,13 +1590,13 @@
         ],
         "legs": [
           {
-            "id": "sh20a-to-sh1",
-            "name": "SH20A to SH1",
-            "totalLength": "11.21"
+            "id": "onehunga-to-waterview",
+            "name": "Onehunga to Waterview",
+            "totalLength": "9.665"
           }
         ],
         "type": "vms",
-        "uniq": "Traffic-time-sign-299"
+        "uniq": "Traffic-time-sign-296"
       }
     },
     {
@@ -1709,7 +1615,7 @@
         "description": "SH20 May Rd - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-020-9300-N",
-        "lastUpdated": "2026-06-15T20:43:53.347+12:00",
+        "lastUpdated": "2026-06-16T21:43:25.467+12:00",
         "name": "SH20 May Rd - Northbound",
         "regions": [
           {
@@ -1745,6 +1651,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.839305,
+          -36.994692
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 301,
+        "currentMessage": "SH1 ROADWORKS:[nl]MOTORWAY CLOSED[nl]MANUKAU-PAPAKURA",
+        "description": "SH20B Prices Rd - Eastbound",
+        "direction": "Eastbound",
+        "identifier": "$AKL://signs/V-020B-0520-E",
+        "lastUpdated": "2026-06-16T21:57:55.453+12:00",
+        "name": "SH20B Prices Rd - Eastbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "61",
+            "name": "20B"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "7",
+            "name": "SH20B"
+          }
+        ],
+        "legs": [
+          {
+            "id": "puhinui-to-campana-rd",
+            "name": "Puhinui to Campana Rd",
+            "totalLength": "1.841594424971"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.785431,
           -36.986416
         ]
@@ -1756,7 +1709,7 @@
         "description": "SH20A Landing Dr - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-20A-2700-N",
-        "lastUpdated": "2026-06-15T20:44:23.413+12:00",
+        "lastUpdated": "2026-06-16T21:44:25.513+12:00",
         "name": "SH20A Landing Dr - Northbound",
         "regions": [
           {
@@ -1799,11 +1752,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 306,
-        "currentMessage": "SH16 WEST CLOSED:[nl]GT NORTH - PATIKI[nl]SH16-SH20 LINK CLOSED",
+        "currentMessage": "HARBOUR BRIDGE:[nl]LANE 5 OPEN",
         "description": "Onewa Rd - Eastbound",
         "direction": "Eastbound",
         "identifier": "$AKL://signs/V-999-0400-N",
-        "lastUpdated": "2026-06-15T21:55:22.800+12:00",
+        "lastUpdated": "2026-06-16T20:57:54.930+12:00",
         "name": "Onewa Rd - Eastbound",
         "regions": [
           {
@@ -1839,100 +1792,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.910047,
-          -37.022996
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 315,
-        "currentMessage": "ROADWORKS:[nl]PUKEKOHE DRURY[nl]OFFRAMP CLOSED",
-        "description": "SH1 - SCI - Alfriston Rd (S) VMS",
-        "direction": "Southbound",
-        "identifier": "$AKL://signs/V-001-6050-S",
-        "lastUpdated": "2026-06-15T21:02:22.877+12:00",
-        "name": "SH1 - SCI - Alfriston Rd (S) VMS",
-        "regions": [
-          {
-            "id": "2",
-            "name": "Auckland"
-          }
-        ],
-        "ways": [
-          {
-            "id": "1272",
-            "name": "01N"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "3",
-            "name": "SH1"
-          }
-        ],
-        "legs": [
-          {
-            "id": "redoubt-rd-to-papakura",
-            "name": "Redoubt Rd to Papakura",
-            "totalLength": "10.043383431619"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-315"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.919335,
-          -37.053941
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 318,
-        "currentMessage": "ROADWORKS:[nl]PUKEKOHE DRURY[nl]OFFRAMP CLOSED",
-        "description": "SH1 - SCI - Morewa (S) VMS",
-        "direction": "Southbound",
-        "identifier": "$AKL://signs/V-001-6180-S",
-        "lastUpdated": "2026-06-15T21:02:22.877+12:00",
-        "name": "SH1 - SCI - Morewa (S) VMS",
-        "regions": [
-          {
-            "id": "2",
-            "name": "Auckland"
-          }
-        ],
-        "ways": [
-          {
-            "id": "1272",
-            "name": "01N"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "3",
-            "name": "SH1"
-          }
-        ],
-        "legs": [
-          {
-            "id": "redoubt-rd-to-papakura",
-            "name": "Redoubt Rd to Papakura",
-            "totalLength": "10.043383431619"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-318"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           174.7108508,
           -36.7532
         ]
@@ -1944,7 +1803,7 @@
         "description": "SH18 Unsworth Dr - Westbound",
         "direction": "Westbound",
         "identifier": "$AKL://signs/V-018-2050-W",
-        "lastUpdated": "2026-06-15T21:02:52.813+12:00",
+        "lastUpdated": "2026-06-16T21:03:55.477+12:00",
         "name": "SH18 Unsworth Dr - Westbound",
         "regions": [
           {
@@ -1991,7 +1850,7 @@
         "description": "SH1C Waikato Exp - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/TER02",
-        "lastUpdated": "2026-06-15T21:00:23.400+12:00",
+        "lastUpdated": "2026-06-16T22:30:25.477+12:00",
         "name": "SH1C Waikato Exp - Southbound",
         "regions": [
           {
@@ -2027,53 +1886,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.372583,
-          -37.842417
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 336,
-        "currentMessage": "SH1C NORTHBOUND [nl]CLOSED[nl]USE WAIRERE DR,[nl]TE RAPA RD",
-        "description": "SH1 Tamahere - Northbound",
-        "direction": "Northbound",
-        "identifier": "$AKL://signs/TAM01",
-        "lastUpdated": "2026-06-15T20:00:23.367+12:00",
-        "name": "SH1 Tamahere - Northbound",
-        "regions": [
-          {
-            "id": "3",
-            "name": "Waikato"
-          }
-        ],
-        "ways": [
-          {
-            "id": "1264",
-            "name": "01N"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "345",
-            "name": "SH1N"
-          }
-        ],
-        "legs": [
-          {
-            "id": "hamilton-south-to-cambridge",
-            "name": "Hamilton South to Cambridge",
-            "totalLength": "12.686978798187"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-336"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           175.791,
           -38.07225
         ]
@@ -2085,7 +1897,7 @@
         "description": "SH1 Lichfield - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/LCH01",
-        "lastUpdated": "2026-06-15T21:00:23.400+12:00",
+        "lastUpdated": "2026-06-16T08:00:23.587+12:00",
         "name": "SH1 Lichfield - Northbound",
         "regions": [
           {
@@ -2175,11 +1987,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 366,
-        "currentMessage": "ROADWORKS:[nl]LANES CLOSED",
+        "currentMessage": "ROADWORKS AHEAD:[nl]TAKE EXTRA CARE",
         "description": "Grafton Rd (S) VMS",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-5060-S",
-        "lastUpdated": "2026-06-15T21:13:52.807+12:00",
+        "lastUpdated": "2026-06-16T21:10:55.567+12:00",
         "name": "Grafton Rd (S) VMS",
         "regions": [
           {
@@ -2215,100 +2027,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.1436,
-          -37.2227
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 370,
-        "currentMessage": "SH1 NORTHBOUND:[nl]MOTORWAY CLOSED[nl]DRURY-PAPAKURA",
-        "description": "Bell Rd (W) VMS, Mangatawhiri",
-        "direction": "Westbound",
-        "identifier": "$AKL://signs/BEL01",
-        "lastUpdated": "2026-06-15T21:04:22.820+12:00",
-        "name": "Bell Rd (W) VMS",
-        "regions": [
-          {
-            "id": "3",
-            "name": "Waikato"
-          }
-        ],
-        "ways": [
-          {
-            "id": "175",
-            "name": "002"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "19",
-            "name": "SH2"
-          }
-        ],
-        "legs": [
-          {
-            "id": "pokeno-to-waitakaruru",
-            "name": "Pokeno to Waitakaruru",
-            "totalLength": "32.417"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-370"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.982909,
-          -37.175167
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 378,
-        "currentMessage": "ROADWORKS:[nl]OFFRAMPS CLOSED[nl]BEAVER RD AND[nl]NIKAU RD",
-        "description": "Bombay (S) VMS",
-        "direction": "Southbound",
-        "identifier": "$AKL://signs/V-001-6700-S",
-        "lastUpdated": "2026-06-15T21:18:22.847+12:00",
-        "name": "Bombay (S) VMS",
-        "regions": [
-          {
-            "id": "2",
-            "name": "Auckland"
-          }
-        ],
-        "ways": [
-          {
-            "id": "47",
-            "name": "01N"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "3",
-            "name": "SH1"
-          }
-        ],
-        "legs": [
-          {
-            "id": "sh22-interchange-to-waikato-boundary",
-            "name": "SH22 Interchange to Waikato Boundary",
-            "totalLength": "16.258"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-378"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           174.982943,
           -40.971154
         ]
@@ -2316,11 +2034,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 381,
-        "currentMessage": "SH59 PUKERUA BAY[nl]CLOSURE[nl]TONIGHT[nl]POSTPONED",
+        "currentMessage": "SH59 PAEKAKARIKI[nl]ROAD CLOSED[nl]USE SH1",
         "description": null,
         "direction": "Southbound",
         "identifier": "$WLG://signs/MAC01",
-        "lastUpdated": "2026-06-15T14:28:22.200+12:00",
+        "lastUpdated": "2026-06-16T20:01:24.993+12:00",
         "name": "Mackays (S) VMS",
         "regions": [
           {
@@ -2363,11 +2081,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 390,
-        "currentMessage": "SH59[nl]PUKERUA BAY[np]CLOSURE[nl]TONIGHT[nl]POSTPONED",
+        "currentMessage": "SH59 PUKERUA BAY[nl]ROAD CLOSED[nl]USE SH1",
         "description": null,
         "direction": "Northbound",
         "identifier": "$WLG://signs/LIN01",
-        "lastUpdated": "2026-06-15T14:28:22.200+12:00",
+        "lastUpdated": "2026-06-16T20:01:24.993+12:00",
         "name": "SH1 Linden (N) VMS",
         "regions": [
           {
@@ -2396,53 +2114,6 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-390"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.066384,
-          -37.320088
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 423,
-        "currentMessage": "ROADWORKS:[nl]MOTORWAY CLOSED[nl]DRURY-PAPAKURA",
-        "description": "Meremere (N) VMS_NEW",
-        "direction": "Northbound",
-        "identifier": "$AKL://signs/MRE01_NEW",
-        "lastUpdated": "2026-06-15T21:04:22.820+12:00",
-        "name": "Meremere (N) VMS_NEW",
-        "regions": [
-          {
-            "id": "3",
-            "name": "Waikato"
-          }
-        ],
-        "ways": [
-          {
-            "id": "1260",
-            "name": "01N"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "345",
-            "name": "SH1N"
-          }
-        ],
-        "legs": [
-          {
-            "id": "mercer-to-ohinewai",
-            "name": "Mercer to Ohinewai",
-            "totalLength": "25.296892253594"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-423"
       }
     },
     {
@@ -2493,5 +2164,5 @@
       }
     }
   ],
-  "lastUpdated": 1781527412
+  "lastUpdated": 1781609774
 }
