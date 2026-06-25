@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:51:49",
+        "LastEdited": "2026-06-25 21:45:36",
         "Created": "2026-06-08 14:56:52",
         "EventType": "General Warning",
         "EventDescription": "Due to strong winds in the Coastal Otago Region, extra care is required for high-sided vehicles and motorcycles when travelling through the area.",
@@ -17,10 +17,10 @@
         "Status": "Active",
         "IsPlanned": 0,
         "IsCritical": 0,
-        "LastUpdatedAgo": "25 secs ago",
+        "LastUpdatedAgo": "0 secs ago",
         "StartDateNice": null,
         "EndDateNice": null,
-        "LastUpdatedNice": "24 Jun 2026 9:51pm",
+        "LastUpdatedNice": "25 Jun 2026 9:45pm",
         "UpdateDueNice": null,
         "IconClass": "i-map-tools-warnings",
         "ExpectedResolution": null,
@@ -36,7 +36,7 @@
           38
         ],
         "Name": "General Warning",
-        "lastUpdated": 1782294709,
+        "lastUpdated": 1782380736,
         "uniq": "Delay-7352710",
         "AdditionalFeatures": []
       },
@@ -72,50 +72,216 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:45:26",
-        "Created": "2026-06-24 10:59:03",
-        "LocationArea": "SH 18 Full Closure Tauhinu Rd to Albany Hwy, Eastbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
+        "LastEdited": "2026-06-25 21:43:58",
+        "Created": "2026-06-25 12:41:01",
+        "LocationArea": "SH 8 Fairlie to Twizel",
+        "EventType": "Area Warning",
+        "EventDescription": "Snow and Ice",
+        "EventComments": "Due to ice and grit on the road, caution is advised along this route.",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-06-25 12:39:31",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
         "IsPinned": 0,
         "PinnedSortOrder": 0,
-        "TasJourneyId": 2,
-        "ExternalId": 552788,
-        "EventIsland": "North Island",
+        "TasJourneyId": 84,
+        "ExternalId": 552936,
+        "EventIsland": "South Island",
         "Status": "Active",
-        "IsPlanned": 1,
+        "IsPlanned": 0,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "8 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:43pm",
+        "LastUpdatedAgo": "3 mins ago",
+        "StartDateNice": "25 Jun 2026 12:39pm",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 9:43pm",
         "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552788,
-        "InternalId": 869119,
+        "IconClass": "i-map-tools-area-warnings",
+        "ExpectedResolution": "Until further notice",
+        "type": "warnings",
+        "id": 552936,
+        "InternalId": 869169,
         "regions": [
-          7
+          21
         ],
-        "Name": "Road Closure: SH 18 Full Closure Tauhinu Rd to Albany Hwy, Eastbound",
-        "lastUpdated": 1782294326,
-        "uniq": "Delay-552788",
+        "Name": "Area Warning: SH 8 Fairlie to Twizel",
+        "lastUpdated": 1782380638,
+        "uniq": "Delay-552936",
         "AdditionalFeatures": []
       },
       "geometry": {
-        "type": "Point",
+        "type": "MultiLineString",
         "coordinates": [
-          174.67273027177924,
-          -36.78367645543746
+          [
+            [
+              170.8273600000377,
+              -44.09640008683478
+            ],
+            [
+              170.7592600000397,
+              -44.047060086857684
+            ],
+            [
+              170.7482500000401,
+              -44.03573008686276
+            ],
+            [
+              170.7157500000406,
+              -44.02930008686603
+            ],
+            [
+              170.6879100000406,
+              -44.03821008686263
+            ],
+            [
+              170.6636800000397,
+              -44.07991008684464
+            ],
+            [
+              170.65235000003952,
+              -44.08954008684053
+            ],
+            [
+              170.62044000003974,
+              -44.09181008683999
+            ],
+            [
+              170.5928400000401,
+              -44.089630086841424
+            ],
+            [
+              170.56585000004011,
+              -44.09629008683881
+            ],
+            [
+              170.50521000004161,
+              -44.06518008685368
+            ],
+            [
+              170.5019900000419,
+              -44.05612008685771
+            ],
+            [
+              170.50801000004225,
+              -44.04252008686356
+            ],
+            [
+              170.5001900000427,
+              -44.02983008686921
+            ],
+            [
+              170.50067000004321,
+              -44.012050086876805
+            ],
+            [
+              170.47468000004372,
+              -44.00311008688103
+            ],
+            [
+              170.46043000004394,
+              -44.00082008688225
+            ],
+            [
+              170.450210000044,
+              -44.00299008688149
+            ],
+            [
+              170.4174900000445,
+              -43.99748008688436
+            ],
+            [
+              170.40678000004436,
+              -44.00538008688119
+            ],
+            [
+              170.40122000004388,
+              -44.02391008687334
+            ],
+            [
+              170.38375000004362,
+              -44.03785008686759
+            ],
+            [
+              170.3494400000425,
+              -44.085290086847245
+            ],
+            [
+              170.35418000004205,
+              -44.10032008684043
+            ],
+            [
+              170.34923000004105,
+              -44.133470086825376
+            ],
+            [
+              170.3360700000405,
+              -44.15579008681525
+            ],
+            [
+              170.33282000004013,
+              -44.16895008680914
+            ],
+            [
+              170.3183700000399,
+              -44.18033008680401
+            ],
+            [
+              170.26516000003969,
+              -44.20359008679382
+            ],
+            [
+              170.24940000003994,
+              -44.19964008679597
+            ],
+            [
+              170.2290200000407,
+              -44.18099008680519
+            ],
+            [
+              170.21752000004096,
+              -44.176130086807675
+            ],
+            [
+              170.21233000004122,
+              -44.168390086811414
+            ],
+            [
+              170.20748000004122,
+              -44.16991008681079
+            ],
+            [
+              170.2035000000411,
+              -44.17719008680741
+            ],
+            [
+              170.19080000004104,
+              -44.183190086804814
+            ],
+            [
+              170.17118000004143,
+              -44.17469008680914
+            ],
+            [
+              170.1574900000415,
+              -44.17618008680869
+            ],
+            [
+              170.1563700000413,
+              -44.18275008680559
+            ],
+            [
+              170.1426500000411,
+              -44.19087008680197
+            ],
+            [
+              170.1312500000415,
+              -44.186650086804164
+            ],
+            [
+              170.12456000004138,
+              -44.18771008680377
+            ]
+          ]
         ]
       }
     },
@@ -123,298 +289,43 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:27:51",
-        "Created": "2026-06-24 10:56:45",
-        "LocationArea": "SH 18 Full Closure Albany Highway On-ramp to Tauhinu Rd Off-Ramp, Westbound",
+        "LastEdited": "2026-06-25 21:13:52",
+        "Created": "2026-06-25 11:11:01",
+        "LocationArea": "SH 1 Gillies Ave On-ramp Northbound",
         "EventType": "Road Closure",
         "EventDescription": "Maintenance",
         "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
         "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 2,
-        "ExternalId": 552786,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "26 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:26pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552786,
-        "InternalId": 869117,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 18 Full Closure Albany Highway On-ramp to Tauhinu Rd Off-Ramp, Westbound",
-        "lastUpdated": 1782293271,
-        "uniq": "Delay-552786",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.70614311802572,
-          -36.75532480902637
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:12:51",
-        "Created": "2026-06-24 10:35:26",
-        "LocationArea": "SH 1 Ramarama On-ramp Southbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
+        "StartDate": "2026-06-25 21:00:00",
+        "EndDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionText": "26/06/2026 05:00",
         "Impact": "Road Closed",
         "IsPinned": 0,
         "PinnedSortOrder": 0,
         "TasJourneyId": 3,
-        "ExternalId": 552775,
+        "ExternalId": 552918,
         "EventIsland": "North Island",
         "Status": "Active",
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "43 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:09pm",
+        "LastUpdatedAgo": "33 mins ago",
+        "StartDateNice": "25 Jun 2026 9:00pm",
+        "EndDateNice": "26 Jun 2026 5:00am",
+        "LastUpdatedNice": "25 Jun 2026 9:12pm",
         "UpdateDueNice": null,
         "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
+        "ExpectedResolution": "26 Jun 2026 5:00am",
         "type": "closures",
-        "id": 552775,
-        "InternalId": 869110,
+        "id": 552918,
+        "InternalId": 869158,
         "regions": [
           7
         ],
-        "Name": "Road Closure: SH 1 Ramarama On-ramp Southbound",
-        "lastUpdated": 1782292371,
-        "uniq": "Delay-552775",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.97019300256449,
-          -37.14340313938075
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:09:46",
-        "Created": "2026-06-24 10:56:30",
-        "LocationArea": "SH 18 Albany Highway On-ramp Westbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 2,
-        "ExternalId": 552787,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "44 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:08pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552787,
-        "InternalId": 869116,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 18 Albany Highway On-ramp Westbound",
-        "lastUpdated": 1782292186,
-        "uniq": "Delay-552787",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.7037547435599,
-          -36.75774899124507
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:09:46",
-        "Created": "2026-06-24 10:59:18",
-        "LocationArea": "SH 18 Greenhithe Rd On-ramp Eastbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 2,
-        "ExternalId": 552789,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "45 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:07pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552789,
-        "InternalId": 869120,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 18 Greenhithe Rd On-ramp Eastbound",
-        "lastUpdated": 1782292186,
-        "uniq": "Delay-552789",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.6855843394404,
-          -36.77146418011952
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:02",
-        "Created": "2026-06-24 10:28:48",
-        "LocationArea": "SH 1 Khyber Pass Rd Off-ramp Northbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 3,
-        "ExternalId": 552770,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "50 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:02pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552770,
-        "InternalId": 869105,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 1 Khyber Pass Rd Off-ramp Northbound",
-        "lastUpdated": 1782291782,
-        "uniq": "Delay-552770",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.76830033548174,
-          -36.867747596249785
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:02",
-        "Created": "2026-06-24 10:28:19",
-        "LocationArea": "SH 1 Gilles Ave On-ramp Northbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 3,
-        "ExternalId": 552771,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "51 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:01pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552771,
-        "InternalId": 869104,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 1 Gilles Ave On-ramp Northbound",
-        "lastUpdated": 1782291782,
-        "uniq": "Delay-552771",
+        "Name": "Road Closure: SH 1 Gillies Ave On-ramp Northbound",
+        "lastUpdated": 1782378832,
+        "uniq": "Delay-552918",
         "AdditionalFeatures": []
       },
       "geometry": {
@@ -429,196 +340,43 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:01",
-        "Created": "2026-06-24 11:01:23",
-        "LocationArea": "SH 20 Dominion Rd On-ramp Southbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Road users should plan accordingly and allow extra time for the detour.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 4,
-        "ExternalId": 552794,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "51 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:01pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552794,
-        "InternalId": 869121,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 20 Dominion Rd On-ramp Southbound",
-        "lastUpdated": 1782291781,
-        "uniq": "Delay-552794",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.73978853368666,
-          -36.91102899029594
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:03",
-        "Created": "2026-06-24 10:25:57",
-        "LocationArea": "SH 1 Greville Rd Off-ramp, Southbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Road users should plan accordingly and allow extra time for the detour.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 3,
-        "ExternalId": 552768,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "51 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:01pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552768,
-        "InternalId": 869103,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 1 Greville Rd Off-ramp, Southbound",
-        "lastUpdated": 1782291783,
-        "uniq": "Delay-552768",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.71589190474074,
-          -36.73134365757659
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:03",
-        "Created": "2026-06-24 10:29:27",
-        "LocationArea": "SH 1 Greville Rd On-ramp, Northbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Road users should plan accordingly and allow extra time for the detour.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 3,
-        "ExternalId": 552769,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "51 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:01pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552769,
-        "InternalId": 869106,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 1 Greville Rd On-ramp, Northbound",
-        "lastUpdated": 1782291783,
-        "uniq": "Delay-552769",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.71688266803372,
-          -36.7357971046984
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:03",
-        "Created": "2026-06-24 10:31:26",
+        "LastEdited": "2026-06-25 21:03:17",
+        "Created": "2026-06-25 10:34:30",
         "LocationArea": "SH 1 Full Closure Drury to Bombay, Southbound",
         "EventType": "Road Closure",
         "EventDescription": "Maintenance",
         "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
         "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
+        "StartDate": "2026-06-25 21:00:00",
+        "EndDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionText": "26/06/2026 05:00",
         "Impact": "Road Closed",
         "IsPinned": 0,
         "PinnedSortOrder": 0,
         "TasJourneyId": 3,
-        "ExternalId": 552772,
+        "ExternalId": 552908,
         "EventIsland": "North Island",
         "Status": "Active",
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "51 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:01pm",
+        "LastUpdatedAgo": "44 mins ago",
+        "StartDateNice": "25 Jun 2026 9:00pm",
+        "EndDateNice": "26 Jun 2026 5:00am",
+        "LastUpdatedNice": "25 Jun 2026 9:01pm",
         "UpdateDueNice": null,
         "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
+        "ExpectedResolution": "26 Jun 2026 5:00am",
         "type": "closures",
-        "id": 552772,
-        "InternalId": 869107,
+        "id": 552908,
+        "InternalId": 869151,
         "regions": [
           7
         ],
         "Name": "Road Closure: SH 1 Full Closure Drury to Bombay, Southbound",
-        "lastUpdated": 1782291783,
-        "uniq": "Delay-552772",
+        "lastUpdated": 1782378197,
+        "uniq": "Delay-552908",
         "AdditionalFeatures": []
       },
       "geometry": {
@@ -633,306 +391,43 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:02",
-        "Created": "2026-06-24 10:53:49",
-        "LocationArea": "SH 16 Lincoln Rd On-ramp Southbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 1,
-        "ExternalId": 552784,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "51 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:01pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552784,
-        "InternalId": 869114,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 16 Lincoln Rd On-ramp Southbound",
-        "lastUpdated": 1782291782,
-        "uniq": "Delay-552784",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.63166696191104,
-          -36.847512499743104
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:02",
-        "Created": "2026-06-24 10:58:48",
-        "LocationArea": "SH 18 Squadron Drive Off-ramp Westbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Road users should plan accordingly and allow extra time for the detour.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 2,
-        "ExternalId": 552790,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "51 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:01pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552790,
-        "InternalId": 869118,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 18 Squadron Drive Off-ramp Westbound",
-        "lastUpdated": 1782291782,
-        "uniq": "Delay-552790",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.65739536039928,
-          -36.78958035090028
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:02",
-        "Created": "2026-06-24 11:01:45",
-        "LocationArea": "SH 20 Maioro St On-ramp Southbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Road users should plan accordingly and allow extra time for the detour.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 4,
-        "ExternalId": 552793,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "51 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:01pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552793,
-        "InternalId": 869122,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 20 Maioro St On-ramp Southbound",
-        "lastUpdated": 1782291782,
-        "uniq": "Delay-552793",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.72382707158218,
-          -36.90349766439589
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:02",
-        "Created": "2026-06-24 11:02:08",
-        "LocationArea": "SH 20 Full Closure Maioro St to Hillsborough Rd, Southbound",
-        "EventType": "Road Closure",
-        "EventDescription": "Maintenance",
-        "EventComments": "This closure is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Road users should plan accordingly and allow extra time for the detour.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 4,
-        "ExternalId": 552792,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "51 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:01pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
-        "type": "closures",
-        "id": 552792,
-        "InternalId": 869123,
-        "regions": [
-          7
-        ],
-        "Name": "Road Closure: SH 20 Full Closure Maioro St to Hillsborough Rd, Southbound",
-        "lastUpdated": 1782291782,
-        "uniq": "Delay-552792",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.72078313606744,
-          -36.90208538289007
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:03",
-        "Created": "2026-06-19 13:04:53",
-        "LocationArea": "SH 2 Ngauranga Southbound Off-Ramp",
-        "EventType": "Road Closure",
-        "EventDescription": "Other",
-        "EventComments": "Due to various works, this off-ramp will be closed on Sunday 21st June to Wednesday 24th June nights between 9pm and 4:30am. Plan your journey accordingly, allowing extra time for travel.",
-        "AlternativeRoute": "Detour via Aotea Quay",
-        "StartDate": "2026-06-21 21:00:00",
-        "EndDate": "2026-06-25 04:30:00",
-        "ExpectedResolutionDate": "2026-06-25 04:30:00",
-        "ExpectedResolutionText": "25/06/2026 04:30",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 9,
-        "ExternalId": 552342,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "52 mins ago",
-        "StartDateNice": "21 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 4:30am",
-        "LastUpdatedNice": "24 Jun 2026 9:00pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 4:30am",
-        "type": "closures",
-        "id": 552342,
-        "InternalId": 868955,
-        "regions": [
-          16
-        ],
-        "Name": "Road Closure: SH 2 Ngauranga Southbound Off-Ramp",
-        "lastUpdated": 1782291783,
-        "uniq": "Delay-552342",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-          [
-            [
-              174.81623000000718,
-              -41.24625008701579
-            ],
-            [
-              174.81447000000725,
-              -41.24777008701624
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:03:03",
-        "Created": "2026-06-24 10:36:26",
+        "LastEdited": "2026-06-25 21:02:54",
+        "Created": "2026-06-25 21:02:54",
         "LocationArea": "SH 1 Drury On-ramp Southbound",
         "EventType": "Road Closure",
         "EventDescription": "Maintenance",
         "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
         "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-24 21:00:00",
-        "EndDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionDate": "2026-06-25 05:00:00",
-        "ExpectedResolutionText": "25/06/2026 05:00",
+        "StartDate": "2026-06-25 20:59:00",
+        "EndDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionText": "26/06/2026 05:00",
         "Impact": "Road Closed",
         "IsPinned": 0,
         "PinnedSortOrder": 0,
         "TasJourneyId": 5,
-        "ExternalId": 552774,
+        "ExternalId": 552979,
         "EventIsland": "North Island",
         "Status": "Active",
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "52 mins ago",
-        "StartDateNice": "24 Jun 2026 9:00pm",
-        "EndDateNice": "25 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 9:00pm",
+        "LastUpdatedAgo": "45 mins ago",
+        "StartDateNice": "25 Jun 2026 8:59pm",
+        "EndDateNice": "26 Jun 2026 5:00am",
+        "LastUpdatedNice": "25 Jun 2026 9:00pm",
         "UpdateDueNice": null,
         "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "25 Jun 2026 5:00am",
+        "ExpectedResolution": "26 Jun 2026 5:00am",
         "type": "closures",
-        "id": 552774,
-        "InternalId": 869111,
+        "id": 552979,
+        "InternalId": 869175,
         "regions": [
           7
         ],
         "Name": "Road Closure: SH 1 Drury On-ramp Southbound",
-        "lastUpdated": 1782291783,
-        "uniq": "Delay-552774",
+        "lastUpdated": 1782378174,
+        "uniq": "Delay-552979",
         "AdditionalFeatures": []
       },
       "geometry": {
@@ -947,48 +442,50 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 20:50:58",
-        "Created": "2026-06-24 20:50:58",
-        "LocationArea": "SH 6 Chesterfield to Awatuna",
-        "EventType": "Road Hazard",
-        "EventDescription": "Crash",
-        "EventComments": "Due to a crash there is a Stop/Go traffic management with 30km/h temporary speed restriction in place. Take extra care along this route.",
-        "AlternativeRoute": "Not Applicable",
-        "StartDate": "2026-06-24 17:38:43",
-        "ExpectedResolutionText": "Until further notice",
-        "Impact": "Caution",
+        "LastEdited": "2026-06-25 21:02:54",
+        "Created": "2026-06-25 11:00:13",
+        "LocationArea": "SH 1 Greville Rd Off-ramp, Southbound",
+        "EventType": "Road Closure",
+        "EventDescription": "Maintenance",
+        "EventComments": "This closure is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Road users should plan accordingly and allow extra time for the detour.",
+        "AlternativeRoute": "Follow posted detour.",
+        "StartDate": "2026-06-25 21:00:00",
+        "EndDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionText": "26/06/2026 05:00",
+        "Impact": "Road Closed",
         "IsPinned": 0,
         "PinnedSortOrder": 0,
-        "TasJourneyId": 100,
-        "ExternalId": 552840,
-        "EventIsland": "South Island",
+        "TasJourneyId": 3,
+        "ExternalId": 552914,
+        "EventIsland": "North Island",
         "Status": "Active",
-        "IsPlanned": 0,
+        "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "63 mins ago",
-        "StartDateNice": "24 Jun 2026 5:38pm",
-        "EndDateNice": null,
-        "LastUpdatedNice": "24 Jun 2026 8:49pm",
+        "LastUpdatedAgo": "45 mins ago",
+        "StartDateNice": "25 Jun 2026 9:00pm",
+        "EndDateNice": "26 Jun 2026 5:00am",
+        "LastUpdatedNice": "25 Jun 2026 9:00pm",
         "UpdateDueNice": null,
-        "IconClass": "i-map-tools-warnings",
-        "ExpectedResolution": "Until further notice",
-        "type": "hazards",
-        "id": 552840,
-        "InternalId": 869138,
+        "IconClass": "i-map-tools-road-closures",
+        "ExpectedResolution": "26 Jun 2026 5:00am",
+        "type": "closures",
+        "id": 552914,
+        "InternalId": 869156,
         "regions": [
-          20
+          7
         ],
-        "Name": "Road Hazard: SH 6 Chesterfield to Awatuna",
-        "lastUpdated": 1782291058,
-        "uniq": "Delay-552840",
+        "Name": "Road Closure: SH 1 Greville Rd Off-ramp, Southbound",
+        "lastUpdated": 1782378174,
+        "uniq": "Delay-552914",
         "AdditionalFeatures": []
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          171.0819928376017,
-          -42.62510490150932
+          174.71589190474074,
+          -36.73134365757659
         ]
       }
     },
@@ -996,16 +493,169 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:51:57",
+        "LastEdited": "2026-06-25 21:02:54",
+        "Created": "2026-06-25 11:08:37",
+        "LocationArea": "SH 1 Greville Rd Off-ramp, Northbound",
+        "EventType": "Road Closure",
+        "EventDescription": "Maintenance",
+        "EventComments": "This closure is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Road users should plan accordingly and allow extra time for the detour.",
+        "AlternativeRoute": "Follow posted detour.",
+        "StartDate": "2026-06-25 21:00:00",
+        "EndDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionText": "26/06/2026 05:00",
+        "Impact": "Road Closed",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 3,
+        "ExternalId": 552916,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "45 mins ago",
+        "StartDateNice": "25 Jun 2026 9:00pm",
+        "EndDateNice": "26 Jun 2026 5:00am",
+        "LastUpdatedNice": "25 Jun 2026 9:00pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-road-closures",
+        "ExpectedResolution": "26 Jun 2026 5:00am",
+        "type": "closures",
+        "id": 552916,
+        "InternalId": 869157,
+        "regions": [
+          7
+        ],
+        "Name": "Road Closure: SH 1 Greville Rd Off-ramp, Northbound",
+        "lastUpdated": 1782378174,
+        "uniq": "Delay-552916",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.71861528673114,
+          -36.73775054403614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 21:02:54",
+        "Created": "2026-06-25 11:11:31",
+        "LocationArea": "SH 1 Khyber Pass Rd Off-ramp Northbound",
+        "EventType": "Road Closure",
+        "EventDescription": "Maintenance",
+        "EventComments": "This closure is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Road users should plan accordingly and allow extra time for the detour.",
+        "AlternativeRoute": "Follow posted detour.",
+        "StartDate": "2026-06-25 21:00:00",
+        "EndDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionText": "26/06/2026 05:00",
+        "Impact": "Road Closed",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 3,
+        "ExternalId": 552917,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "45 mins ago",
+        "StartDateNice": "25 Jun 2026 9:00pm",
+        "EndDateNice": "26 Jun 2026 5:00am",
+        "LastUpdatedNice": "25 Jun 2026 9:00pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-road-closures",
+        "ExpectedResolution": "26 Jun 2026 5:00am",
+        "type": "closures",
+        "id": 552917,
+        "InternalId": 869159,
+        "regions": [
+          7
+        ],
+        "Name": "Road Closure: SH 1 Khyber Pass Rd Off-ramp Northbound",
+        "lastUpdated": 1782378174,
+        "uniq": "Delay-552917",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.76830033548174,
+          -36.867747596249785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 21:02:54",
+        "Created": "2026-06-25 11:17:21",
+        "LocationArea": "SH 1 Ramarama On-ramp Southbound",
+        "EventType": "Road Closure",
+        "EventDescription": "Maintenance",
+        "EventComments": "This closure is now in place. Delays may be experienced. Follow detour and allow extra time for your journey.",
+        "AlternativeRoute": "Follow posted detour.",
+        "StartDate": "2026-06-25 21:00:00",
+        "EndDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionDate": "2026-06-26 05:00:00",
+        "ExpectedResolutionText": "26/06/2026 05:00",
+        "Impact": "Road Closed",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 3,
+        "ExternalId": 552920,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "45 mins ago",
+        "StartDateNice": "25 Jun 2026 9:00pm",
+        "EndDateNice": "26 Jun 2026 5:00am",
+        "LastUpdatedNice": "25 Jun 2026 9:00pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-road-closures",
+        "ExpectedResolution": "26 Jun 2026 5:00am",
+        "type": "closures",
+        "id": 552920,
+        "InternalId": 869161,
+        "regions": [
+          7
+        ],
+        "Name": "Road Closure: SH 1 Ramarama On-ramp Southbound",
+        "lastUpdated": 1782378174,
+        "uniq": "Delay-552920",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.97019300256449,
+          -37.14340313938075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 21:27:59",
         "Created": "2026-06-03 08:50:54",
         "LocationArea": "SH 2 Opotiki to Matawai (Waioweka Gorge)",
-        "EventType": "Area Warning",
+        "EventType": "Road Closure",
         "EventDescription": "Other",
-        "EventComments": "The Gorge will be open tonight, Wednesday 24 June. Works will then resume as scheduled.\n\nState Highway 2 Waioweka Gorge is closed from 9pm to 5am Sunday to Thursday from 21 June to 2 July. A convoy will allow traffic through the closure between 1am and 2am. Stop/go traffic management is in place during the day.",
+        "EventComments": "State Highway 2 Waioweka Gorge is closed from 9pm to 5am Sunday to Thursday from 21 June to 2 July. A convoy will allow traffic through the closure between 1am and 2am. Stop/go traffic management is in place during the day.",
         "AlternativeRoute": "Southbound: Head West on SH2 toward Whakatane, then turn right to stay on SH2, then turn left on to SH30, then turn left on to SH5, then turn left on to Settlers Rd, then continue straight on to Broadlands Rd, then use the on-ramp to join SH1 headed south, then turn left on to SH5, then turn left on to Low Level Rd, then turn right, then turn left on to SH5, then turn on to SH2.\n\nNorthbound follow in reverse.",
         "StartDate": "2026-01-16 00:00:00",
         "ExpectedResolutionText": "Until further notice",
-        "Impact": "Caution",
+        "Impact": "Road Closed",
         "IsPinned": 0,
         "PinnedSortOrder": 0,
         "TasJourneyId": 53,
@@ -1015,21 +665,21 @@
         "IsPlanned": 0,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "68 mins ago",
+        "LastUpdatedAgo": "46 mins ago",
         "StartDateNice": "16 Jan 2026 12:00am",
         "EndDateNice": null,
-        "LastUpdatedNice": "24 Jun 2026 8:44pm",
+        "LastUpdatedNice": "25 Jun 2026 9:00pm",
         "UpdateDueNice": null,
-        "IconClass": "i-map-tools-area-warnings",
+        "IconClass": "i-map-tools-road-closures",
         "ExpectedResolution": "Until further notice",
-        "type": "warnings",
+        "type": "closures",
         "id": 536999,
         "InternalId": 868408,
         "regions": [
           12
         ],
-        "Name": "Area Warning: SH 2 Opotiki to Matawai (Waioweka Gorge)",
-        "lastUpdated": 1782294717,
+        "Name": "Road Closure: SH 2 Opotiki to Matawai (Waioweka Gorge)",
+        "lastUpdated": 1782379679,
         "uniq": "Delay-536999",
         "AdditionalFeatures": []
       },
@@ -1335,108 +985,49 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:10",
-        "Created": "2026-06-24 20:16:08",
-        "LocationArea": "SH 1 Manakau, between the intersections of South Manakau Road and Gleeson Road",
-        "EventType": "Area Warning",
-        "EventDescription": "Maintenance",
-        "EventComments": "Due to maintenance works, there will be Stop/Go traffic management with a 30km/h speed restriction in place. Take extra care.",
+        "LastEdited": "2026-06-25 20:04:04",
+        "Created": "2026-06-25 19:15:58",
+        "LocationArea": "SH 1 Manakau, between Kuku Beach Road and North Manakau Road",
+        "EventType": "Road Work",
+        "EventDescription": "Other",
+        "EventComments": "Due to maintenance works in this area Stop/Go traffic management and 30kph speed restrictions will be in place. Take extra care and expect delays.",
         "AlternativeRoute": "Not Applicable",
-        "StartDate": "2026-06-24 20:10:59",
-        "EndDate": "2026-06-25 05:30:59",
+        "StartDate": "2026-06-25 20:00:06",
+        "EndDate": "2026-06-26 04:00:06",
         "ExpectedResolutionText": "Until further notice",
         "Impact": "Caution",
         "IsPinned": 0,
         "PinnedSortOrder": 0,
         "TasJourneyId": 67,
-        "ExternalId": 552859,
+        "ExternalId": 552975,
         "EventIsland": "North Island",
         "Status": "Active",
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "95 mins ago",
-        "StartDateNice": "24 Jun 2026 8:10pm",
-        "EndDateNice": "25 Jun 2026 5:30am",
-        "LastUpdatedNice": "24 Jun 2026 8:17pm",
+        "LastUpdatedAgo": "104 mins ago",
+        "StartDateNice": "25 Jun 2026 8:00pm",
+        "EndDateNice": "26 Jun 2026 4:00am",
+        "LastUpdatedNice": "25 Jun 2026 8:02pm",
         "UpdateDueNice": null,
-        "IconClass": "i-map-tools-area-warnings",
+        "IconClass": "i-map-tools-roadworks",
         "ExpectedResolution": "Until further notice",
-        "type": "warnings",
-        "id": 552859,
-        "InternalId": 869136,
+        "type": "roadworks",
+        "id": 552975,
+        "InternalId": 869173,
         "regions": [
           15
         ],
-        "Name": "Area Warning: SH 1 Manakau, between the intersections of South Manakau Road and Gleeson Road",
-        "lastUpdated": 1782292870,
-        "uniq": "Delay-552859",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-          [
-            [
-              175.2072199999965,
-              -40.72811008682832
-            ],
-            [
-              175.21344999999627,
-              -40.72129008682539
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 20:16:55",
-        "Created": "2026-06-24 20:16:55",
-        "LocationArea": "SH 29A Lane one near Oropi Road, Eastbound",
-        "EventType": "Scheduled Road Work",
-        "EventDescription": "Maintenance",
-        "EventComments": "Due to maintenance activities, SH29A lane one near Oropi Rd is closed on Friday 26 June, from 10:30am to 2:30pm.",
-        "AlternativeRoute": "Follow posted detour.",
-        "StartDate": "2026-06-26 10:30:00",
-        "EndDate": "2026-06-26 14:30:00",
-        "ExpectedResolutionDate": "2026-06-26 14:30:00",
-        "ExpectedResolutionText": "26/06/2026 14:30",
-        "Impact": "Caution",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 51,
-        "ExternalId": 552854,
-        "EventIsland": "North Island",
-        "Status": "Scheduled",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "99 mins ago",
-        "StartDateNice": "26 Jun 2026 10:30am",
-        "EndDateNice": "26 Jun 2026 2:30pm",
-        "LastUpdatedNice": "24 Jun 2026 8:13pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "26 Jun 2026 2:30pm",
-        "type": "roadworks",
-        "id": 552854,
-        "InternalId": 869137,
-        "regions": [
-          11
-        ],
-        "Name": "Scheduled Road Work: SH 29A Lane one near Oropi Road, Eastbound",
-        "lastUpdated": 1782289015,
-        "uniq": "Delay-552854",
+        "Name": "Road Work: SH 1 Manakau, between Kuku Beach Road and North Manakau Road",
+        "lastUpdated": 1782374644,
+        "uniq": "Delay-552975",
         "AdditionalFeatures": []
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          176.13971099188134,
-          -37.73857098655146
+          175.22842071472036,
+          -40.69662060509221
         ]
       }
     },
@@ -1444,7 +1035,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 20:06:28",
+        "LastEdited": "2026-06-25 20:01:02",
         "Created": "2026-06-24 17:45:16",
         "LocationArea": "SH 29A Oropi to Pyes Pa Rd, Westbound",
         "EventType": "Road Closure",
@@ -1461,25 +1052,25 @@
         "TasJourneyId": 51,
         "ExternalId": 552838,
         "EventIsland": "North Island",
-        "Status": "Scheduled",
+        "Status": "Active",
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "107 mins ago",
+        "LastUpdatedAgo": "106 mins ago",
         "StartDateNice": "25 Jun 2026 8:00pm",
         "EndDateNice": "26 Jun 2026 5:00am",
-        "LastUpdatedNice": "24 Jun 2026 8:05pm",
+        "LastUpdatedNice": "25 Jun 2026 8:00pm",
         "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
+        "IconClass": "i-map-tools-road-closures",
         "ExpectedResolution": "26 Jun 2026 5:00am",
-        "type": "roadworks",
+        "type": "closures",
         "id": 552838,
         "InternalId": 869132,
         "regions": [
           11
         ],
         "Name": "Road Closure: SH 29A Oropi to Pyes Pa Rd, Westbound",
-        "lastUpdated": 1782288388,
+        "lastUpdated": 1782374462,
         "uniq": "Delay-552838",
         "AdditionalFeatures": []
       },
@@ -1495,13 +1086,1778 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:38:27",
-        "Created": "2026-06-24 19:57:59",
-        "LocationArea": "SH 85 Ranfurly to Omakau",
+        "LastEdited": "2026-06-25 20:01:02",
+        "Created": "2026-06-25 19:46:55",
+        "LocationArea": "SH 2 Waingawa, near the intersection of Cornwall Road",
+        "EventType": "Road Work",
+        "EventDescription": "Maintenance",
+        "EventComments": "Due to maintenance works, there will be Stop/Go traffic management with a 30km/h speed restriction in place. Take extra care.",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-06-25 20:00:03",
+        "EndDate": "2026-06-26 05:00:03",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 9,
+        "ExternalId": 552977,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "106 mins ago",
+        "StartDateNice": "25 Jun 2026 8:00pm",
+        "EndDateNice": "26 Jun 2026 5:00am",
+        "LastUpdatedNice": "25 Jun 2026 8:00pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-roadworks",
+        "ExpectedResolution": "Until further notice",
+        "type": "roadworks",
+        "id": 552977,
+        "InternalId": 869174,
+        "regions": [
+          16
+        ],
+        "Name": "Road Work: SH 2 Waingawa, near the intersection of Cornwall Road",
+        "lastUpdated": 1782374462,
+        "uniq": "Delay-552977",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.6025233073952,
+          -40.96948388602212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 19:03:04",
+        "Created": "2026-06-19 14:13:10",
+        "LocationArea": "SH 12 Ruawai, near intersection of Smith Canal Road",
+        "EventType": "Road Work",
+        "EventDescription": "Resurfacing",
+        "EventComments": "Due to mill and fill works, there is stop/go traffic management with a 30km/h temporary speed restriction in place. Stop on request, drive with caution and expect delays.",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-06-25 19:00:00",
+        "EndDate": "2026-06-26 04:00:00",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Delays",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 15,
+        "ExternalId": 552233,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "3 hours ago",
+        "StartDateNice": "25 Jun 2026 7:00pm",
+        "EndDateNice": "26 Jun 2026 4:00am",
+        "LastUpdatedNice": "25 Jun 2026 7:01pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-roadworks",
+        "ExpectedResolution": "Until further notice",
+        "type": "roadworks",
+        "id": 552233,
+        "InternalId": 868963,
+        "regions": [
+          37
+        ],
+        "Name": "Road Work: SH 12 Ruawai, near intersection of Smith Canal Road",
+        "lastUpdated": 1782370984,
+        "uniq": "Delay-552233",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.09460009666842,
+          -36.122956318937135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 19:00:24",
+        "Created": "2026-06-25 19:00:24",
+        "LocationArea": "SH 3 Hamilton to Te Awamutu",
+        "EventType": "Road Hazard",
+        "EventDescription": "Flooding",
+        "EventComments": "Due to surface flooding near the intersection of Rukuhia Road, caution is advised along this route. Please take extra care.",
+        "AlternativeRoute": "n/a",
+        "StartDate": "2026-06-25 17:41:00",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 20,
+        "ExternalId": 552966,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 0,
+        "InformationSource": "Police",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "3 hours ago",
+        "StartDateNice": "25 Jun 2026 5:41pm",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 6:58pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-warnings",
+        "ExpectedResolution": "Until further notice",
+        "type": "hazards",
+        "id": 552966,
+        "InternalId": 869172,
+        "regions": [
+          10
+        ],
+        "Name": "Road Hazard: SH 3 Hamilton to Te Awamutu",
+        "lastUpdated": 1782370824,
+        "uniq": "Delay-552966",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.3066401357566,
+          -37.85332301903487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 18:31:06",
+        "Created": "2026-06-18 11:11:55",
+        "LocationArea": "SH 94 Te Anau to Milford (Homer Tunnel)",
+        "EventType": "Road Work",
+        "EventDescription": "Maintenance",
+        "EventComments": "Due to maintenance works, this tunnel will be closed in both directions on  Wednesday 24th June and Thursday 25th June nights between 6:30pm and 4am. The road will reopen at 9pm to allow any queued traffic through the site. Plan your journey allowing extra time for travel",
+        "AlternativeRoute": "No detour available.",
+        "StartDate": "2026-06-22 18:30:00",
+        "EndDate": "2026-06-26 04:00:00",
+        "ExpectedResolutionDate": "2026-06-26 04:00:00",
+        "ExpectedResolutionText": "26/06/2026 04:00",
+        "Impact": "Road Closed - will be opened at defined intervals",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 124,
+        "ExternalId": 552205,
+        "EventIsland": "South Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "3 hours ago",
+        "StartDateNice": "22 Jun 2026 6:30pm",
+        "EndDateNice": "26 Jun 2026 4:00am",
+        "LastUpdatedNice": "25 Jun 2026 6:30pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-roadworks",
+        "ExpectedResolution": "26 Jun 2026 4:00am",
+        "type": "roadworks",
+        "id": 552205,
+        "InternalId": 868910,
+        "regions": [
+          38
+        ],
+        "Name": "Road Work: SH 94 Te Anau to Milford (Homer Tunnel)",
+        "lastUpdated": 1782369066,
+        "uniq": "Delay-552205",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.98128984940357,
+          -44.76416511169911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 21:28:07",
+        "Created": "2026-04-18 16:21:32",
+        "LocationArea": "SH 3 Mokau to Piopio",
+        "EventType": "Area Warning",
+        "EventDescription": "Rock falls",
+        "EventComments": "Due to a slip, there is Stop/Go traffic management with temporary speed restriction in place. Road users are advised to take extra care and expect delays along this route.",
+        "AlternativeRoute": "Not Applicable.",
+        "StartDate": "2026-04-18 14:32:33",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 20,
+        "ExternalId": 546736,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 0,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "4 hours ago",
+        "StartDateNice": "18 Apr 2026 2:32pm",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 5:58pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-area-warnings",
+        "ExpectedResolution": "Until further notice",
+        "type": "warnings",
+        "id": 546736,
+        "InternalId": 867029,
+        "regions": [
+          10
+        ],
+        "Name": "Area Warning: SH 3 Mokau to Piopio",
+        "lastUpdated": 1782379687,
+        "uniq": "Delay-546736",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              174.61964000001979,
+              -38.698500085421834
+            ],
+            [
+              174.62005000001983,
+              -38.66871008539324
+            ],
+            [
+              174.62877000001953,
+              -38.65332008537835
+            ],
+            [
+              174.64493000001886,
+              -38.65912008538394
+            ],
+            [
+              174.64810000001867,
+              -38.66588008539047
+            ],
+            [
+              174.6685800000178,
+              -38.66708008539157
+            ],
+            [
+              174.68474000001711,
+              -38.67755008540163
+            ],
+            [
+              174.6946600000167,
+              -38.67126008539555
+            ],
+            [
+              174.70662000001622,
+              -38.674370085398536
+            ],
+            [
+              174.7170600000158,
+              -38.65481008537965
+            ],
+            [
+              174.7318900000152,
+              -38.64615008537122
+            ],
+            [
+              174.72692000001544,
+              -38.638330085363656
+            ],
+            [
+              174.73586000001507,
+              -38.62127008534702
+            ],
+            [
+              174.76104000001402,
+              -38.61642008534225
+            ],
+            [
+              174.76821000001377,
+              -38.606660085332685
+            ],
+            [
+              174.78516000001306,
+              -38.60512008533114
+            ],
+            [
+              174.79156000001277,
+              -38.59994008532606
+            ],
+            [
+              174.8238200000114,
+              -38.58983008531609
+            ],
+            [
+              174.8630900000098,
+              -38.56601008529251
+            ],
+            [
+              174.8684200000096,
+              -38.55652008528311
+            ],
+            [
+              174.88264000000905,
+              -38.54345008527008
+            ],
+            [
+              174.89098000000865,
+              -38.54315008526977
+            ],
+            [
+              174.89889000000832,
+              -38.53524008526189
+            ],
+            [
+              174.906150000008,
+              -38.533670085260304
+            ],
+            [
+              174.90373000000815,
+              -38.524610085251254
+            ],
+            [
+              174.91294000000775,
+              -38.51301008523962
+            ],
+            [
+              174.954470000006,
+              -38.49333008521979
+            ],
+            [
+              174.96722000000543,
+              -38.499640085226126
+            ],
+            [
+              174.97313000000517,
+              -38.49818008522467
+            ],
+            [
+              175.0049400000038,
+              -38.48151008520782
+            ],
+            [
+              175.01594000000333,
+              -38.46630008519238
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 17:21:26",
+        "Created": "2026-06-22 07:17:55",
+        "LocationArea": "SH 58 Pauatahanui, near Joseph Banks Drive intersection",
+        "EventType": "Road Work",
+        "EventDescription": "Other",
+        "EventComments": "Due to footbridge works, there will be intermittent holds of traffic during school peak times: 8:00am - 9:30am and 2:30pm - 4pm, in both directions with a temporary speed restriction of 30km/h in place. Stop on request and drive with caution.",
+        "AlternativeRoute": "Not applicable",
+        "StartDate": "2026-06-16 07:00:55",
+        "EndDate": "2026-06-26 07:00:55",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 12,
+        "ExternalId": 551908,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "4 hours ago",
+        "StartDateNice": "16 Jun 2026 7:00am",
+        "EndDateNice": "26 Jun 2026 7:00am",
+        "LastUpdatedNice": "25 Jun 2026 5:18pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-roadworks",
+        "ExpectedResolution": "Until further notice",
+        "type": "roadworks",
+        "id": 551908,
+        "InternalId": 869026,
+        "regions": [
+          16
+        ],
+        "Name": "Road Work: SH 58 Pauatahanui, near Joseph Banks Drive intersection",
+        "lastUpdated": 1782364886,
+        "uniq": "Delay-551908",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.91473400592645,
+          -41.10695335888561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 17:02:06",
+        "Created": "2026-05-08 14:25:13",
+        "LocationArea": "SH 5 Te Haroto to Te Pohue",
+        "EventType": "Road Work",
+        "EventDescription": "Resurfacing",
+        "EventComments": "Due to road resurfacing works, Stop/Go traffic management will be in place during daylight hours, Monday to Saturday, through to late June. Delays of up to 20 minutes are possible. Works have been extended due to weather and ground conditions requiring additional repairs.  A temporary seal will be applied for winter, with crews returning in the warmer months to complete the work. There will be no work over the coming Kings Birthday weekend and will continue on Tuesday 2nd June.",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-04-24 12:00:00",
+        "EndDate": "2026-06-30 17:00:00",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Delays",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 56,
+        "ExternalId": 547408,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "5 hours ago",
+        "StartDateNice": "24 Apr 2026 12:00pm",
+        "EndDateNice": "30 Jun 2026 5:00pm",
+        "LastUpdatedNice": "25 Jun 2026 5:00pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-roadworks",
+        "ExpectedResolution": "Until further notice",
+        "type": "roadworks",
+        "id": 547408,
+        "InternalId": 867715,
+        "regions": [
+          13
+        ],
+        "Name": "Road Work: SH 5 Te Haroto to Te Pohue",
+        "lastUpdated": 1782363726,
+        "uniq": "Delay-547408",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.6842764316931,
+          -39.20895002274653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 20:31:24",
+        "Created": "2026-02-25 09:20:49",
+        "LocationArea": "SH 38 Waikaremoana to Tuai",
+        "EventType": "Area Warning",
+        "EventDescription": "Road Works",
+        "EventComments": "Due to under-slip repairs, the road will be closed from Monday 8th June through to mid July 8am to 12pm and then from 1pm to 5pm, Monday to Friday. The road will be open for 1 hour between 12pm and 1pm to allow queued vehicles through. Please note these works are weather dependent and may be postponed at short notice.",
+        "AlternativeRoute": "Not applicable",
+        "StartDate": "2026-03-02 08:00:00",
+        "EndDate": "2026-07-17 17:00:00",
+        "ExpectedResolutionDate": "2026-07-17 17:00:00",
+        "ExpectedResolutionText": "17/07/2026 17:00",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 57,
+        "ExternalId": 541438,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "5 hours ago",
+        "StartDateNice": "2 Mar 2026 8:00am",
+        "EndDateNice": "17 Jul 2026 5:00pm",
+        "LastUpdatedNice": "25 Jun 2026 5:00pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-area-warnings",
+        "ExpectedResolution": "17 Jul 2026 5:00pm",
+        "type": "warnings",
+        "id": 541438,
+        "InternalId": 864991,
+        "regions": [
+          13
+        ],
+        "Name": "Area Warning: SH 38 Waikaremoana to Tuai",
+        "lastUpdated": 1782376284,
+        "uniq": "Delay-541438",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              177.13222999991612,
+              -38.81808008554274
+            ],
+            [
+              177.13601999991596,
+              -38.81353008553856
+            ],
+            [
+              177.1344299999159,
+              -38.80652008553204
+            ],
+            [
+              177.12957999991616,
+              -38.80778008553317
+            ],
+            [
+              177.12295999991628,
+              -38.79929008552524
+            ],
+            [
+              177.12451999991615,
+              -38.79274008551914
+            ],
+            [
+              177.13387999991568,
+              -38.78447008551152
+            ],
+            [
+              177.12877999991588,
+              -38.785020085511995
+            ],
+            [
+              177.13049999991568,
+              -38.7750800855027
+            ],
+            [
+              177.13553999991544,
+              -38.76939008549741
+            ],
+            [
+              177.13385999991547,
+              -38.76692008549507
+            ],
+            [
+              177.15915999991427,
+              -38.7547700854839
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 16:12:52",
+        "Created": "2026-06-12 07:47:02",
+        "LocationArea": "SH 1 Levin to Foxton at Waitarere Beach Road",
+        "EventType": "Road Work",
+        "EventDescription": "Road Construction",
+        "EventComments": "Due to roundabout construction works, there are lane changes with a 30km/h temporary speed restriction in place.",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2025-10-29 19:00:00",
+        "EndDate": "2026-12-25 07:00:00",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 67,
+        "ExternalId": 528819,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "6 hours ago",
+        "StartDateNice": "29 Oct 2025 7:00pm",
+        "EndDateNice": "25 Dec 2026 7:00am",
+        "LastUpdatedNice": "25 Jun 2026 4:10pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-roadworks",
+        "ExpectedResolution": "Until further notice",
+        "type": "roadworks",
+        "id": 528819,
+        "InternalId": 868714,
+        "regions": [
+          15
+        ],
+        "Name": "Road Work: SH 1 Levin to Foxton at Waitarere Beach Road",
+        "lastUpdated": 1782360772,
+        "uniq": "Delay-528819",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.26529471171747,
+          -40.56646306110007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 17:33:12",
+        "Created": "2026-06-25 08:58:02",
+        "LocationArea": "SH 85 Kyeburn to Palmerston",
         "EventType": "Area Warning",
         "EventDescription": "Snow",
-        "EventComments": "Due to snow and ice, caution is advised laong this route",
+        "EventComments": "Due to winter driving conditions, caution is advised along this route.",
         "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-06-25 08:54:30",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 113,
+        "ExternalId": 552896,
+        "EventIsland": "South Island",
+        "Status": "Active",
+        "IsPlanned": 0,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "6 hours ago",
+        "StartDateNice": "25 Jun 2026 8:54am",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 3:47pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-area-warnings",
+        "ExpectedResolution": "Until further notice",
+        "type": "warnings",
+        "id": 552896,
+        "InternalId": 869148,
+        "regions": [
+          22
+        ],
+        "Name": "Area Warning: SH 85 Kyeburn to Palmerston",
+        "lastUpdated": 1782365592,
+        "uniq": "Delay-552896",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              170.26402000001016,
+              -45.14976008620714
+            ],
+            [
+              170.32903000001042,
+              -45.136500086216344
+            ],
+            [
+              170.34429000001035,
+              -45.13654008621608
+            ],
+            [
+              170.3607300000099,
+              -45.14994008620549
+            ],
+            [
+              170.36107000000965,
+              -45.159020086198446
+            ],
+            [
+              170.36627000000945,
+              -45.166180086192774
+            ],
+            [
+              170.4072600000088,
+              -45.181630086180085
+            ],
+            [
+              170.41604000000842,
+              -45.192250086171576
+            ],
+            [
+              170.42540000000832,
+              -45.19662008616801
+            ],
+            [
+              170.416550000008,
+              -45.20713008615979
+            ],
+            [
+              170.4230700000078,
+              -45.214860086153536
+            ],
+            [
+              170.42429000000752,
+              -45.223280086146815
+            ],
+            [
+              170.43585000000738,
+              -45.22581008614462
+            ],
+            [
+              170.43839000000705,
+              -45.237890086134875
+            ],
+            [
+              170.45253000000693,
+              -45.241090086132075
+            ],
+            [
+              170.47910000000633,
+              -45.25758008611829
+            ],
+            [
+              170.48333000000588,
+              -45.27248008610607
+            ],
+            [
+              170.50440000000594,
+              -45.268410086109085
+            ],
+            [
+              170.51363000000583,
+              -45.271590086106336
+            ],
+            [
+              170.52050000000565,
+              -45.27815008610085
+            ],
+            [
+              170.52440000000527,
+              -45.289990086091066
+            ],
+            [
+              170.55209000000497,
+              -45.3013700860812
+            ],
+            [
+              170.5554000000048,
+              -45.305050086078104
+            ],
+            [
+              170.55473000000464,
+              -45.311320086072875
+            ],
+            [
+              170.5627500000044,
+              -45.31810008606709
+            ],
+            [
+              170.5774200000043,
+              -45.32062008606477
+            ],
+            [
+              170.60579000000388,
+              -45.33267008605426
+            ],
+            [
+              170.61476000000357,
+              -45.342950086045406
+            ],
+            [
+              170.6128400000034,
+              -45.35132008603832
+            ],
+            [
+              170.6205500000029,
+              -45.365530086026105
+            ],
+            [
+              170.61892000000267,
+              -45.37342008601936
+            ],
+            [
+              170.63373000000226,
+              -45.38904008600567
+            ],
+            [
+              170.6433000000017,
+              -45.406530085990305
+            ],
+            [
+              170.65355000000162,
+              -45.40961008598746
+            ],
+            [
+              170.66443000000095,
+              -45.43129008596825
+            ],
+            [
+              170.69026000000008,
+              -45.46154008594092
+            ],
+            [
+              170.70932999999974,
+              -45.47240008593089
+            ],
+            [
+              170.7146899999994,
+              -45.48441008591996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 17:20:58",
+        "Created": "2026-06-25 08:57:53",
+        "LocationArea": "SH 87 Outram to Kyeburn",
+        "EventType": "Area Warning",
+        "EventDescription": "Snow",
+        "EventComments": "Due to winter driving conditions, caution is advised along this route.",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-06-25 08:47:32",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 115,
+        "ExternalId": 552893,
+        "EventIsland": "South Island",
+        "Status": "Active",
+        "IsPlanned": 0,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "6 hours ago",
+        "StartDateNice": "25 Jun 2026 8:47am",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 3:46pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-area-warnings",
+        "ExpectedResolution": "Until further notice",
+        "type": "warnings",
+        "id": 552893,
+        "InternalId": 869147,
+        "regions": [
+          22
+        ],
+        "Name": "Area Warning: SH 87 Outram to Kyeburn",
+        "lastUpdated": 1782364858,
+        "uniq": "Delay-552893",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              170.2285699999877,
+              -45.85713008555486
+            ],
+            [
+              170.2051599999878,
+              -45.85317008555959
+            ],
+            [
+              170.196469999988,
+              -45.847630085565754
+            ],
+            [
+              170.1979299999882,
+              -45.84076008557326
+            ],
+            [
+              170.18576999998845,
+              -45.83191008558308
+            ],
+            [
+              170.1907099999886,
+              -45.82874008558645
+            ],
+            [
+              170.18867999998866,
+              -45.82472008559081
+            ],
+            [
+              170.16626999998894,
+              -45.816890085599624
+            ],
+            [
+              170.14834999998894,
+              -45.81483008560212
+            ],
+            [
+              170.12946999998925,
+              -45.80514008561282
+            ],
+            [
+              170.1270799999894,
+              -45.800050085618324
+            ],
+            [
+              170.11803999998938,
+              -45.8015900856168
+            ],
+            [
+              170.10164999998963,
+              -45.792160085627096
+            ],
+            [
+              170.09607999999005,
+              -45.78012008563992
+            ],
+            [
+              170.0762799999906,
+              -45.7629300856583
+            ],
+            [
+              170.0815999999908,
+              -45.75543008566604
+            ],
+            [
+              170.0702399999914,
+              -45.737930085684376
+            ],
+            [
+              170.0481399999916,
+              -45.73110008569178
+            ],
+            [
+              170.04666999999174,
+              -45.72715008569586
+            ],
+            [
+              170.06094999999218,
+              -45.71340008570968
+            ],
+            [
+              170.06080999999259,
+              -45.70096008572234
+            ],
+            [
+              170.05027999999274,
+              -45.69629008572722
+            ],
+            [
+              170.06081999999307,
+              -45.68614008573727
+            ],
+            [
+              170.0594599999934,
+              -45.67617008574729
+            ],
+            [
+              170.06782999999388,
+              -45.663680085759594
+            ],
+            [
+              170.08961999999437,
+              -45.647590085775164
+            ],
+            [
+              170.09653999999486,
+              -45.633560085788815
+            ],
+            [
+              170.09742999999517,
+              -45.623300085798824
+            ],
+            [
+              170.08863999999548,
+              -45.61451008580751
+            ],
+            [
+              170.09089999999594,
+              -45.59985008582161
+            ],
+            [
+              170.10162999999613,
+              -45.59366008582735
+            ],
+            [
+              170.10415999999634,
+              -45.58672008583398
+            ],
+            [
+              170.11811999999665,
+              -45.57914008584099
+            ],
+            [
+              170.1175199999971,
+              -45.56369008585562
+            ],
+            [
+              170.12532999999718,
+              -45.56217008585693
+            ],
+            [
+              170.11467999999854,
+              -45.521080085895484
+            ],
+            [
+              170.12796999999983,
+              -45.48013008593271
+            ],
+            [
+              170.12820000000067,
+              -45.456170085954284
+            ],
+            [
+              170.1444400000014,
+              -45.43089008597652
+            ],
+            [
+              170.18034000000236,
+              -45.40118008600203
+            ],
+            [
+              170.20660000000245,
+              -45.39717008600509
+            ],
+            [
+              170.20448000000272,
+              -45.38829008601283
+            ],
+            [
+              170.22418000000334,
+              -45.36810008602993
+            ],
+            [
+              170.22697000000363,
+              -45.359210086037486
+            ],
+            [
+              170.23868000000382,
+              -45.35202008604342
+            ],
+            [
+              170.23978000000412,
+              -45.343640086050534
+            ],
+            [
+              170.25126000000466,
+              -45.32522008606591
+            ],
+            [
+              170.25001000000515,
+              -45.311460086077446
+            ],
+            [
+              170.25823000000545,
+              -45.29965008608717
+            ],
+            [
+              170.25216000000577,
+              -45.290600086094756
+            ],
+            [
+              170.25233000000594,
+              -45.28411008610008
+            ],
+            [
+              170.2547200000061,
+              -45.28050008610303
+            ],
+            [
+              170.26898000000622,
+              -45.27643008610614
+            ],
+            [
+              170.26514000000645,
+              -45.26756008611344
+            ],
+            [
+              170.27013000000687,
+              -45.25372008612466
+            ],
+            [
+              170.25633000000707,
+              -45.24827008612931
+            ],
+            [
+              170.24883000000747,
+              -45.23736008613823
+            ],
+            [
+              170.2643600000081,
+              -45.21387008615685
+            ],
+            [
+              170.25347000000838,
+              -45.20785008616178
+            ],
+            [
+              170.24781000000863,
+              -45.19957008616844
+            ],
+            [
+              170.2557400000097,
+              -45.16521008619529
+            ],
+            [
+              170.26385000001017,
+              -45.15004008620694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 20:31:07",
+        "Created": "2026-06-25 06:18:49",
+        "LocationArea": "SH 6 Wanaka to Haast",
+        "EventType": "Area Warning",
+        "EventDescription": "Snow",
+        "EventComments": "Due to snow and ice, caution is advised along this route",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-06-25 06:16:15",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 107,
+        "ExternalId": 552877,
+        "EventIsland": "South Island",
+        "Status": "Active",
+        "IsPlanned": 0,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "6 hours ago",
+        "StartDateNice": "25 Jun 2026 6:16am",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 3:46pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-area-warnings",
+        "ExpectedResolution": "Until further notice",
+        "type": "warnings",
+        "id": 552877,
+        "InternalId": 869141,
+        "regions": [
+          22
+        ],
+        "Name": "Area Warning: SH 6 Wanaka to Haast",
+        "lastUpdated": 1782376267,
+        "uniq": "Delay-552877",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              169.04461000006327,
+              -43.87985008695817
+            ],
+            [
+              169.04814000006283,
+              -43.89054008695387
+            ],
+            [
+              169.08712000006113,
+              -43.92416008693959
+            ],
+            [
+              169.10079000006093,
+              -43.92621008693846
+            ],
+            [
+              169.1477400000597,
+              -43.943170086930564
+            ],
+            [
+              169.14662000005941,
+              -43.95081008692746
+            ],
+            [
+              169.15077000005914,
+              -43.95716008692476
+            ],
+            [
+              169.16452000005864,
+              -43.96677008692048
+            ],
+            [
+              169.21926000005783,
+              -43.97224008691709
+            ],
+            [
+              169.22794000005783,
+              -43.9698100869179
+            ],
+            [
+              169.25663000005835,
+              -43.94661008692693
+            ],
+            [
+              169.2790400000584,
+              -43.93897008692959
+            ],
+            [
+              169.29800000005807,
+              -43.942470086927756
+            ],
+            [
+              169.31573000005739,
+              -43.95575008692197
+            ],
+            [
+              169.35683000005704,
+              -43.952930086922294
+            ],
+            [
+              169.3666600000568,
+              -43.95651008692063
+            ],
+            [
+              169.37322000005645,
+              -43.965290086916845
+            ],
+            [
+              169.3842400000561,
+              -43.971430086914076
+            ],
+            [
+              169.41673000005574,
+              -43.970880086913645
+            ],
+            [
+              169.4244300000555,
+              -43.97549008691158
+            ],
+            [
+              169.39733000005486,
+              -44.0013700869012
+            ],
+            [
+              169.38190000005477,
+              -44.00923008689813
+            ],
+            [
+              169.38471000005453,
+              -44.01398008689606
+            ],
+            [
+              169.36663000005439,
+              -44.02296008689258
+            ],
+            [
+              169.36265000005417,
+              -44.0299400868896
+            ],
+            [
+              169.36497000005394,
+              -44.03642008688677
+            ],
+            [
+              169.37979000005367,
+              -44.03919008688526
+            ],
+            [
+              169.38546000005337,
+              -44.04628008688205
+            ],
+            [
+              169.38011000005315,
+              -44.05245008687947
+            ],
+            [
+              169.38779000005238,
+              -44.072810086870305
+            ],
+            [
+              169.38648000005222,
+              -44.076480086868706
+            ],
+            [
+              169.37356000005218,
+              -44.081500086866704
+            ],
+            [
+              169.35590000005146,
+              -44.10601008685603
+            ],
+            [
+              169.34209000005117,
+              -44.11844008685063
+            ],
+            [
+              169.33733000005068,
+              -44.131520086844745
+            ],
+            [
+              169.32884000005046,
+              -44.14058008684071
+            ],
+            [
+              169.2923800000501,
+              -44.159950086832396
+            ],
+            [
+              169.27909000005013,
+              -44.1624600868315
+            ],
+            [
+              169.2684300000496,
+              -44.18111008682292
+            ],
+            [
+              169.25383000004925,
+              -44.19286008681761
+            ],
+            [
+              169.25126000004892,
+              -44.202870086812894
+            ],
+            [
+              169.2286600000478,
+              -44.238340086796114
+            ],
+            [
+              169.20072000004686,
+              -44.26951008678123
+            ],
+            [
+              169.2021400000462,
+              -44.285530086773186
+            ],
+            [
+              169.19638000004588,
+              -44.295630086768185
+            ],
+            [
+              169.19773000004548,
+              -44.30576008676301
+            ],
+            [
+              169.17135000004416,
+              -44.34792008674179
+            ],
+            [
+              169.16973000004387,
+              -44.35403008673865
+            ],
+            [
+              169.17874000004352,
+              -44.36171008673444
+            ],
+            [
+              169.18678000004257,
+              -44.38557008672165
+            ],
+            [
+              169.18309000004083,
+              -44.431350086697066
+            ],
+            [
+              169.20799000004,
+              -44.44805008668744
+            ],
+            [
+              169.2406000000394,
+              -44.457810086681384
+            ],
+            [
+              169.24688000003908,
+              -44.46528008667712
+            ],
+            [
+              169.24892000003854,
+              -44.47937008666923
+            ],
+            [
+              169.24712000003728,
+              -44.51252008665056
+            ],
+            [
+              169.2505700000369,
+              -44.52228008664494
+            ],
+            [
+              169.23810000003562,
+              -44.55801008662456
+            ],
+            [
+              169.25031000003426,
+              -44.59218008660426
+            ],
+            [
+              169.24392000003394,
+              -44.60257008659821
+            ],
+            [
+              169.24771000003355,
+              -44.61210008659246
+            ],
+            [
+              169.22491000003237,
+              -44.647380086571594
+            ],
+            [
+              169.21232000003192,
+              -44.660020086564145
+            ],
+            [
+              169.19708000003183,
+              -44.66570008656095
+            ],
+            [
+              169.19121000003136,
+              -44.67901008655287
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 20:30:58",
+        "Created": "2026-06-25 05:10:57",
+        "LocationArea": "SH 6 Cromwell to Gibbston (Kawarau Gorge)",
+        "EventType": "Area Warning",
+        "EventDescription": "Ice",
+        "EventComments": "Due to snow and ice, caution is advised along this route",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-06-25 05:06:25",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 107,
+        "ExternalId": 552872,
+        "EventIsland": "South Island",
+        "Status": "Active",
+        "IsPlanned": 0,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "6 hours ago",
+        "StartDateNice": "25 Jun 2026 5:06am",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 3:45pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-area-warnings",
+        "ExpectedResolution": "Until further notice",
+        "type": "warnings",
+        "id": 552872,
+        "InternalId": 869140,
+        "regions": [
+          22
+        ],
+        "Name": "Area Warning: SH 6 Cromwell to Gibbston (Kawarau Gorge)",
+        "lastUpdated": 1782376258,
+        "uniq": "Delay-552872",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              169.1699800000172,
+              -45.051600086300816
+            ],
+            [
+              169.1648800000171,
+              -45.05554008629798
+            ],
+            [
+              169.13689000001716,
+              -45.05782008629688
+            ],
+            [
+              169.12533000001747,
+              -45.049310086303386
+            ],
+            [
+              169.11957000001806,
+              -45.03537008631374
+            ],
+            [
+              169.09816000001854,
+              -45.02509008632168
+            ],
+            [
+              169.08106000001942,
+              -45.00459008633694
+            ],
+            [
+              169.07122000001957,
+              -45.000860086339856
+            ],
+            [
+              169.0638500000194,
+              -45.00528008633681
+            ],
+            [
+              169.061140000019,
+              -45.016830086328454
+            ],
+            [
+              169.04710000001882,
+              -45.022740086324454
+            ],
+            [
+              169.04359000001853,
+              -45.030760086318665
+            ],
+            [
+              169.03769000001842,
+              -45.03419008631626
+            ],
+            [
+              169.04561000001766,
+              -45.052300086302765
+            ],
+            [
+              169.0422300000174,
+              -45.059570086297434
+            ],
+            [
+              169.03026000001756,
+              -45.05646008629997
+            ],
+            [
+              169.03215000001782,
+              -45.04913008630539
+            ],
+            [
+              169.02942000001798,
+              -45.04608008630768
+            ],
+            [
+              169.00526000001844,
+              -45.03718008631472
+            ],
+            [
+              168.99221000001847,
+              -45.03683008631524
+            ],
+            [
+              168.9558000000192,
+              -45.023020086326085
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 15:14:34",
+        "Created": "2026-02-20 06:54:45",
+        "LocationArea": "SH 2 Pirimai, Kennedy Road Northbound Off-Ramp",
+        "EventType": "Road Closure",
+        "EventDescription": "Other",
+        "EventComments": "Due to overpass construction works, this road will be closed at all times from Tuesday 24th February until approximately mid-2027. Plan your journey accordingly, allowing extra time for travel.",
+        "AlternativeRoute": "Detour via Taradale Road",
+        "StartDate": "2026-02-24 06:00:00",
+        "EndDate": "2027-05-28 18:00:00",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Road Closed",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 55,
+        "ExternalId": 540941,
+        "EventIsland": "North Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "7 hours ago",
+        "StartDateNice": "24 Feb 2026 6:00am",
+        "EndDateNice": "28 May 2027 6:00pm",
+        "LastUpdatedNice": "25 Jun 2026 3:12pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-road-closures",
+        "ExpectedResolution": "Until further notice",
+        "type": "closures",
+        "id": 540941,
+        "InternalId": 864811,
+        "regions": [
+          13
+        ],
+        "Name": "Road Closure: SH 2 Pirimai, Kennedy Road Northbound Off-Ramp",
+        "lastUpdated": 1782357274,
+        "uniq": "Delay-540941",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.87793807328444,
+          -39.51877978532444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 20:31:12",
+        "Created": "2026-06-25 12:46:13",
+        "LocationArea": "SH 80 Lake Pukaki to Mt Cook (Aoraki Mt Cook Highway)",
+        "EventType": "Area Warning",
+        "EventDescription": "Snow and Ice",
+        "EventComments": "Due to ice and grit on the road, caution is advised along this route.",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-06-25 12:41:54",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Caution",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 96,
+        "ExternalId": 552937,
+        "EventIsland": "South Island",
+        "Status": "Active",
+        "IsPlanned": 0,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "7 hours ago",
+        "StartDateNice": "25 Jun 2026 12:41pm",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 2:23pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-area-warnings",
+        "ExpectedResolution": "Until further notice",
+        "type": "warnings",
+        "id": 552937,
+        "InternalId": 869170,
+        "regions": [
+          21
+        ],
+        "Name": "Area Warning: SH 80 Lake Pukaki to Mt Cook (Aoraki Mt Cook Highway)",
+        "lastUpdated": 1782376272,
+        "uniq": "Delay-552937",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              170.12355000004143,
+              -44.18734008680398
+            ],
+            [
+              170.1139300000418,
+              -44.17951008680785
+            ],
+            [
+              170.10817000004255,
+              -44.1562100868189
+            ],
+            [
+              170.10959000004283,
+              -44.14786008682276
+            ],
+            [
+              170.12810000004342,
+              -44.124330086833304
+            ],
+            [
+              170.13406000004403,
+              -44.102420086843196
+            ],
+            [
+              170.1353200000447,
+              -44.08208008685231
+            ],
+            [
+              170.13208000004494,
+              -44.07442008685577
+            ],
+            [
+              170.13449000004601,
+              -44.0399800868709
+            ],
+            [
+              170.12878000004662,
+              -44.02262008687849
+            ],
+            [
+              170.13210000004705,
+              -44.008300086884574
+            ],
+            [
+              170.12768000004854,
+              -43.96403008690324
+            ],
+            [
+              170.13153000004897,
+              -43.94735008691006
+            ],
+            [
+              170.1256500000497,
+              -43.92626008691876
+            ],
+            [
+              170.1137400000501,
+              -43.91803008692228
+            ],
+            [
+              170.12601000005034,
+              -43.905760086926975
+            ],
+            [
+              170.11752000005075,
+              -43.896020086930996
+            ],
+            [
+              170.12002000005145,
+              -43.87318008693994
+            ],
+            [
+              170.10271000005204,
+              -43.86172008694469
+            ],
+            [
+              170.11074000005215,
+              -43.85485008694722
+            ],
+            [
+              170.1091600000532,
+              -43.82191008695978
+            ],
+            [
+              170.1146000000539,
+              -43.79806008696859
+            ],
+            [
+              170.1238000000543,
+              -43.78240008697417
+            ],
+            [
+              170.12333000005478,
+              -43.767310086979656
+            ],
+            [
+              170.11129000005573,
+              -43.74070008698941
+            ],
+            [
+              170.102350000056,
+              -43.73565008699137
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 20:31:00",
+        "Created": "2026-06-24 19:57:59",
+        "LocationArea": "SH 85 Lauder to Wedderburn",
+        "EventType": "Area Warning",
+        "EventDescription": "Snow",
+        "EventComments": "Following an earlier closure, this section of SH85 has reopened. Road users are advised to take extra care due to ice and grit.",
+        "AlternativeRoute": "Not applicable",
         "StartDate": "2026-06-24 19:57:46",
         "ExpectedResolutionText": "Until further notice",
         "Impact": "Caution",
@@ -1514,10 +2870,10 @@
         "IsPlanned": 0,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "114 mins ago",
+        "LastUpdatedAgo": "8 hours ago",
         "StartDateNice": "24 Jun 2026 7:57pm",
         "EndDateNice": null,
-        "LastUpdatedNice": "24 Jun 2026 7:57pm",
+        "LastUpdatedNice": "25 Jun 2026 1:16pm",
         "UpdateDueNice": null,
         "IconClass": "i-map-tools-area-warnings",
         "ExpectedResolution": "Until further notice",
@@ -1527,8 +2883,8 @@
         "regions": [
           22
         ],
-        "Name": "Area Warning: SH 85 Ranfurly to Omakau",
-        "lastUpdated": 1782293907,
+        "Name": "Area Warning: SH 85 Lauder to Wedderburn",
+        "lastUpdated": 1782376260,
         "uniq": "Delay-552855",
         "AdditionalFeatures": []
       },
@@ -1537,28 +2893,12 @@
         "coordinates": [
           [
             [
-              170.09531000001152,
-              -45.12265008623071
+              170.0041500000149,
+              -45.028940086302235
             ],
             [
-              170.09302000001267,
-              -45.08884008625636
-            ],
-            [
-              170.08060000001296,
-              -45.07969008626342
-            ],
-            [
-              170.06241000001384,
-              -45.055660086281605
-            ],
-            [
-              170.03309000001454,
-              -45.0358500862967
-            ],
-            [
-              169.99970000001494,
-              -45.02848008630265
+              169.99681000001502,
+              -45.0257000863047
             ],
             [
               169.98456000001613,
@@ -1577,8 +2917,8 @@
               -44.93586008637051
             ],
             [
-              169.8888200000186,
-              -44.931640086373704
+              169.88857000001858,
+              -44.93162008637371
             ],
             [
               169.8632200000186,
@@ -1609,28 +2949,20 @@
               -45.01047008632057
             ],
             [
-              169.71316000001616,
-              -45.02399008631092
+              169.71555000001624,
+              -45.0220300863123
             ],
             [
               169.6942200000159,
               -45.03379008630409
             ],
             [
-              169.66573000001495,
-              -45.06258008628337
+              169.68382000001543,
+              -45.047060086294515
             ],
             [
-              169.65870000001453,
-              -45.07655008627309
-            ],
-            [
-              169.6123800000142,
-              -45.08885008626468
-            ],
-            [
-              169.6020600000141,
-              -45.09435008626075
+              169.67553000001533,
+              -45.05135008629153
             ]
           ]
         ]
@@ -1640,13 +2972,13 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:38:29",
+        "LastEdited": "2026-06-25 20:31:05",
         "Created": "2026-06-24 19:50:50",
         "LocationArea": "SH 8 Omarama to Tarras (Lindis Pass)",
         "EventType": "Area Warning",
         "EventDescription": "Snow",
-        "EventComments": "Due to snow and ice, caution is advised along this route",
-        "AlternativeRoute": "Not Applicable",
+        "EventComments": "Following an earlier closure, this section of SH8 has reopened. Road users are advised to take extra care due to ice and grit.",
+        "AlternativeRoute": "No detour available.",
         "StartDate": "2026-06-24 19:49:23",
         "ExpectedResolutionText": "Until further notice",
         "Impact": "Caution",
@@ -1659,10 +2991,10 @@
         "IsPlanned": 0,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "117 mins ago",
+        "LastUpdatedAgo": "9 hours ago",
         "StartDateNice": "24 Jun 2026 7:49pm",
         "EndDateNice": null,
-        "LastUpdatedNice": "24 Jun 2026 7:55pm",
+        "LastUpdatedNice": "25 Jun 2026 1:14pm",
         "UpdateDueNice": null,
         "IconClass": "i-map-tools-area-warnings",
         "ExpectedResolution": "Until further notice",
@@ -1673,7 +3005,7 @@
           22
         ],
         "Name": "Area Warning: SH 8 Omarama to Tarras (Lindis Pass)",
-        "lastUpdated": 1782293909,
+        "lastUpdated": 1782376265,
         "uniq": "Delay-552853",
         "AdditionalFeatures": []
       },
@@ -1841,12 +3173,215 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:45:26",
+        "LastEdited": "2026-06-25 20:31:03",
+        "Created": "2026-06-25 08:09:25",
+        "LocationArea": "SH N/A Crown Range Road, between Eastburn Road and Cardrona Village.",
+        "EventType": "Area Warning",
+        "EventDescription": "Snow",
+        "EventComments": "Crown range road has reopened following an earlier road closure. Road users are advised to carry chains and take extra care along this route.\nPlease note the road remains closed to towing vehicles.",
+        "AlternativeRoute": "Use SH6",
+        "StartDate": "2026-06-25 08:03:00",
+        "ExpectedResolutionText": "Until further notice",
+        "Impact": "Vehicle Restrictions",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 107,
+        "ExternalId": 552886,
+        "EventIsland": "South Island",
+        "Status": "Active",
+        "IsPlanned": 0,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "9 hours ago",
+        "StartDateNice": "25 Jun 2026 8:03am",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 1:05pm",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-area-warnings",
+        "ExpectedResolution": "Until further notice",
+        "type": "warnings",
+        "id": 552886,
+        "InternalId": 869146,
+        "regions": [
+          22
+        ],
+        "Name": "Area Warning: SH N/A Crown Range Road, between Eastburn Road and Cardrona Village.",
+        "lastUpdated": 1782376263,
+        "uniq": "Delay-552886",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              168.91232000002057,
+              -44.993030086348696
+            ],
+            [
+              168.9181100000206,
+              -44.992040086349306
+            ],
+            [
+              168.9180900000205,
+              -44.99468008634741
+            ],
+            [
+              168.92563000002042,
+              -44.99586008634638
+            ],
+            [
+              168.9393200000205,
+              -44.99172008634909
+            ],
+            [
+              168.942510000021,
+              -44.98048008635711
+            ],
+            [
+              168.95887000002148,
+              -44.96606008636702
+            ],
+            [
+              168.95669000002198,
+              -44.954540086375225
+            ],
+            [
+              168.96878000002252,
+              -44.93746008638702
+            ],
+            [
+              168.97287000002336,
+              -44.91583008640201
+            ],
+            [
+              169.00074000002442,
+              -44.88640008642171
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 11:30:32",
+        "Created": "2026-06-25 11:30:32",
+        "LocationArea": "SH 2 Greytown, between the intersections of North Street and Papawai Road",
+        "EventType": "Road Closure",
+        "EventDescription": "Public Event",
+        "EventComments": "Due to a public event, this section of road will be closed in both directions on Saturday 27th June between 2pm and 9pm. Plan your journey accordingly allowing extra time for travel.",
+        "AlternativeRoute": "Southbound traffic, detour via North Street, East Street and Papawai Road. Northbound traffic, detour via Humphries Street, West Street and North Street.",
+        "StartDate": "2026-06-27 14:00:00",
+        "EndDate": "2026-06-27 21:00:00",
+        "ExpectedResolutionDate": "2026-06-27 21:00:00",
+        "ExpectedResolutionText": "27/06/2026 21:00",
+        "Impact": "Road Closed",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 9,
+        "ExternalId": 552925,
+        "EventIsland": "North Island",
+        "Status": "Scheduled",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "10 hours ago",
+        "StartDateNice": "27 Jun 2026 2:00pm",
+        "EndDateNice": "27 Jun 2026 9:00pm",
+        "LastUpdatedNice": "25 Jun 2026 11:29am",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-roadworks",
+        "ExpectedResolution": "27 Jun 2026 9:00pm",
+        "type": "roadworks",
+        "id": 552925,
+        "InternalId": 869166,
+        "regions": [
+          16
+        ],
+        "Name": "Road Closure: SH 2 Greytown, between the intersections of North Street and Papawai Road",
+        "lastUpdated": 1782343832,
+        "uniq": "Delay-552925",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              175.46709999998956,
+              -41.0743800869615
+            ],
+            [
+              175.45321999998995,
+              -41.08687008696569
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 08:09:53",
+        "Created": "2026-06-19 11:06:55",
+        "LocationArea": "SH 6 Glenhope, near the intersection with Moon Light Road",
+        "EventType": "Road Work",
+        "EventDescription": "Other",
+        "EventComments": "Due to shed removal works, there will be Stop/Go traffic management in place from Monday 29th June to Tuesday 30th June between 7am and 5pm. Plan your journey accordingly and expect up to 10 minute delays.",
+        "AlternativeRoute": "Not Applicable",
+        "StartDate": "2026-06-22 07:00:00",
+        "EndDate": "2026-06-30 17:00:00",
+        "ExpectedResolutionDate": "2026-06-30 17:00:00",
+        "ExpectedResolutionText": "30/06/2026 17:00",
+        "Impact": "Delays",
+        "IsPinned": 0,
+        "PinnedSortOrder": 0,
+        "TasJourneyId": 77,
+        "ExternalId": 552307,
+        "EventIsland": "South Island",
+        "Status": "Active",
+        "IsPlanned": 1,
+        "InformationSource": "NZTA",
+        "IsCritical": 0,
+        "LastUpdatedAgo": "14 hours ago",
+        "StartDateNice": "22 Jun 2026 7:00am",
+        "EndDateNice": "30 Jun 2026 5:00pm",
+        "LastUpdatedNice": "25 Jun 2026 8:02am",
+        "UpdateDueNice": null,
+        "IconClass": "i-map-tools-roadworks",
+        "ExpectedResolution": "30 Jun 2026 5:00pm",
+        "type": "roadworks",
+        "id": 552307,
+        "InternalId": 868938,
+        "regions": [
+          18
+        ],
+        "Name": "Road Work: SH 6 Glenhope, near the intersection with Moon Light Road",
+        "lastUpdated": 1782331793,
+        "uniq": "Delay-552307",
+        "AdditionalFeatures": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6493349789958,
+          -41.65006448081118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ClassName": "RoadEvent",
+        "LastEdited": "2026-06-25 21:23:49",
         "Created": "2026-05-29 04:40:56",
         "LocationArea": "SH 58 Haywards, between Flightys Road and Moonshine Road",
         "EventType": "Area Warning",
         "EventDescription": "Road Works",
-        "EventComments": "Due to drilling works, there is Stop/Go traffic management with a 30km/h temporary speed restriction in place. Road users are advised to stop on request and take extra care along this route",
+        "EventComments": "Due to works for the SH58 Safety Improvements Project, there are temporary lane shifts and various speed restrictions in place. Plan your journey accordingly, allowing extra time to travel through this area.",
         "AlternativeRoute": "Not Applicable",
         "StartDate": "2022-11-01 01:37:28",
         "ExpectedResolutionText": "Until further notice",
@@ -1860,10 +3395,10 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "2 hours ago",
+        "LastUpdatedAgo": "14 hours ago",
         "StartDateNice": "1 Nov 2022 1:37am",
         "EndDateNice": null,
-        "LastUpdatedNice": "24 Jun 2026 7:40pm",
+        "LastUpdatedNice": "25 Jun 2026 7:54am",
         "UpdateDueNice": null,
         "IconClass": "i-map-tools-area-warnings",
         "ExpectedResolution": "Until further notice",
@@ -1874,7 +3409,7 @@
           16
         ],
         "Name": "Area Warning: SH 58 Haywards, between Flightys Road and Moonshine Road",
-        "lastUpdated": 1782294326,
+        "lastUpdated": 1782379429,
         "uniq": "Delay-488095",
         "AdditionalFeatures": []
       },
@@ -1906,49 +3441,48 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 19:01:48",
-        "Created": "2026-06-19 14:13:16",
-        "LocationArea": "SH 12 Paparoa, near intersection of Sterling Road",
-        "EventType": "Road Work",
-        "EventDescription": "Resurfacing",
-        "EventComments": "Due to mill and fill works, there is stop/go traffic management with a 30km/h temporary speed restriction in place. Stop on request, drive with caution and expect delays.",
-        "AlternativeRoute": "Not Applicable",
-        "StartDate": "2026-06-24 19:00:00",
-        "EndDate": "2026-06-25 04:00:00",
+        "LastEdited": "2026-06-25 01:26:49",
+        "Created": "2026-06-25 01:26:49",
+        "LocationArea": "SH 23 Raglan to (SH39) Whatawhata",
+        "EventType": "Road Hazard",
+        "EventDescription": "Flooding",
+        "EventComments": "Due to flooding, caution is advised along this route.",
+        "AlternativeRoute": "Not Applicable.",
+        "StartDate": "2026-06-24 16:24:00",
         "ExpectedResolutionText": "Until further notice",
-        "Impact": "Delays",
+        "Impact": "Caution",
         "IsPinned": 0,
         "PinnedSortOrder": 0,
-        "TasJourneyId": 15,
-        "ExternalId": 552314,
+        "TasJourneyId": 26,
+        "ExternalId": 552830,
         "EventIsland": "North Island",
         "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
+        "IsPlanned": 0,
+        "InformationSource": "Public",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 hours ago",
-        "StartDateNice": "24 Jun 2026 7:00pm",
-        "EndDateNice": "25 Jun 2026 4:00am",
-        "LastUpdatedNice": "24 Jun 2026 7:00pm",
+        "LastUpdatedAgo": "20 hours ago",
+        "StartDateNice": "24 Jun 2026 4:24pm",
+        "EndDateNice": null,
+        "LastUpdatedNice": "25 Jun 2026 1:23am",
         "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
+        "IconClass": "i-map-tools-warnings",
         "ExpectedResolution": "Until further notice",
-        "type": "roadworks",
-        "id": 552314,
-        "InternalId": 868964,
+        "type": "hazards",
+        "id": 552830,
+        "InternalId": 869139,
         "regions": [
-          37
+          10
         ],
-        "Name": "Road Work: SH 12 Paparoa, near intersection of Sterling Road",
-        "lastUpdated": 1782284508,
-        "uniq": "Delay-552314",
+        "Name": "Road Hazard: SH 23 Raglan to (SH39) Whatawhata",
+        "lastUpdated": 1782307609,
+        "uniq": "Delay-552830",
         "AdditionalFeatures": []
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.21879445199392,
-          -36.11131370347612
+          175.04310682603082,
+          -37.830575880483856
         ]
       }
     },
@@ -1956,300 +3490,50 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 18:32:54",
-        "Created": "2026-06-18 11:11:55",
-        "LocationArea": "SH 94 Te Anau to Milford (Homer Tunnel)",
-        "EventType": "Road Work",
+        "LastEdited": "2026-06-24 20:16:55",
+        "Created": "2026-06-24 20:16:55",
+        "LocationArea": "SH 29A Lane one near Oropi Road, Eastbound",
+        "EventType": "Scheduled Road Work",
         "EventDescription": "Maintenance",
-        "EventComments": "Due to maintenance works, this tunnel will be closed in both directions on  Wednesday 24th June and Thursday 25th June nights between 6:30pm and 4am. The road will reopen at 9pm to allow any queued traffic through the site. Plan your journey allowing extra time for travel",
-        "AlternativeRoute": "No detour available.",
-        "StartDate": "2026-06-22 18:30:00",
-        "EndDate": "2026-06-26 04:00:00",
-        "ExpectedResolutionDate": "2026-06-26 04:00:00",
-        "ExpectedResolutionText": "26/06/2026 04:00",
-        "Impact": "Road Closed - will be opened at defined intervals",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 124,
-        "ExternalId": 552205,
-        "EventIsland": "South Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "3 hours ago",
-        "StartDateNice": "22 Jun 2026 6:30pm",
-        "EndDateNice": "26 Jun 2026 4:00am",
-        "LastUpdatedNice": "24 Jun 2026 6:30pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "26 Jun 2026 4:00am",
-        "type": "roadworks",
-        "id": 552205,
-        "InternalId": 868910,
-        "regions": [
-          38
-        ],
-        "Name": "Road Work: SH 94 Te Anau to Milford (Homer Tunnel)",
-        "lastUpdated": 1782282774,
-        "uniq": "Delay-552205",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.98128984940357,
-          -44.76416511169911
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 17:32:41",
-        "Created": "2026-06-19 06:41:46",
-        "LocationArea": "SH 6 Albert Town Bridge",
-        "EventType": "Road Work",
-        "EventDescription": "Other",
-        "EventComments": "Due to waste water works, the bridge will be closed in both directions from Tuesday 23rd June to Thursday 25th June days between 9am and 5:30pm. There will also be Stop/Go traffic management in place from 5:30pm to 6pm each night. Plan your journey accordingly allowing extra time for travel.",
-        "AlternativeRoute": "Light vehicles to detour via SH6 on to SH8A, on to Kane Road, on to Camp Hill Road, back on to SH6. Reverse for southbound. \nHeavy vehicles to detour via SH6, on to SH8A, on to Kane Road, on to Gladstone Road, on to Cemetery Road, on to Domain Road, and back on to SH6. Reverse if travelling southbound.",
-        "StartDate": "2026-06-23 09:00:49",
-        "EndDate": "2026-06-25 17:30:49",
-        "ExpectedResolutionDate": "2026-06-25 17:30:00",
-        "ExpectedResolutionText": "25/06/2026 17:30",
+        "EventComments": "Due to maintenance activities, SH29A lane one near Oropi Rd is closed on Friday 26 June, from 10:30am to 2:30pm.",
+        "AlternativeRoute": "Follow posted detour.",
+        "StartDate": "2026-06-26 10:30:00",
+        "EndDate": "2026-06-26 14:30:00",
+        "ExpectedResolutionDate": "2026-06-26 14:30:00",
+        "ExpectedResolutionText": "26/06/2026 14:30",
         "Impact": "Caution",
         "IsPinned": 0,
         "PinnedSortOrder": 0,
-        "TasJourneyId": 107,
-        "ExternalId": 552281,
-        "EventIsland": "South Island",
-        "Status": "Active",
+        "TasJourneyId": 51,
+        "ExternalId": 552854,
+        "EventIsland": "North Island",
+        "Status": "Scheduled",
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "4 hours ago",
-        "StartDateNice": "23 Jun 2026 9:00am",
-        "EndDateNice": "25 Jun 2026 5:30pm",
-        "LastUpdatedNice": "24 Jun 2026 5:30pm",
+        "LastUpdatedAgo": "26 hours ago",
+        "StartDateNice": "26 Jun 2026 10:30am",
+        "EndDateNice": "26 Jun 2026 2:30pm",
+        "LastUpdatedNice": "24 Jun 2026 8:13pm",
         "UpdateDueNice": null,
         "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "25 Jun 2026 5:30pm",
+        "ExpectedResolution": "26 Jun 2026 2:30pm",
         "type": "roadworks",
-        "id": 552281,
-        "InternalId": 868934,
+        "id": 552854,
+        "InternalId": 869137,
         "regions": [
-          22
+          11
         ],
-        "Name": "Road Work: SH 6 Albert Town Bridge",
-        "lastUpdated": 1782279161,
-        "uniq": "Delay-552281",
+        "Name": "Scheduled Road Work: SH 29A Lane one near Oropi Road, Eastbound",
+        "lastUpdated": 1782289015,
+        "uniq": "Delay-552854",
         "AdditionalFeatures": []
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          169.19048507727481,
-          -44.68084759319312
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 17:07:52",
-        "Created": "2026-06-22 07:17:55",
-        "LocationArea": "SH 58 Pauatahanui, near Joseph Banks Drive intersection",
-        "EventType": "Road Work",
-        "EventDescription": "Other",
-        "EventComments": "Due to footbridge works, there will be intermittent holds of traffic during school peak times: 8:00am - 9:30am and 2:30pm - 4pm, in both directions with a temporary speed restriction of 30km/h in place. Stop on request and drive with caution.",
-        "AlternativeRoute": "Not applicable",
-        "StartDate": "2026-06-16 07:00:55",
-        "EndDate": "2026-06-26 07:00:55",
-        "ExpectedResolutionText": "Until further notice",
-        "Impact": "Caution",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 12,
-        "ExternalId": 551908,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "5 hours ago",
-        "StartDateNice": "16 Jun 2026 7:00am",
-        "EndDateNice": "26 Jun 2026 7:00am",
-        "LastUpdatedNice": "24 Jun 2026 5:06pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "Until further notice",
-        "type": "roadworks",
-        "id": 551908,
-        "InternalId": 869026,
-        "regions": [
-          16
-        ],
-        "Name": "Road Work: SH 58 Pauatahanui, near Joseph Banks Drive intersection",
-        "lastUpdated": 1782277672,
-        "uniq": "Delay-551908",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.91473400592645,
-          -41.10695335888561
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 17:01:46",
-        "Created": "2026-05-08 14:25:13",
-        "LocationArea": "SH 5 Te Haroto to Te Pohue",
-        "EventType": "Road Work",
-        "EventDescription": "Resurfacing",
-        "EventComments": "Due to road resurfacing works, Stop/Go traffic management will be in place during daylight hours, Monday to Saturday, through to late June. Delays of up to 20 minutes are possible. Works have been extended due to weather and ground conditions requiring additional repairs.  A temporary seal will be applied for winter, with crews returning in the warmer months to complete the work. There will be no work over the coming Kings Birthday weekend and will continue on Tuesday 2nd June.",
-        "AlternativeRoute": "Not Applicable",
-        "StartDate": "2026-04-24 12:00:00",
-        "EndDate": "2026-06-30 17:00:00",
-        "ExpectedResolutionText": "Until further notice",
-        "Impact": "Delays",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 56,
-        "ExternalId": 547408,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "5 hours ago",
-        "StartDateNice": "24 Apr 2026 12:00pm",
-        "EndDateNice": "30 Jun 2026 5:00pm",
-        "LastUpdatedNice": "24 Jun 2026 5:00pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "Until further notice",
-        "type": "roadworks",
-        "id": 547408,
-        "InternalId": 867715,
-        "regions": [
-          13
-        ],
-        "Name": "Road Work: SH 5 Te Haroto to Te Pohue",
-        "lastUpdated": 1782277306,
-        "uniq": "Delay-547408",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.6842764316931,
-          -39.20895002274653
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:51:49",
-        "Created": "2026-02-25 09:20:49",
-        "LocationArea": "SH 38 Waikaremoana to Tuai",
-        "EventType": "Area Warning",
-        "EventDescription": "Road Works",
-        "EventComments": "Due to under-slip repairs, the road will be closed from Monday 8th June through to mid July 8am to 12pm and then from 1pm to 5pm, Monday to Friday. The road will be open for 1 hour between 12pm and 1pm to allow queued vehicles through. Please note these works are weather dependent and may be postponed at short notice.",
-        "AlternativeRoute": "Not applicable",
-        "StartDate": "2026-03-02 08:00:00",
-        "EndDate": "2026-07-17 17:00:00",
-        "ExpectedResolutionDate": "2026-07-17 17:00:00",
-        "ExpectedResolutionText": "17/07/2026 17:00",
-        "Impact": "Caution",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 57,
-        "ExternalId": 541438,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "5 hours ago",
-        "StartDateNice": "2 Mar 2026 8:00am",
-        "EndDateNice": "17 Jul 2026 5:00pm",
-        "LastUpdatedNice": "24 Jun 2026 5:00pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-area-warnings",
-        "ExpectedResolution": "17 Jul 2026 5:00pm",
-        "type": "warnings",
-        "id": 541438,
-        "InternalId": 864991,
-        "regions": [
-          13
-        ],
-        "Name": "Area Warning: SH 38 Waikaremoana to Tuai",
-        "lastUpdated": 1782294709,
-        "uniq": "Delay-541438",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-          [
-            [
-              177.13222999991612,
-              -38.81808008554274
-            ],
-            [
-              177.13601999991596,
-              -38.81353008553856
-            ],
-            [
-              177.1344299999159,
-              -38.80652008553204
-            ],
-            [
-              177.12957999991616,
-              -38.80778008553317
-            ],
-            [
-              177.12295999991628,
-              -38.79929008552524
-            ],
-            [
-              177.12451999991615,
-              -38.79274008551914
-            ],
-            [
-              177.13387999991568,
-              -38.78447008551152
-            ],
-            [
-              177.12877999991588,
-              -38.785020085511995
-            ],
-            [
-              177.13049999991568,
-              -38.7750800855027
-            ],
-            [
-              177.13553999991544,
-              -38.76939008549741
-            ],
-            [
-              177.13385999991547,
-              -38.76692008549507
-            ],
-            [
-              177.15915999991427,
-              -38.7547700854839
-            ]
-          ]
+          176.13971099188134,
+          -37.73857098655146
         ]
       }
     },
@@ -2276,7 +3560,7 @@
         "IsPlanned": 0,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "11 hours ago",
+        "LastUpdatedAgo": "35 hours ago",
         "StartDateNice": "26 Jan 2026 12:00am",
         "EndDateNice": null,
         "LastUpdatedNice": "24 Jun 2026 10:47am",
@@ -2334,7 +3618,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "15 hours ago",
+        "LastUpdatedAgo": "39 hours ago",
         "StartDateNice": "23 Jun 2026 8:00am",
         "EndDateNice": "26 Jun 2026 5:00pm",
         "LastUpdatedNice": "24 Jun 2026 6:33am",
@@ -2364,116 +3648,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 06:03:30",
-        "Created": "2026-06-12 08:22:22",
-        "LocationArea": "SH 6 Queenstown, Kawerau Road",
-        "EventType": "Area Warning",
-        "EventDescription": "Other",
-        "EventComments": "Due to the construction of a bus hub entrance, the road will be closed  from Sunday 21st June to Wednesday 24th June between 10pm and 6pm. Plan your journey accordingly allowing extra time for your travel. Please note these works are weather dependent and may be postponed at short notice.",
-        "AlternativeRoute": "Detour for Southbound and Northbound traffic should use Hawthorne Drive\nQueenstown-bound use BP roundabout as usual.",
-        "StartDate": "2026-06-21 22:00:00",
-        "EndDate": "2026-06-25 06:00:00",
-        "ExpectedResolutionDate": "2026-06-25 06:00:00",
-        "ExpectedResolutionText": "25/06/2026 06:00",
-        "Impact": "Caution",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 107,
-        "ExternalId": 550242,
-        "EventIsland": "South Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "16 hours ago",
-        "StartDateNice": "21 Jun 2026 10:00pm",
-        "EndDateNice": "25 Jun 2026 6:00am",
-        "LastUpdatedNice": "24 Jun 2026 6:00am",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-area-warnings",
-        "ExpectedResolution": "25 Jun 2026 6:00am",
-        "type": "warnings",
-        "id": 550242,
-        "InternalId": 868715,
-        "regions": [
-          22
-        ],
-        "Name": "Area Warning: SH 6 Queenstown, Kawerau Road",
-        "lastUpdated": 1782237810,
-        "uniq": "Delay-550242",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-          [
-            [
-              168.73169000002045,
-              -45.01588008633592
-            ],
-            [
-              168.73415000002018,
-              -45.021410086331855
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-23 17:26:54",
-        "Created": "2026-06-12 07:47:02",
-        "LocationArea": "SH 1 Levin to Foxton at Waitarere Beach Road",
-        "EventType": "Road Work",
-        "EventDescription": "Road Construction",
-        "EventComments": "Due to roundabout construction works, there are lane changes with a 30km/h temporary speed restriction in place.",
-        "AlternativeRoute": "Not Applicable",
-        "StartDate": "2025-10-29 19:00:00",
-        "EndDate": "2026-12-25 07:00:00",
-        "ExpectedResolutionText": "Until further notice",
-        "Impact": "Caution",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 67,
-        "ExternalId": 528819,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "28 hours ago",
-        "StartDateNice": "29 Oct 2025 7:00pm",
-        "EndDateNice": "25 Dec 2026 7:00am",
-        "LastUpdatedNice": "23 Jun 2026 5:25pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "Until further notice",
-        "type": "roadworks",
-        "id": 528819,
-        "InternalId": 868714,
-        "regions": [
-          15
-        ],
-        "Name": "Road Work: SH 1 Levin to Foxton at Waitarere Beach Road",
-        "lastUpdated": 1782192414,
-        "uniq": "Delay-528819",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.26529471171747,
-          -40.56646306110007
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:02",
+        "LastEdited": "2026-06-25 17:33:35",
         "Created": "2026-06-23 13:59:11",
         "LocationArea": "SH 3 Tariki, between the intersections with Johns Road and Surrey Road",
         "EventType": "Road Closure",
@@ -2494,7 +3669,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "32 hours ago",
+        "LastUpdatedAgo": "2 days ago",
         "StartDateNice": "28 Jun 2026 7:00pm",
         "EndDateNice": "29 Jun 2026 5:00am",
         "LastUpdatedNice": "23 Jun 2026 1:58pm",
@@ -2508,7 +3683,7 @@
           14
         ],
         "Name": "Road Closure: SH 3 Tariki, between the intersections with Johns Road and Surrey Road",
-        "lastUpdated": 1782292862,
+        "lastUpdated": 1782365615,
         "uniq": "Delay-552718",
         "AdditionalFeatures": []
       },
@@ -2552,7 +3727,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "2 days ago",
+        "LastUpdatedAgo": "3 days ago",
         "StartDateNice": "22 Jun 2026 9:00pm",
         "EndDateNice": "28 Jun 2026 4:00am",
         "LastUpdatedNice": "22 Jun 2026 9:01pm",
@@ -2602,7 +3777,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 9:30am",
         "EndDateNice": "26 Jun 2026 3:30pm",
         "LastUpdatedNice": "22 Jun 2026 9:31am",
@@ -2652,7 +3827,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 9:00am",
         "EndDateNice": "26 Jun 2026 2:30pm",
         "LastUpdatedNice": "22 Jun 2026 9:01am",
@@ -2702,7 +3877,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 8:30am",
         "EndDateNice": "26 Jun 2026 6:00pm",
         "LastUpdatedNice": "22 Jun 2026 8:31am",
@@ -2753,7 +3928,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 8:00am",
         "EndDateNice": "26 Jun 2026 5:00pm",
         "LastUpdatedNice": "22 Jun 2026 8:00am",
@@ -2783,7 +3958,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:46",
+        "LastEdited": "2026-06-25 15:38:50",
         "Created": "2026-06-19 14:16:21",
         "LocationArea": "SH 29 Te Poi to Kaimai, near intersection of SH28",
         "EventType": "Area Warning",
@@ -2803,7 +3978,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 8:00am",
         "EndDateNice": "26 Jun 2026 5:00pm",
         "LastUpdatedNice": "22 Jun 2026 8:00am",
@@ -2817,7 +3992,7 @@
           10
         ],
         "Name": "Area Warning: SH 29 Te Poi to Kaimai, near intersection of SH28",
-        "lastUpdated": 1782292906,
+        "lastUpdated": 1782358730,
         "uniq": "Delay-552317",
         "AdditionalFeatures": []
       },
@@ -2865,7 +4040,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 8:00am",
         "EndDateNice": "26 Jun 2026 5:00pm",
         "LastUpdatedNice": "22 Jun 2026 8:00am",
@@ -2895,7 +4070,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:45:19",
+        "LastEdited": "2026-06-25 20:31:16",
         "Created": "2026-06-17 06:34:38",
         "LocationArea": "SH 1 Amberley to Waipapa Bay",
         "EventType": "Area Warning",
@@ -2916,7 +4091,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 8:00am",
         "EndDateNice": "3 Jul 2026 5:00pm",
         "LastUpdatedNice": "22 Jun 2026 8:00am",
@@ -2930,7 +4105,7 @@
           21
         ],
         "Name": "Area Warning: SH 1 Amberley to Waipapa Bay",
-        "lastUpdated": 1782294319,
+        "lastUpdated": 1782376276,
         "uniq": "Delay-552081",
         "AdditionalFeatures": []
       },
@@ -3314,7 +4489,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 8:00am",
         "EndDateNice": "28 Jun 2026 7:00am",
         "LastUpdatedNice": "22 Jun 2026 8:00am",
@@ -3344,7 +4519,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:14",
+        "LastEdited": "2026-06-25 15:38:24",
         "Created": "2026-06-17 13:27:46",
         "LocationArea": "SH 3 Pakaraka, between Nukumaru Station Road and Rangitatau East Road",
         "EventType": "Area Warning",
@@ -3364,7 +4539,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:30am",
         "EndDateNice": "1 Jul 2026 6:00pm",
         "LastUpdatedNice": "22 Jun 2026 7:30am",
@@ -3378,7 +4553,7 @@
           15
         ],
         "Name": "Area Warning: SH 3 Pakaraka, between Nukumaru Station Road and Rangitatau East Road",
-        "lastUpdated": 1782292874,
+        "lastUpdated": 1782358704,
         "uniq": "Delay-552130",
         "AdditionalFeatures": []
       },
@@ -3422,7 +4597,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:16",
+        "LastEdited": "2026-06-25 15:38:14",
         "Created": "2026-06-19 11:16:46",
         "LocationArea": "SH 2 Waipukerau to Hastings, Te Aute",
         "EventType": "Area Warning",
@@ -3443,7 +4618,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:30am",
         "EndDateNice": "26 Jun 2026 3:30pm",
         "LastUpdatedNice": "22 Jun 2026 7:30am",
@@ -3457,7 +4632,7 @@
           13
         ],
         "Name": "Area Warning: SH 2 Waipukerau to Hastings, Te Aute",
-        "lastUpdated": 1782292876,
+        "lastUpdated": 1782358694,
         "uniq": "Delay-552312",
         "AdditionalFeatures": []
       },
@@ -3481,7 +4656,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:45:28",
+        "LastEdited": "2026-06-25 20:31:22",
         "Created": "2026-06-19 11:42:13",
         "LocationArea": "SH 3 Kai Iwi to Waitotara",
         "EventType": "Area Warning",
@@ -3502,7 +4677,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:30am",
         "EndDateNice": "1 Jul 2026 5:30pm",
         "LastUpdatedNice": "22 Jun 2026 7:30am",
@@ -3516,7 +4691,7 @@
           15
         ],
         "Name": "Area Warning: SH 3 Kai Iwi to Waitotara",
-        "lastUpdated": 1782294328,
+        "lastUpdated": 1782376282,
         "uniq": "Delay-552318",
         "AdditionalFeatures": []
       },
@@ -3581,7 +4756,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:00am",
         "EndDateNice": "30 Jun 2026 5:30pm",
         "LastUpdatedNice": "22 Jun 2026 7:00am",
@@ -3611,58 +4786,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-22 07:04:52",
-        "Created": "2026-06-19 11:06:55",
-        "LocationArea": "SH 6 Glenhope, near the intersection with Moon Light Road",
-        "EventType": "Road Work",
-        "EventDescription": "Other",
-        "EventComments": "Due to shed removal works, there will be Stop/Go traffic management in place from Monday 22nd June to Thursday 25th June between 7am and 5pm. Plan your journey accordingly and expect up to 10 minute delays.",
-        "AlternativeRoute": "Not Applicable",
-        "StartDate": "2026-06-22 07:00:00",
-        "EndDate": "2026-06-25 17:00:00",
-        "ExpectedResolutionDate": "2026-06-25 17:00:00",
-        "ExpectedResolutionText": "25/06/2026 17:00",
-        "Impact": "Delays",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 77,
-        "ExternalId": 552307,
-        "EventIsland": "South Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
-        "StartDateNice": "22 Jun 2026 7:00am",
-        "EndDateNice": "25 Jun 2026 5:00pm",
-        "LastUpdatedNice": "22 Jun 2026 7:00am",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "25 Jun 2026 5:00pm",
-        "type": "roadworks",
-        "id": 552307,
-        "InternalId": 868938,
-        "regions": [
-          18
-        ],
-        "Name": "Road Work: SH 6 Glenhope, near the intersection with Moon Light Road",
-        "lastUpdated": 1782068692,
-        "uniq": "Delay-552307",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.6493349789958,
-          -41.65006448081118
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:20:58",
+        "LastEdited": "2026-06-25 17:33:37",
         "Created": "2026-06-19 12:17:54",
         "LocationArea": "SH 6 Kawatiri to Owen Junction",
         "EventType": "Area Warning",
@@ -3683,7 +4807,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:00am",
         "EndDateNice": "30 Jun 2026 5:30pm",
         "LastUpdatedNice": "22 Jun 2026 7:00am",
@@ -3697,7 +4821,7 @@
           18
         ],
         "Name": "Area Warning: SH 6 Kawatiri to Owen Junction",
-        "lastUpdated": 1782292858,
+        "lastUpdated": 1782365617,
         "uniq": "Delay-552323",
         "AdditionalFeatures": []
       },
@@ -3729,57 +4853,6 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-22 07:04:52",
-        "Created": "2026-06-19 12:19:47",
-        "LocationArea": "SH 6 2km south of Wakefield",
-        "EventType": "Road Work",
-        "EventDescription": "Pavement Repairs",
-        "EventComments": "Due to [pavement repair works, there will be Stop/Go traffic management in place from Monday 22nd June to Thursday 25th June between 7am and 5:30pm. Plan your journey accordingly and expect up to 10 minute delays.",
-        "AlternativeRoute": "Not Applicable",
-        "StartDate": "2026-06-22 07:00:00",
-        "EndDate": "2026-06-25 17:30:00",
-        "ExpectedResolutionDate": "2026-06-25 17:30:00",
-        "ExpectedResolutionText": "25/06/2026 17:30",
-        "Impact": "Delays",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 77,
-        "ExternalId": 552326,
-        "EventIsland": "South Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
-        "StartDateNice": "22 Jun 2026 7:00am",
-        "EndDateNice": "25 Jun 2026 5:30pm",
-        "LastUpdatedNice": "22 Jun 2026 7:00am",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "25 Jun 2026 5:30pm",
-        "type": "roadworks",
-        "id": 552326,
-        "InternalId": 868946,
-        "regions": [
-          18
-        ],
-        "Name": "Road Work: SH 6 2km south of Wakefield",
-        "lastUpdated": 1782068692,
-        "uniq": "Delay-552326",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.01496359502704,
-          -41.413785256266365
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
         "LastEdited": "2026-06-22 07:05:18",
         "Created": "2026-06-19 14:16:40",
         "LocationArea": "SH 25 Waihi, near intersection of Golden Valley Road",
@@ -3800,7 +4873,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:00am",
         "EndDateNice": "26 Jun 2026 7:00pm",
         "LastUpdatedNice": "22 Jun 2026 7:00am",
@@ -3850,7 +4923,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:00am",
         "EndDateNice": "26 Jun 2026 6:00pm",
         "LastUpdatedNice": "22 Jun 2026 7:00am",
@@ -3900,7 +4973,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:00am",
         "EndDateNice": "26 Jun 2026 6:00pm",
         "LastUpdatedNice": "22 Jun 2026 7:00am",
@@ -3930,7 +5003,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:45:24",
+        "LastEdited": "2026-06-25 20:31:18",
         "Created": "2026-06-19 15:41:54",
         "LocationArea": "SH 45 Omata to Opunake",
         "EventType": "Area Warning",
@@ -3951,7 +5024,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:00am",
         "EndDateNice": "30 Jun 2026 6:00pm",
         "LastUpdatedNice": "22 Jun 2026 7:00am",
@@ -3965,7 +5038,7 @@
           14
         ],
         "Name": "Area Warning: SH 45 Omata to Opunake",
-        "lastUpdated": 1782294324,
+        "lastUpdated": 1782376278,
         "uniq": "Delay-552355",
         "AdditionalFeatures": []
       },
@@ -4057,7 +5130,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:51:53",
+        "LastEdited": "2026-06-25 21:21:53",
         "Created": "2026-06-20 12:43:11",
         "LocationArea": "SH 2 Matawai to Te Karaka",
         "EventType": "Area Warning",
@@ -4078,7 +5151,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 7:00am",
         "EndDateNice": "30 Jul 2026 5:00pm",
         "LastUpdatedNice": "22 Jun 2026 7:00am",
@@ -4092,7 +5165,7 @@
           12
         ],
         "Name": "Area Warning: SH 2 Matawai to Te Karaka",
-        "lastUpdated": 1782294713,
+        "lastUpdated": 1782379313,
         "uniq": "Delay-552426",
         "AdditionalFeatures": []
       },
@@ -4261,7 +5334,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "3 days ago",
+        "LastUpdatedAgo": "4 days ago",
         "StartDateNice": "22 Jun 2026 6:30am",
         "EndDateNice": "26 Jun 2026 5:30pm",
         "LastUpdatedNice": "22 Jun 2026 6:30am",
@@ -4319,7 +5392,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "4 days ago",
+        "LastUpdatedAgo": "5 days ago",
         "StartDateNice": "21 Jun 2026 9:00am",
         "EndDateNice": "27 Jun 2026 7:00pm",
         "LastUpdatedNice": "21 Jun 2026 9:01am",
@@ -4369,7 +5442,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "4 days ago",
+        "LastUpdatedAgo": "5 days ago",
         "StartDateNice": "21 Jun 2026 9:00am",
         "EndDateNice": "27 Jun 2026 7:00pm",
         "LastUpdatedNice": "21 Jun 2026 9:01am",
@@ -4419,7 +5492,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "4 days ago",
+        "LastUpdatedAgo": "5 days ago",
         "StartDateNice": "21 Jun 2026 9:00am",
         "EndDateNice": "27 Jun 2026 7:00pm",
         "LastUpdatedNice": "21 Jun 2026 9:01am",
@@ -4469,7 +5542,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "4 days ago",
+        "LastUpdatedAgo": "5 days ago",
         "StartDateNice": "21 Jun 2026 7:00am",
         "EndDateNice": "28 Jun 2026 6:00pm",
         "LastUpdatedNice": "21 Jun 2026 7:00am",
@@ -4519,7 +5592,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "4 days ago",
+        "LastUpdatedAgo": "5 days ago",
         "StartDateNice": "21 Jun 2026 7:00am",
         "EndDateNice": "28 Jun 2026 6:00pm",
         "LastUpdatedNice": "21 Jun 2026 7:00am",
@@ -4568,7 +5641,7 @@
         "IsPlanned": 0,
         "InformationSource": "Public",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "20 Jun 2026 4:09am",
         "EndDateNice": null,
         "LastUpdatedNice": "20 Jun 2026 9:35am",
@@ -4618,7 +5691,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "20 Jun 2026 7:00am",
         "EndDateNice": "28 Jun 2026 4:30pm",
         "LastUpdatedNice": "20 Jun 2026 7:01am",
@@ -4648,7 +5721,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:51:51",
+        "LastEdited": "2026-06-25 20:31:26",
         "Created": "2026-06-12 15:09:34",
         "LocationArea": "SH 1 Ohakuri to Wairakei",
         "EventType": "Area Warning",
@@ -4668,7 +5741,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "15 Jun 2026 5:30am",
         "EndDateNice": "28 Jun 2026 7:00pm",
         "LastUpdatedNice": "19 Jun 2026 2:19pm",
@@ -4682,7 +5755,7 @@
           10
         ],
         "Name": "Area Warning: SH 1 Ohakuri to Wairakei",
-        "lastUpdated": 1782294711,
+        "lastUpdated": 1782376286,
         "uniq": "Delay-551746",
         "AdditionalFeatures": []
       },
@@ -4738,7 +5811,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:51:55",
+        "LastEdited": "2026-06-25 21:27:57",
         "Created": "2026-06-12 15:06:30",
         "LocationArea": "SH 1 Kinleith, between intersection of Kinleith Road and Campbell Road",
         "EventType": "Area Warning",
@@ -4758,7 +5831,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "15 Jun 2026 5:30am",
         "EndDateNice": "28 Jun 2026 7:00pm",
         "LastUpdatedNice": "19 Jun 2026 2:18pm",
@@ -4772,7 +5845,7 @@
           10
         ],
         "Name": "Area Warning: SH 1 Kinleith, between intersection of Kinleith Road and Campbell Road",
-        "lastUpdated": 1782294715,
+        "lastUpdated": 1782379677,
         "uniq": "Delay-551740",
         "AdditionalFeatures": []
       },
@@ -4820,7 +5893,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "14 Jun 2026 8:00am",
         "EndDateNice": "27 Jun 2026 5:00pm",
         "LastUpdatedNice": "19 Jun 2026 2:15pm",
@@ -4870,7 +5943,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "8 Jun 2026 8:00am",
         "EndDateNice": "28 Jun 2026 7:00pm",
         "LastUpdatedNice": "19 Jun 2026 2:15pm",
@@ -4920,7 +5993,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "26 Jun 2026 7:00am",
         "EndDateNice": "26 Jun 2026 5:30pm",
         "LastUpdatedNice": "19 Jun 2026 2:14pm",
@@ -4970,7 +6043,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "14 Jun 2026 8:00am",
         "EndDateNice": "27 Jun 2026 5:00pm",
         "LastUpdatedNice": "19 Jun 2026 2:13pm",
@@ -5000,56 +6073,6 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-19 14:13:10",
-        "Created": "2026-06-19 14:13:10",
-        "LocationArea": "SH 12 Ruawai, near intersection of Smith Canal Road",
-        "EventType": "Scheduled Road Work",
-        "EventDescription": "Resurfacing",
-        "EventComments": "Due to mill and fill works, there is stop/go traffic management with a 30km/h temporary speed restriction in place. Stop on request, drive with caution and expect delays.",
-        "AlternativeRoute": "Not Applicable",
-        "StartDate": "2026-06-25 19:00:00",
-        "EndDate": "2026-06-26 04:00:00",
-        "ExpectedResolutionText": "Until further notice",
-        "Impact": "Delays",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 15,
-        "ExternalId": 552233,
-        "EventIsland": "North Island",
-        "Status": "Scheduled",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
-        "StartDateNice": "25 Jun 2026 7:00pm",
-        "EndDateNice": "26 Jun 2026 4:00am",
-        "LastUpdatedNice": "19 Jun 2026 2:11pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "Until further notice",
-        "type": "roadworks",
-        "id": 552233,
-        "InternalId": 868963,
-        "regions": [
-          37
-        ],
-        "Name": "Scheduled Road Work: SH 12 Ruawai, near intersection of Smith Canal Road",
-        "lastUpdated": 1781835190,
-        "uniq": "Delay-552233",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.09460009666842,
-          -36.122956318937135
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
         "LastEdited": "2026-06-19 12:43:49",
         "Created": "2026-06-05 11:23:00",
         "LocationArea": "SH 1 Studholme, near the intersection with Mitchells Road",
@@ -5070,7 +6093,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "8 Jun 2026 7:00am",
         "EndDateNice": "26 Jun 2026 8:00pm",
         "LastUpdatedNice": "19 Jun 2026 12:41pm",
@@ -5100,7 +6123,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:18",
+        "LastEdited": "2026-06-25 15:38:16",
         "Created": "2026-05-29 11:25:00",
         "LocationArea": "SH 50 Ahuriri, near the intersection with Coronation Street",
         "EventType": "Road Closure",
@@ -5120,7 +6143,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "1 Jun 2026 9:30am",
         "EndDateNice": "28 Jun 2026 4:00pm",
         "LastUpdatedNice": "19 Jun 2026 12:36pm",
@@ -5134,7 +6157,7 @@
           13
         ],
         "Name": "Road Closure: SH 50 Ahuriri, near the intersection with Coronation Street",
-        "lastUpdated": 1782292878,
+        "lastUpdated": 1782358696,
         "uniq": "Delay-550387",
         "AdditionalFeatures": []
       },
@@ -5151,57 +6174,6 @@
               -39.48537008610079
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-19 12:26:49",
-        "Created": "2026-06-19 12:26:49",
-        "LocationArea": "SH 6 10km south of Pukekura",
-        "EventType": "Scheduled Road Work",
-        "EventDescription": "Maintenance",
-        "EventComments": "Due to vegetation maintenance works, there will be Stop/Go traffic management in place on Thursday 25th June between 7:30am and 5pm. Plan your journey accordingly and expect up to 10 minute delays.",
-        "AlternativeRoute": "Not Applicable",
-        "StartDate": "2026-06-25 07:30:00",
-        "EndDate": "2026-06-25 17:00:00",
-        "ExpectedResolutionDate": "2026-06-25 17:00:00",
-        "ExpectedResolutionText": "25/06/2026 17:00",
-        "Impact": "Delays",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 100,
-        "ExternalId": 552329,
-        "EventIsland": "South Island",
-        "Status": "Scheduled",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
-        "StartDateNice": "25 Jun 2026 7:30am",
-        "EndDateNice": "25 Jun 2026 5:00pm",
-        "LastUpdatedNice": "19 Jun 2026 12:24pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-roadworks",
-        "ExpectedResolution": "25 Jun 2026 5:00pm",
-        "type": "roadworks",
-        "id": 552329,
-        "InternalId": 868949,
-        "regions": [
-          20
-        ],
-        "Name": "Scheduled Road Work: SH 6 10km south of Pukekura",
-        "lastUpdated": 1781828809,
-        "uniq": "Delay-552329",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.63018302386922,
-          -43.092942960771964
         ]
       }
     },
@@ -5228,7 +6200,7 @@
         "IsPlanned": 0,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "23 Jan 2026 12:00am",
         "EndDateNice": null,
         "LastUpdatedNice": "19 Jun 2026 12:17pm",
@@ -5286,7 +6258,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "5 Jan 2026 10:00am",
         "EndDateNice": "27 Jun 2026 2:00pm",
         "LastUpdatedNice": "19 Jun 2026 11:09am",
@@ -5316,7 +6288,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:20:51",
+        "LastEdited": "2026-06-25 10:21:56",
         "Created": "2026-06-12 11:56:55",
         "LocationArea": "SH 6 Makarora to The Neck",
         "EventType": "Area Warning",
@@ -5336,7 +6308,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "15 Jun 2026 8:00am",
         "EndDateNice": "26 Jun 2026 6:00pm",
         "LastUpdatedNice": "19 Jun 2026 11:08am",
@@ -5350,7 +6322,7 @@
           22
         ],
         "Name": "Area Warning: SH 6 Makarora to The Neck",
-        "lastUpdated": 1782292851,
+        "lastUpdated": 1782339716,
         "uniq": "Delay-551718",
         "AdditionalFeatures": []
       },
@@ -5402,7 +6374,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "12 Jun 2026 2:00pm",
         "EndDateNice": "26 Jun 2026 5:00pm",
         "LastUpdatedNice": "19 Jun 2026 11:06am",
@@ -5432,7 +6404,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:20",
+        "LastEdited": "2026-06-25 15:38:18",
         "Created": "2026-06-10 12:01:05",
         "LocationArea": "SH 2 Whirinaki, near the intersection with North Shore Road",
         "EventType": "Area Warning",
@@ -5452,7 +6424,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "5 days ago",
+        "LastUpdatedAgo": "6 days ago",
         "StartDateNice": "11 Jun 2026 7:00am",
         "EndDateNice": "28 Jun 2026 5:00pm",
         "LastUpdatedNice": "19 Jun 2026 10:53am",
@@ -5466,7 +6438,7 @@
           13
         ],
         "Name": "Area Warning: SH 2 Whirinaki, near the intersection with North Shore Road",
-        "lastUpdated": 1782292880,
+        "lastUpdated": 1782358698,
         "uniq": "Delay-551557",
         "AdditionalFeatures": []
       },
@@ -5511,7 +6483,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "6 days ago",
+        "LastUpdatedAgo": "7 days ago",
         "StartDateNice": "26 Jun 2026 8:00pm",
         "EndDateNice": "27 Jun 2026 5:00am",
         "LastUpdatedNice": "19 Jun 2026 8:28am",
@@ -5562,7 +6534,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "6 days ago",
+        "LastUpdatedAgo": "7 days ago",
         "StartDateNice": "29 Apr 2026 12:00am",
         "EndDateNice": "31 Jan 2027 12:00am",
         "LastUpdatedNice": "18 Jun 2026 2:03pm",
@@ -5592,180 +6564,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:52:04",
-        "Created": "2026-04-18 16:21:32",
-        "LocationArea": "SH 3 Mokau to Piopio",
-        "EventType": "Area Warning",
-        "EventDescription": "Rock falls",
-        "EventComments": "State Highway 3 between Mokau to Piopio is open under Stop/Go Traffic Management. Road users are advised to take extra care and expect delays of up to 60 minutes along this route.",
-        "AlternativeRoute": "Not Applicable",
-        "StartDate": "2026-04-18 14:32:33",
-        "ExpectedResolutionText": "Until further notice",
-        "Impact": "Caution",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 20,
-        "ExternalId": 546736,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 0,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "7 days ago",
-        "StartDateNice": "18 Apr 2026 2:32pm",
-        "EndDateNice": null,
-        "LastUpdatedNice": "18 Jun 2026 9:44am",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-area-warnings",
-        "ExpectedResolution": "Until further notice",
-        "type": "warnings",
-        "id": 546736,
-        "InternalId": 867029,
-        "regions": [
-          10
-        ],
-        "Name": "Area Warning: SH 3 Mokau to Piopio",
-        "lastUpdated": 1782294724,
-        "uniq": "Delay-546736",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-          [
-            [
-              174.61964000001979,
-              -38.698500085421834
-            ],
-            [
-              174.62005000001983,
-              -38.66871008539324
-            ],
-            [
-              174.62877000001953,
-              -38.65332008537835
-            ],
-            [
-              174.64493000001886,
-              -38.65912008538394
-            ],
-            [
-              174.64810000001867,
-              -38.66588008539047
-            ],
-            [
-              174.6685800000178,
-              -38.66708008539157
-            ],
-            [
-              174.68474000001711,
-              -38.67755008540163
-            ],
-            [
-              174.6946600000167,
-              -38.67126008539555
-            ],
-            [
-              174.70662000001622,
-              -38.674370085398536
-            ],
-            [
-              174.7170600000158,
-              -38.65481008537965
-            ],
-            [
-              174.7318900000152,
-              -38.64615008537122
-            ],
-            [
-              174.72692000001544,
-              -38.638330085363656
-            ],
-            [
-              174.73586000001507,
-              -38.62127008534702
-            ],
-            [
-              174.76104000001402,
-              -38.61642008534225
-            ],
-            [
-              174.76821000001377,
-              -38.606660085332685
-            ],
-            [
-              174.78516000001306,
-              -38.60512008533114
-            ],
-            [
-              174.79156000001277,
-              -38.59994008532606
-            ],
-            [
-              174.8238200000114,
-              -38.58983008531609
-            ],
-            [
-              174.8630900000098,
-              -38.56601008529251
-            ],
-            [
-              174.8684200000096,
-              -38.55652008528311
-            ],
-            [
-              174.88264000000905,
-              -38.54345008527008
-            ],
-            [
-              174.89098000000865,
-              -38.54315008526977
-            ],
-            [
-              174.89889000000832,
-              -38.53524008526189
-            ],
-            [
-              174.906150000008,
-              -38.533670085260304
-            ],
-            [
-              174.90373000000815,
-              -38.524610085251254
-            ],
-            [
-              174.91294000000775,
-              -38.51301008523962
-            ],
-            [
-              174.954470000006,
-              -38.49333008521979
-            ],
-            [
-              174.96722000000543,
-              -38.499640085226126
-            ],
-            [
-              174.97313000000517,
-              -38.49818008522467
-            ],
-            [
-              175.0049400000038,
-              -38.48151008520782
-            ],
-            [
-              175.01594000000333,
-              -38.46630008519238
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:38:31",
+        "LastEdited": "2026-06-25 20:31:14",
         "Created": "2026-06-05 12:46:40",
         "LocationArea": "SH 7 Waipara to Springs Junction",
         "EventType": "Area Warning",
@@ -5785,7 +6584,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "8 days ago",
+        "LastUpdatedAgo": "9 days ago",
         "StartDateNice": "8 Jun 2026 8:00am",
         "EndDateNice": "3 Jul 2026 5:00pm",
         "LastUpdatedNice": "17 Jun 2026 6:28am",
@@ -5799,7 +6598,7 @@
           21
         ],
         "Name": "Area Warning: SH 7 Waipara to Springs Junction",
-        "lastUpdated": 1782293911,
+        "lastUpdated": 1782376274,
         "uniq": "Delay-551091",
         "AdditionalFeatures": []
       },
@@ -6036,7 +6835,7 @@
         "IsPlanned": 1,
         "InformationSource": "NMC",
         "IsCritical": 0,
-        "LastUpdatedAgo": "9 days ago",
+        "LastUpdatedAgo": "10 days ago",
         "StartDateNice": "15 Jun 2026 1:12pm",
         "EndDateNice": "17 Jul 2026 5:00pm",
         "LastUpdatedNice": "15 Jun 2026 9:01pm",
@@ -6105,7 +6904,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "10 days ago",
+        "LastUpdatedAgo": "11 days ago",
         "StartDateNice": "15 Jun 2026 7:30am",
         "EndDateNice": "26 Jun 2026 6:30pm",
         "LastUpdatedNice": "15 Jun 2026 7:31am",
@@ -6135,55 +6934,6 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-08 20:54:54",
-        "Created": "2026-05-27 14:52:33",
-        "LocationArea": "SH 25 Pumpkin Hill",
-        "EventType": "Road Hazard",
-        "EventDescription": "Other",
-        "EventComments": "Stop/Go traffic management is in place while flood damage repairs occur, expected to be completed in June. Work is dependent on various factors, including weather, and may be postponed or cancelled at late notice. Motorists should plan accordingly and allow extra time for their journey.",
-        "AlternativeRoute": "Not applicable.",
-        "StartDate": "2026-05-27 14:41:00",
-        "ExpectedResolutionText": "Until further notice",
-        "Impact": "Caution",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 28,
-        "ExternalId": 550238,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 0,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "16 days ago",
-        "StartDateNice": "27 May 2026 2:41pm",
-        "EndDateNice": null,
-        "LastUpdatedNice": "8 Jun 2026 8:53pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-warnings",
-        "ExpectedResolution": "Until further notice",
-        "type": "hazards",
-        "id": 550238,
-        "InternalId": 868246,
-        "regions": [
-          10
-        ],
-        "Name": "Road Hazard: SH 25 Pumpkin Hill",
-        "lastUpdated": 1780908894,
-        "uniq": "Delay-550238",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.83624180971137,
-          -36.975959609928566
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
         "LastEdited": "2026-06-04 16:21:19",
         "Created": "2026-05-22 06:11:50",
         "LocationArea": "SH 2 Mohaka, near the intersection with Mohaka Twp Road",
@@ -6204,7 +6954,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "20 days ago",
+        "LastUpdatedAgo": "21 days ago",
         "StartDateNice": "8 Apr 2026 7:00am",
         "EndDateNice": "26 Jun 2026 5:00pm",
         "LastUpdatedNice": "4 Jun 2026 4:17pm",
@@ -6254,7 +7004,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "21 days ago",
+        "LastUpdatedAgo": "22 days ago",
         "StartDateNice": "25 Jan 2026 8:00am",
         "EndDateNice": "31 Aug 2026 8:00am",
         "LastUpdatedNice": "4 Jun 2026 9:29am",
@@ -6313,7 +7063,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "21 days ago",
+        "LastUpdatedAgo": "22 days ago",
         "StartDateNice": "25 Feb 2026 8:30am",
         "EndDateNice": "25 Jul 2026 6:00pm",
         "LastUpdatedNice": "4 Jun 2026 9:27am",
@@ -6343,7 +7093,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-04 06:03:53",
+        "LastEdited": "2026-06-25 17:33:39",
         "Created": "2026-05-29 07:51:53",
         "LocationArea": "SH 6 Nelson, between the Basin Reserve and the intersection with  Bisley Avenue",
         "EventType": "Area Warning",
@@ -6363,7 +7113,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "21 days ago",
+        "LastUpdatedAgo": "22 days ago",
         "StartDateNice": "4 Jun 2026 6:00am",
         "EndDateNice": "30 Nov 2026 5:00pm",
         "LastUpdatedNice": "4 Jun 2026 6:00am",
@@ -6377,7 +7127,7 @@
           18
         ],
         "Name": "Area Warning: SH 6 Nelson, between the Basin Reserve and the intersection with  Bisley Avenue",
-        "lastUpdated": 1780509833,
+        "lastUpdated": 1782365619,
         "uniq": "Delay-550138",
         "AdditionalFeatures": []
       },
@@ -6392,111 +7142,6 @@
             [
               173.25693000004821,
               -41.274880087030645
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:45:21",
-        "Created": "2026-05-08 20:21:54",
-        "LocationArea": "SH 6 Pelorus Bridge to Havelock.",
-        "EventType": "Area Warning",
-        "EventDescription": "Flooding",
-        "EventComments": "Due to prior flooding, SH6 between Pelorus Bridge and Havelock is under a 50km/h temporary speed restriction. Road users are advised to take extra care when travelling along this route.",
-        "AlternativeRoute": "Not Applicable.",
-        "StartDate": "2026-05-08 19:12:28",
-        "ExpectedResolutionText": "Until further notice",
-        "Impact": "Caution",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 77,
-        "ExternalId": 548621,
-        "EventIsland": "South Island",
-        "Status": "Active",
-        "IsPlanned": 0,
-        "InformationSource": "Fire Service",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "22 days ago",
-        "StartDateNice": "8 May 2026 7:12pm",
-        "EndDateNice": null,
-        "LastUpdatedNice": "2 Jun 2026 3:09pm",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-area-warnings",
-        "ExpectedResolution": "Until further notice",
-        "type": "warnings",
-        "id": 548621,
-        "InternalId": 867730,
-        "regions": [
-          18
-        ],
-        "Name": "Area Warning: SH 6 Pelorus Bridge to Havelock.",
-        "lastUpdated": 1782294321,
-        "uniq": "Delay-548621",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-          [
-            [
-              173.5716900000397,
-              -41.29788008703507
-            ],
-            [
-              173.57544000003958,
-              -41.30149008703606
-            ],
-            [
-              173.61967000003844,
-              -41.29698008703453
-            ],
-            [
-              173.644030000038,
-              -41.282380087030255
-            ],
-            [
-              173.6565100000376,
-              -41.28291008703033
-            ],
-            [
-              173.67287000003708,
-              -41.29135008703263
-            ],
-            [
-              173.6902000000367,
-              -41.28591008703099
-            ],
-            [
-              173.70288000003634,
-              -41.28806008703156
-            ],
-            [
-              173.72521000003582,
-              -41.282960087029984
-            ],
-            [
-              173.73203000003568,
-              -41.27542008702778
-            ],
-            [
-              173.74132000003542,
-              -41.275540087027764
-            ],
-            [
-              173.74702000003532,
-              -41.271970087026695
-            ],
-            [
-              173.7649300000348,
-              -41.2757100870277
-            ],
-            [
-              173.76823000003463,
-              -41.28727008703096
             ]
           ]
         ]
@@ -6526,7 +7171,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "26 days ago",
+        "LastUpdatedAgo": "27 days ago",
         "StartDateNice": "29 May 2026 2:39pm",
         "EndDateNice": "30 Jun 2026 6:00pm",
         "LastUpdatedNice": "29 May 2026 2:53pm",
@@ -6577,7 +7222,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "29 days ago",
+        "LastUpdatedAgo": "30 days ago",
         "StartDateNice": "22 May 2026 7:00am",
         "EndDateNice": "21 Aug 2026 7:00pm",
         "LastUpdatedNice": "27 May 2026 8:50am",
@@ -6627,7 +7272,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "29 days ago",
+        "LastUpdatedAgo": "30 days ago",
         "StartDateNice": "5 Jan 2026 7:00am",
         "EndDateNice": "31 Jul 2031 6:00pm",
         "LastUpdatedNice": "26 May 2026 1:23pm",
@@ -6685,7 +7330,7 @@
         "IsPlanned": 1,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "32 days ago",
+        "LastUpdatedAgo": "33 days ago",
         "StartDateNice": "24 May 2026 12:00am",
         "EndDateNice": "4 Mar 2028 11:59pm",
         "LastUpdatedNice": "24 May 2026 12:01am",
@@ -6715,7 +7360,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:52:02",
+        "LastEdited": "2026-06-25 21:28:05",
         "Created": "2026-04-18 19:51:52",
         "LocationArea": "SH 43 Whangamomona and Taumarunui",
         "EventType": "Area Warning",
@@ -6734,7 +7379,7 @@
         "IsPlanned": 0,
         "InformationSource": "NZTA",
         "IsCritical": 0,
-        "LastUpdatedAgo": "35 days ago",
+        "LastUpdatedAgo": "36 days ago",
         "StartDateNice": "18 Apr 2026 7:49pm",
         "EndDateNice": null,
         "LastUpdatedNice": "20 May 2026 5:13pm",
@@ -6748,7 +7393,7 @@
           15
         ],
         "Name": "Area Warning: SH 43 Whangamomona and Taumarunui",
-        "lastUpdated": 1782294722,
+        "lastUpdated": 1782379685,
         "uniq": "Delay-546771",
         "AdditionalFeatures": []
       },
@@ -7040,7 +7685,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:40",
+        "LastEdited": "2026-06-25 15:38:44",
         "Created": "2026-02-25 16:21:49",
         "LocationArea": "SH 1 Waikato Expressway, Cambridge section",
         "EventType": "Area Warning",
@@ -7061,7 +7706,7 @@
         "IsPlanned": 1,
         "InformationSource": "NMC",
         "IsCritical": 0,
-        "LastUpdatedAgo": "42 days ago",
+        "LastUpdatedAgo": "43 days ago",
         "StartDateNice": "25 Feb 2026 4:13pm",
         "EndDateNice": "30 Nov 2026 5:00pm",
         "LastUpdatedNice": "14 May 2026 8:42am",
@@ -7075,7 +7720,7 @@
           10
         ],
         "Name": "Area Warning: SH 1 Waikato Expressway, Cambridge section",
-        "lastUpdated": 1782292900,
+        "lastUpdated": 1782358724,
         "uniq": "Delay-541510",
         "AdditionalFeatures": []
       },
@@ -7204,7 +7849,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:52:12",
+        "LastEdited": "2026-06-25 21:28:15",
         "Created": "2026-01-26 21:44:42",
         "LocationArea": "SH 35 Te Araroa,  Pohutu Road to Whakaangiangi Rd",
         "EventType": "Area Warning",
@@ -7237,7 +7882,7 @@
           12
         ],
         "Name": "Area Warning: SH 35 Te Araroa,  Pohutu Road to Whakaangiangi Rd",
-        "lastUpdated": 1782294732,
+        "lastUpdated": 1782379695,
         "uniq": "Delay-537289",
         "AdditionalFeatures": []
       },
@@ -7281,7 +7926,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:06",
+        "LastEdited": "2026-06-25 17:33:41",
         "Created": "2026-04-13 08:30:58",
         "LocationArea": "SH 1 Te Kamo Springs Flat RAB",
         "EventType": "Area Warning",
@@ -7314,7 +7959,7 @@
           37
         ],
         "Name": "Area Warning: SH 1 Te Kamo Springs Flat RAB",
-        "lastUpdated": 1782292866,
+        "lastUpdated": 1782365621,
         "uniq": "Delay-541355",
         "AdditionalFeatures": []
       },
@@ -7387,57 +8032,7 @@
       "type": "Feature",
       "properties": {
         "ClassName": "RoadEvent",
-        "LastEdited": "2026-02-24 06:03:42",
-        "Created": "2026-02-20 06:54:45",
-        "LocationArea": "SH 2 Kennedy Road Northbound Off-Ramp",
-        "EventType": "Road Closure",
-        "EventDescription": "Other",
-        "EventComments": "Due to overpass construction works, this road will be closed at all times from Tuesday 24th February until approximately mid-2027. Plan your journey accordingly, allowing extra time for travel.",
-        "AlternativeRoute": "Detour via Taradale Road",
-        "StartDate": "2026-02-24 06:00:00",
-        "EndDate": "2027-05-28 18:00:00",
-        "ExpectedResolutionText": "Until further notice",
-        "Impact": "Road Closed",
-        "IsPinned": 0,
-        "PinnedSortOrder": 0,
-        "TasJourneyId": 55,
-        "ExternalId": 540941,
-        "EventIsland": "North Island",
-        "Status": "Active",
-        "IsPlanned": 1,
-        "InformationSource": "NZTA",
-        "IsCritical": 0,
-        "LastUpdatedAgo": "4 months ago",
-        "StartDateNice": "24 Feb 2026 6:00am",
-        "EndDateNice": "28 May 2027 6:00pm",
-        "LastUpdatedNice": "24 Feb 2026 6:01am",
-        "UpdateDueNice": null,
-        "IconClass": "i-map-tools-road-closures",
-        "ExpectedResolution": "Until further notice",
-        "type": "closures",
-        "id": 540941,
-        "InternalId": 864811,
-        "regions": [
-          13
-        ],
-        "Name": "Road Closure: SH 2 Kennedy Road Northbound Off-Ramp",
-        "lastUpdated": 1771866222,
-        "uniq": "Delay-540941",
-        "AdditionalFeatures": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          176.87793807328444,
-          -39.51877978532444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "ClassName": "RoadEvent",
-        "LastEdited": "2026-06-24 21:21:48",
+        "LastEdited": "2026-06-25 15:38:52",
         "Created": "2026-02-23 18:28:08",
         "LocationArea": "SH 29 Belk Road to Takitimu Drive",
         "EventType": "Area Warning",
@@ -7470,7 +8065,7 @@
           11
         ],
         "Name": "Area Warning: SH 29 Belk Road to Takitimu Drive",
-        "lastUpdated": 1782292908,
+        "lastUpdated": 1782358732,
         "uniq": "Delay-541294",
         "AdditionalFeatures": []
       },
@@ -7630,5 +8225,5 @@
       "geometry": null
     }
   ],
-  "lastUpdated": 1782294735
+  "lastUpdated": 1782380737
 }
