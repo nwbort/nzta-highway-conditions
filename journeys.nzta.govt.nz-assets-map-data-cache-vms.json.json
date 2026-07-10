@@ -17,7 +17,7 @@
         "description": "SH59 Acheron T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/ACHERON",
-        "lastUpdated": "2026-07-09T20:11:50.240+12:00",
+        "lastUpdated": "2026-07-10T17:30:19.723+12:00",
         "name": "SH59 Acheron T2 - Southbound",
         "regions": [
           {
@@ -46,6 +46,53 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.94194,
+          -41.182949
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 11,
+        "currentMessage": "SH2 FROM MELLING[nl]CLOSING SOUTHBOUND[nl]SUN&MON NIGHT[nl]9PM TO 4AM",
+        "description": "SH2 Belmont - Southbound",
+        "direction": "Southbound",
+        "identifier": "$WLG://signs/BLM01",
+        "lastUpdated": "2026-07-10T12:05:20.227+12:00",
+        "name": "SH2 Belmont - Southbound",
+        "regions": [
+          {
+            "id": "9",
+            "name": "Wellington"
+          }
+        ],
+        "ways": [
+          {
+            "id": "79",
+            "name": "002"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "9",
+            "name": "SH2"
+          }
+        ],
+        "legs": [
+          {
+            "id": "lower-hutt-to-petone",
+            "name": "Lower Hutt to Petone",
+            "totalLength": "12.85"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-11"
       }
     },
     {
@@ -100,100 +147,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.348132,
-          -41.131513
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 17,
-        "currentMessage": "SH53 MARTINBOROUGH[jl4]CLOSED[nl]Alternative Routes[nl]VIA Kahutara[jl4]CLOSED[nl]VIA Ponatahi[jl4]CLOSED[nl]VIA Western Lake Road[jl4]OPEN",
-        "description": "SH53 Featherston - Eastbound",
-        "direction": "Eastbound",
-        "identifier": "$WLG://signs/CMS_Featherston",
-        "lastUpdated": "2026-07-09T21:34:50.273+12:00",
-        "name": "SH53 Featherston - Eastbound",
-        "regions": [
-          {
-            "id": "9",
-            "name": "Wellington"
-          }
-        ],
-        "ways": [
-          {
-            "id": "109",
-            "name": "053"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "11",
-            "name": "SH53"
-          }
-        ],
-        "legs": [
-          {
-            "id": "featherston-to-martinborough",
-            "name": "Featherston to Martinborough",
-            "totalLength": "17.658411203326"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-17"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.450104,
-          -41.209109
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 20,
-        "currentMessage": "SH53 FEATHERSTON[jl4]CLOSED[nl]Alternative Routes[nl]VIA Kahutara[jl4]CLOSED[nl]VIA Ponatahi[jl4]CLOSED[nl]VIA Western Lake Road[jl4]OPEN",
-        "description": "SH53 Martinborough - Westbound",
-        "direction": "Westbound",
-        "identifier": "$WLG://signs/CMS_Martinborough",
-        "lastUpdated": "2026-07-09T21:34:50.273+12:00",
-        "name": "SH53 Martinborough - Westbound",
-        "regions": [
-          {
-            "id": "9",
-            "name": "Wellington"
-          }
-        ],
-        "ways": [
-          {
-            "id": "109",
-            "name": "053"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "11",
-            "name": "SH53"
-          }
-        ],
-        "legs": [
-          {
-            "id": "featherston-to-martinborough",
-            "name": "Featherston to Martinborough",
-            "totalLength": "17.658411203326"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-20"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           170.509486,
           -45.849172
         ]
@@ -241,53 +194,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.318848,
-          -41.115936
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 42,
-        "currentMessage": "REMUTAKA HILL[nl]SLIP[nl]TAKE EXTRA CARE",
-        "description": "SH2 Featherston - Southbound",
-        "direction": "Southbound",
-        "identifier": "$WLG://signs/FTH01",
-        "lastUpdated": "2026-07-09T20:34:49.897+12:00",
-        "name": "SH2 Featherston - Southbound",
-        "regions": [
-          {
-            "id": "9",
-            "name": "Wellington"
-          }
-        ],
-        "ways": [
-          {
-            "id": "73",
-            "name": "002"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "9",
-            "name": "SH2"
-          }
-        ],
-        "legs": [
-          {
-            "id": "featherston-to-upper-hutt",
-            "name": "Featherston to Upper Hutt",
-            "totalLength": "31.735"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-42"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           171.237492,
           -44.103712
         ]
@@ -295,11 +201,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 44,
-        "currentMessage": "SH8 TO FAIRLIE[nl]SNOW AND ICE[np]SH8 TO FAIRLIE[nl]TAKE EXTRA CARE",
+        "currentMessage": "SH8 TO FAIRLIE[nl]BLACK ICE[np]REDUCED[nl]VISIBILITY",
         "description": "SH79 Geraldine - Westbound",
         "direction": "Westbound",
         "identifier": "$WLG://signs/GLD01",
-        "lastUpdated": "2026-07-09T11:29:18.950+12:00",
+        "lastUpdated": "2026-07-10T20:35:50.840+12:00",
         "name": "SH79 Geraldine - Westbound",
         "regions": [
           {
@@ -328,53 +234,6 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-44"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.451321,
-          -41.088692
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 50,
-        "currentMessage": "SH53 CLOSED[nl]WAIHENGA BRIDGE[np]SH53 CLOSED[nl]USE ALT ROUTE",
-        "description": "SH2 Greytown - Southbound",
-        "direction": "Southbound",
-        "identifier": "$WLG://signs/GRT01",
-        "lastUpdated": "2026-07-09T00:34:18.917+12:00",
-        "name": "SH2 Greytown - Southbound",
-        "regions": [
-          {
-            "id": "9",
-            "name": "Wellington"
-          }
-        ],
-        "ways": [
-          {
-            "id": "71",
-            "name": "002"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "9",
-            "name": "SH2"
-          }
-        ],
-        "legs": [
-          {
-            "id": "masterton-to-featherston",
-            "name": "Masterton to Featherston",
-            "totalLength": "36.946"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-50"
       }
     },
     {
@@ -534,7 +393,7 @@
         "description": "SH59 James Street T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/JAMESST",
-        "lastUpdated": "2026-07-09T09:32:48.917+12:00",
+        "lastUpdated": "2026-07-10T17:32:49.803+12:00",
         "name": "SH59 James Street T2 - Southbound",
         "regions": [
           {
@@ -628,7 +487,7 @@
         "description": "SH1 Kaiwharawhara - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/KWHARA-SB",
-        "lastUpdated": "2026-07-09T11:22:48.437+12:00",
+        "lastUpdated": "2026-07-10T15:01:19.880+12:00",
         "name": "SH1 Kaiwharawhara - Southbound",
         "regions": [
           {
@@ -671,11 +530,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 89,
-        "currentMessage": "SH85 PALMERSTON[nl]SNOW AND ICE[np]SH85 PALMERSTON[nl]TAKE EXTRA CARE",
+        "currentMessage": "SH1 BEFORE[nl]DUNEDIN[np]PRIOR CRASH[nl]ROAD OPEN",
         "description": "SH85 Kyeburn - Eastbound",
         "direction": "Eastbound",
         "identifier": "$WLG://signs/KYE01",
-        "lastUpdated": "2026-07-09T09:30:48.657+12:00",
+        "lastUpdated": "2026-07-10T21:10:50.980+12:00",
         "name": "SH85 Kyeburn - Eastbound",
         "regions": [
           {
@@ -722,7 +581,7 @@
         "description": "SH1 Otaihanga - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/M2PP-A-12",
-        "lastUpdated": "2026-07-09T09:52:48.463+12:00",
+        "lastUpdated": "2026-07-10T17:04:49.863+12:00",
         "name": "SH1 Otaihanga - Southbound",
         "regions": [
           {
@@ -769,7 +628,7 @@
         "description": "SH59 Marina T2 - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/MARINA",
-        "lastUpdated": "2026-07-09T18:00:48.970+12:00",
+        "lastUpdated": "2026-07-10T14:00:50.243+12:00",
         "name": "SH59 Marina T2 - Northbound",
         "regions": [
           {
@@ -993,6 +852,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          177.925062,
+          -38.567928
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 128,
+        "currentMessage": "SH2 AFTER[nl]TE KARAKA[np]ROAD OPEN[nl]TAKE EXTRA CARE",
+        "description": "SH2 Ormond - Northbound",
+        "direction": "Northbound",
+        "identifier": "$WLG://signs/OMD01",
+        "lastUpdated": "2026-07-10T07:27:50.317+12:00",
+        "name": "SH2 Ormond - Northbound",
+        "regions": [
+          {
+            "id": "5",
+            "name": "Gisborne"
+          }
+        ],
+        "ways": [
+          {
+            "id": "453",
+            "name": "002"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "53",
+            "name": "SH2"
+          }
+        ],
+        "legs": [
+          {
+            "id": "ormond-valley-to-hexton",
+            "name": "Ormond Valley to Hexton",
+            "totalLength": "14.036"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-128"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           170.224697,
           -45.856407
         ]
@@ -1033,6 +939,53 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-130"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.713529,
+          -45.485892
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 131,
+        "currentMessage": "SH1 BEFORE[nl]DUNEDIN[np]PRIOR CRASH[nl]ROAD OPEN",
+        "description": "SH1 Palmerston - Southbound",
+        "direction": "Southbound",
+        "identifier": "$WLG://signs/PAL01",
+        "lastUpdated": "2026-07-10T21:10:21.037+12:00",
+        "name": "SH1 Palmerston - Southbound",
+        "regions": [
+          {
+            "id": "13",
+            "name": "Otago"
+          }
+        ],
+        "ways": [
+          {
+            "id": "1029",
+            "name": "01S"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "109",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "palmerston-to-waikouaiti",
+            "name": "Palmerston to Waikouaiti",
+            "totalLength": "14.72"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-131"
       }
     },
     {
@@ -1192,7 +1145,7 @@
         "description": "SH1 Rail Crossing - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/RCROSS-SB",
-        "lastUpdated": "2026-07-09T11:22:48.437+12:00",
+        "lastUpdated": "2026-07-10T15:01:19.880+12:00",
         "name": "SH1 Rail Crossing - Southbound",
         "regions": [
           {
@@ -1221,53 +1174,6 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-149"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.200101,
-          -41.078638
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 152,
-        "currentMessage": "SH53 CLOSED[nl]WAIHENGA BRIDGE[np]SH53 CLOSED[nl]USE ALT ROUTE",
-        "description": "SH2 Remutaka Hill - Northbound",
-        "direction": "Northbound",
-        "identifier": "$WLG://signs/RIH01",
-        "lastUpdated": "2026-07-09T00:34:48.920+12:00",
-        "name": "SH2 Remutaka Hill - Northbound",
-        "regions": [
-          {
-            "id": "9",
-            "name": "Wellington"
-          }
-        ],
-        "ways": [
-          {
-            "id": "73",
-            "name": "002"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "9",
-            "name": "SH2"
-          }
-        ],
-        "legs": [
-          {
-            "id": "featherston-to-upper-hutt",
-            "name": "Featherston to Upper Hutt",
-            "totalLength": "31.735"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-152"
       }
     },
     {
@@ -1380,7 +1286,7 @@
         "description": "SH1 Sussex St - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/SUSSEX-NB",
-        "lastUpdated": "2026-07-09T09:52:48.463+12:00",
+        "lastUpdated": "2026-07-10T15:01:19.880+12:00",
         "name": "SH1 Sussex St - Northbound",
         "regions": [
           {
@@ -1470,11 +1376,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 169,
-        "currentMessage": "WINTER DRIVING[nl]CONDITIONS[np]TAKE EXTRA CARE",
+        "currentMessage": "SH8 TO FAIRLIE[nl]BLACK ICE[np]REDUCED[nl]VISIBILITY",
         "description": "SH8 Tekapo - Eastbound",
         "direction": "Eastbound",
         "identifier": "$WLG://signs/TKO01",
-        "lastUpdated": "2026-07-09T10:04:48.920+12:00",
+        "lastUpdated": "2026-07-10T20:35:20.840+12:00",
         "name": "SH8 Tekapo - Eastbound",
         "regions": [
           {
@@ -1517,11 +1423,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 170,
-        "currentMessage": "WINTER DRIVING[nl]CONDITIONS[np]TAKE EXTRA[nl]CARE",
+        "currentMessage": "SH8 TO OMARAMA[nl]BLACK ICE[np]REDUCED[nl]VISIBILITY",
         "description": "SH8 Tekapo - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/TKO02",
-        "lastUpdated": "2026-07-09T11:28:18.810+12:00",
+        "lastUpdated": "2026-07-10T20:35:20.840+12:00",
         "name": "SH8 Tekapo - Southbound",
         "regions": [
           {
@@ -1651,6 +1557,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.824175,
+          -41.241241
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 188,
+        "currentMessage": "SH2 NGAURANGA[nl]OFFRAMP CLOSING[nl]TUE-THU NIGHTS[np]SH2 NGAURANGA[nl]OFFRAMP CLOSING[nl]9PM - 4:30AM",
+        "description": "SH2 Weigh Station - Southbound",
+        "direction": "Southbound",
+        "identifier": "$WLG://signs/WGHSTN-SB",
+        "lastUpdated": "2026-07-10T15:01:19.880+12:00",
+        "name": "SH2 Weigh Station - Southbound",
+        "regions": [
+          {
+            "id": "9",
+            "name": "Wellington"
+          }
+        ],
+        "ways": [
+          {
+            "id": "81",
+            "name": "002"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "9",
+            "name": "SH2"
+          }
+        ],
+        "legs": [
+          {
+            "id": "petone-to-nauranga",
+            "name": "Petone to Nauranga",
+            "totalLength": "4.1050839830144"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-188"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.195458,
           -39.020988
         ]
@@ -1698,6 +1651,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          170.558258,
+          -45.762735
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 200,
+        "currentMessage": "SH1 BEFORE[nl]DUNEDIN[np]PRIOR CRASH[nl]ROAD OPEN",
+        "description": "SH1 Waitati - Southbound",
+        "direction": "Southbound",
+        "identifier": "$WLG://signs/WTI01",
+        "lastUpdated": "2026-07-10T21:10:50.980+12:00",
+        "name": "SH1 Waitati - Southbound",
+        "regions": [
+          {
+            "id": "13",
+            "name": "Otago"
+          }
+        ],
+        "ways": [
+          {
+            "id": "1033",
+            "name": "01S"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "109",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "evansdale-to-pine-hill-dunedin",
+            "name": "Evansdale to Pine Hill - Dunedin",
+            "totalLength": "16.45"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           175.514919,
           -37.901038
         ]
@@ -1705,11 +1705,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 212,
-        "currentMessage": "AUCKLAND VIA[nl]SH1[jl4]1H 53M[nl]SH1B/SH1[jl4]1H 46M[nl]",
+        "currentMessage": "AUCKLAND VIA[nl]SH1[jl4]1H 49M[nl]SH1B/SH1[jl4]1H 43M[nl]",
         "description": "SH1 Cambridge - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/CMB01",
-        "lastUpdated": "2026-07-09T21:02:20.287+12:00",
+        "lastUpdated": "2026-07-10T19:44:21.173+12:00",
         "name": "SH1 Cambridge - Northbound",
         "regions": [
           {
@@ -1839,6 +1839,100 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.87923,
+          -36.973225
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 271,
+        "currentMessage": "INCIDENT AHEAD:[nl]USE RIGHT LANE",
+        "description": "SH1 Tui Caspar - Northbound",
+        "direction": "Northbound",
+        "identifier": "$AKL://signs/V-001-0565-N",
+        "lastUpdated": "2026-07-10T21:41:51.397+12:00",
+        "name": "SH1 Tui Caspar - Northbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "44",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "3",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "redoubt-rd-to-hobson-st",
+            "name": "Redoubt Rd to Hobson St",
+            "totalLength": "20.283491539539"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.897968,
+          -37.006672
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 272,
+        "currentMessage": "INCIDENT:[nl]LANES CLOSED AFTER[nl]TE IRIRANGI DR",
+        "description": "SH1 Orams Rd - Northbound",
+        "direction": "Northbound",
+        "identifier": "$AKL://signs/V-001-0570-N",
+        "lastUpdated": "2026-07-10T21:41:51.397+12:00",
+        "name": "SH1 Orams Rd - Northbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "1274",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "3",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "redoubt-rd-to-papakura",
+            "name": "Redoubt Rd to Papakura",
+            "totalLength": "10.050635603567"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-272"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.767578,
           -36.921849
         ]
@@ -1850,7 +1944,7 @@
         "description": "SH20 Beachcroft Ave - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-020-0470-N",
-        "lastUpdated": "2026-07-09T20:49:49.720+12:00",
+        "lastUpdated": "2026-07-10T20:04:21.267+12:00",
         "name": "SH20 Beachcroft Ave - Northbound",
         "regions": [
           {
@@ -1879,6 +1973,53 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-292"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.860295,
+          -36.99782
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 296,
+        "currentMessage": "SH1 NORTHBOUND:[nl]LANES CLOSED AFTER[nl]TE IRIRANGI DR",
+        "description": "SH20 Cavendish Dr - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-020-0530-S",
+        "lastUpdated": "2026-07-10T21:41:51.397+12:00",
+        "name": "SH20 Cavendish Dr - Southbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "50",
+            "name": "020"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "4",
+            "name": "SH20"
+          }
+        ],
+        "legs": [
+          {
+            "id": "onehunga-to-waterview",
+            "name": "Onehunga to Waterview",
+            "totalLength": "9.665"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-296"
       }
     },
     {
@@ -1933,6 +2074,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          177.288807,
+          -38.023641
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 308,
+        "currentMessage": "SH2 TE KARAKA[nl]OPEN[np]DRIVE TO THE[nl]CONDITIONS",
+        "description": "SH2 Waioeka - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/WKA01",
+        "lastUpdated": "2026-07-10T18:49:19.827+12:00",
+        "name": "SH2 Waioeka - Southbound",
+        "regions": [
+          {
+            "id": "4",
+            "name": "Bay Of Plenty"
+          }
+        ],
+        "ways": [
+          {
+            "id": "373",
+            "name": "002"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "42",
+            "name": "SH2"
+          }
+        ],
+        "legs": [
+          {
+            "id": "opotiki-to-waioeka",
+            "name": "Opotiki to Waioeka",
+            "totalLength": "29.592"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-308"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.910047,
           -37.022996
         ]
@@ -1940,11 +2128,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 315,
-        "currentMessage": "ROADWORKS[nl]BEACH RD PAPAKURA[nl]FRI 10 JULY[np]ROADWORKS[nl]BEACH RD PAPAKURA[nl]PLAN AHEAD",
+        "currentMessage": "BEACH RD PAPAKURA[nl]CLOSED[nl]8PM - 5AM[np]BEACH RD PAPAKURA[nl]CLOSED[nl]TRUCKS USE DRURY",
         "description": "SH1 - SCI - Alfriston Rd (S) VMS",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-6050-S",
-        "lastUpdated": "2026-07-09T07:00:18.967+12:00",
+        "lastUpdated": "2026-07-10T20:00:21.210+12:00",
         "name": "SH1 - SCI - Alfriston Rd (S) VMS",
         "regions": [
           {
@@ -1987,11 +2175,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 318,
-        "currentMessage": "ROADWORKS[nl]BEACH RD PAPAKURA[nl]FRI 10 JULY[np]ROADWORKS[nl]BEACH RD PAPAKURA[nl]PLAN AHEAD",
+        "currentMessage": "BEACH RD PAPAKURA[nl]CLOSED[nl]8PM - 5AM[np]BEACH RD PAPAKURA[nl]CLOSED[nl]TRUCKS USE DRURY",
         "description": "SH1 - SCI - Morewa (S) VMS",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-6180-S",
-        "lastUpdated": "2026-07-09T07:00:18.967+12:00",
+        "lastUpdated": "2026-07-10T20:00:21.210+12:00",
         "name": "SH1 - SCI - Morewa (S) VMS",
         "regions": [
           {
@@ -2081,11 +2269,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 430,
-        "currentMessage": "SH8 TO FAIRLIE[nl]SNOW AND ICE[nl]TAKE EXTRA CARE",
+        "currentMessage": "SH8 TO FAIRLIE[nl]BLACK ICE[nl]REDUCED VISIBILITY[nl]TAKE EXTRA CARE",
         "description": null,
         "direction": "Northbound",
         "identifier": "$WLG://signs/OMA02",
-        "lastUpdated": "2026-07-09T11:28:18.810+12:00",
+        "lastUpdated": "2026-07-10T20:35:20.840+12:00",
         "name": "Omarama (N) VMS",
         "regions": [
           {
@@ -2294,5 +2482,5 @@
       }
     }
   ],
-  "lastUpdated": 1783591088
+  "lastUpdated": 1783677247
 }
