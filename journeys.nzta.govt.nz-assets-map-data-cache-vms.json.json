@@ -17,7 +17,7 @@
         "description": "SH59 Acheron T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/ACHERON",
-        "lastUpdated": "2026-09-11T09:30:12.807+12:00",
+        "lastUpdated": "2026-09-12T14:00:13.803+12:00",
         "name": "SH59 Acheron T2 - Southbound",
         "regions": [
           {
@@ -389,11 +389,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 59,
-        "currentMessage": "SH6 FROM[nl]MAKARORA[np]SLIP[nl]ROAD CLOSED",
+        "currentMessage": "SH6 FROM[nl]MAKARORA[np]ROAD CLOSED[nl]OPENING AT 8AM",
         "description": "SH6 Haast - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/HST01",
-        "lastUpdated": "2026-09-07T03:39:07.527+12:00",
+        "lastUpdated": "2026-09-12T17:33:44.253+12:00",
         "name": "SH6 Haast - Southbound",
         "regions": [
           {
@@ -436,11 +436,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 65,
-        "currentMessage": "SH6 TO[nl]MAKARORA[np]SLIP[nl]ROAD CLOSED",
+        "currentMessage": "SH6 TO MAKARORA[nl]ROAD CLOSED[np]REOPENING AT[nl]8AM",
         "description": "SH6 Hawea - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/HWA01",
-        "lastUpdated": "2026-09-07T03:40:37.543+12:00",
+        "lastUpdated": "2026-09-12T17:35:14.280+12:00",
         "name": "SH6 Hawea - Northbound",
         "regions": [
           {
@@ -534,7 +534,7 @@
         "description": "SH59 James Street T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/JAMESST",
-        "lastUpdated": "2026-09-11T09:30:42.787+12:00",
+        "lastUpdated": "2026-09-12T14:00:43.713+12:00",
         "name": "SH59 James Street T2 - Southbound",
         "regions": [
           {
@@ -628,7 +628,7 @@
         "description": "SH59 Marina T2 - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/MARINA",
-        "lastUpdated": "2026-09-11T18:00:42.807+12:00",
+        "lastUpdated": "2026-09-12T14:00:43.713+12:00",
         "name": "SH59 Marina T2 - Northbound",
         "regions": [
           {
@@ -1098,7 +1098,7 @@
         "description": "SH2 Weigh Station - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/WGHSTN-SB",
-        "lastUpdated": "2026-09-11T13:54:12.850+12:00",
+        "lastUpdated": "2026-09-12T18:01:15.543+12:00",
         "name": "SH2 Weigh Station - Southbound",
         "regions": [
           {
@@ -1181,93 +1181,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          176.055239,
-          -37.777807
+          174.591184,
+          -36.793239
         ]
       },
       "properties": {
         "featureType": "vmssign",
-        "id": 228,
-        "currentMessage": "SLIPPERY ROAD[nl]REDUCE SPEED",
-        "description": "SH29 Kaimais - Westbound",
-        "direction": "Westbound",
-        "identifier": "$AKL://signs/KAM01",
-        "lastUpdated": "2026-09-11T21:59:44.293+12:00",
-        "name": "SH29 Kaimais - Westbound",
-        "regions": [
-          {
-            "id": "4",
-            "name": "Bay Of Plenty"
-          }
-        ],
-        "ways": [
-          {
-            "id": "391",
-            "name": "029"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "44",
-            "name": "SH29"
-          }
-        ],
-        "legs": [
-          {
-            "id": "tauranga-to-kaimai-mamaku-forest-park",
-            "name": "Tauranga to Kaimai-Mamaku Forest Park",
-            "totalLength": "27.86"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-228"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          175.893052,
-          -37.880066
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 229,
-        "currentMessage": "SLIPPERY ROAD[nl]REDUCE SPEED",
-        "description": "SH29 Kaimais - Eastbound",
+        "id": 209,
+        "currentMessage": "INCIDENT:[nl]MOTORWAY CLOSED[nl]AT LINCOLN RD[nl]USE ALT ROUTE",
+        "description": "SH16 Brigham Creek Rd - Eastbound",
         "direction": "Eastbound",
-        "identifier": "$AKL://signs/KAM02",
-        "lastUpdated": "2026-09-11T21:59:44.293+12:00",
-        "name": "SH29 Kaimais - Eastbound",
+        "identifier": "$AKL://signs/Brigham_E",
+        "lastUpdated": "2026-09-12T21:25:15.593+12:00",
+        "name": "SH16 Brigham Creek Rd - Eastbound",
         "regions": [
           {
-            "id": "3",
-            "name": "Waikato"
+            "id": "2",
+            "name": "Auckland"
           }
         ],
         "ways": [
           {
-            "id": "293",
-            "name": "029"
+            "id": "15",
+            "name": "016"
           }
         ],
         "journeys": [
           {
-            "id": "32",
-            "name": "SH29"
+            "id": "1",
+            "name": "SH16"
           }
         ],
         "legs": [
           {
-            "id": "kaimai-mamaku-forest-park-to-te-poi",
-            "name": "Kaimai-Mamaku Forest Park to Te Poi",
-            "totalLength": "5.6889807331048"
+            "id": "te-atatu-to-taupake-road",
+            "name": "Te Atatu to Taupake Road",
+            "totalLength": "11.348"
           }
         ],
         "type": "vms",
-        "uniq": "Traffic-time-sign-229"
+        "uniq": "Traffic-time-sign-209"
       }
     },
     {
@@ -1275,46 +1228,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          176.00172,
-          -37.822208
+          174.617499,
+          -36.831825
         ]
       },
       "properties": {
         "featureType": "vmssign",
-        "id": 230,
-        "currentMessage": "SLIPPERY ROAD[nl]REDUCE SPEED",
-        "description": "SH29 Kaimais Lower - Westbound",
-        "direction": "Westbound",
-        "identifier": "$AKL://signs/KAM03",
-        "lastUpdated": "2026-09-11T21:59:44.293+12:00",
-        "name": "SH29 Kaimais Lower - Westbound",
+        "id": 223,
+        "currentMessage": "INCIDENT AHEAD:[nl]MOTORWAY CLOSED[nl]USE ALT ROUTE",
+        "description": "SH16 Royal Rd - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/ITS-Royalrd-E01",
+        "lastUpdated": "2026-09-12T21:25:15.593+12:00",
+        "name": "SH16 Royal Rd - Southbound",
         "regions": [
           {
-            "id": "4",
-            "name": "Bay Of Plenty"
+            "id": "2",
+            "name": "Auckland"
           }
         ],
         "ways": [
           {
-            "id": "391",
-            "name": "029"
+            "id": "15",
+            "name": "016"
           }
         ],
         "journeys": [
           {
-            "id": "44",
-            "name": "SH29"
+            "id": "1",
+            "name": "SH16"
           }
         ],
         "legs": [
           {
-            "id": "tauranga-to-kaimai-mamaku-forest-park",
-            "name": "Tauranga to Kaimai-Mamaku Forest Park",
-            "totalLength": "27.86"
+            "id": "te-atatu-to-taupake-road",
+            "name": "Te Atatu to Taupake Road",
+            "totalLength": "11.348"
           }
         ],
         "type": "vms",
-        "uniq": "Traffic-time-sign-230"
+        "uniq": "Traffic-time-sign-223"
       }
     },
     {
@@ -1333,7 +1286,7 @@
         "description": "SH1 Esmonde Rd - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-0490-S",
-        "lastUpdated": "2026-09-11T18:42:42.817+12:00",
+        "lastUpdated": "2026-09-12T12:34:43.667+12:00",
         "name": "SH1 Esmonde Rd - Southbound",
         "regions": [
           {
@@ -1380,7 +1333,7 @@
         "description": "SH1 Fanshawe St - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-001-0500-N",
-        "lastUpdated": "2026-09-11T18:33:12.973+12:00",
+        "lastUpdated": "2026-09-12T12:34:43.667+12:00",
         "name": "SH1 Fanshawe St - Northbound",
         "regions": [
           {
@@ -1423,11 +1376,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 268,
-        "currentMessage": "INCIDENT:[nl]LANE BLOCKED ON[nl]MARKET OFFRAMP",
+        "currentMessage": "INCIDENT AFTER[nl]ELLERSLIE PANMURE:[nl]USE LEFT LANES",
         "description": "SH1 Ellerslie - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-001-0530-N",
-        "lastUpdated": "2026-09-11T22:37:14.353+12:00",
+        "lastUpdated": "2026-09-12T22:20:15.653+12:00",
         "name": "SH1 Ellerslie - Northbound",
         "regions": [
           {
@@ -1470,11 +1423,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 280,
-        "currentMessage": "SH2 PAENGAROA[nl]CLOSED FROM[nl]12 SEP 5AM TO[nl]14 SEP 6AM",
+        "currentMessage": "SH2 PAENGAROA[nl]CLOSED 12-14 SEP[nl]DETOUR[nl]OLD COACH ROAD",
         "description": "SH2 Paengaroa - Westbound",
         "direction": "Westbound",
         "identifier": "$AKL://signs/V-002-0070-W",
-        "lastUpdated": "2026-09-07T13:00:07.593+12:00",
+        "lastUpdated": "2026-09-12T05:00:44.480+12:00",
         "name": "SH2 Paengaroa - Westbound",
         "regions": [
           {
@@ -1510,6 +1463,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.65177,
+          -36.793226
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 289,
+        "currentMessage": "INCIDENT:[nl]MOTORWAY CLOSED[nl]AT LINCOLN RD[np]INCIDENT:[nl]MOTORWAY CLOSED[nl]USE ALT ROUTE",
+        "description": "SH18 Clarks Lane - Westbound",
+        "direction": "Westbound",
+        "identifier": "$AKL://signs/V-018-0100-W",
+        "lastUpdated": "2026-09-12T21:25:15.593+12:00",
+        "name": "SH18 Clarks Lane - Westbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "25",
+            "name": "018"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "2",
+            "name": "SH18"
+          }
+        ],
+        "legs": [
+          {
+            "id": "greenhithe-to-sh16-sh18-interchange",
+            "name": "Greenhithe to SH16 / SH18 Interchange",
+            "totalLength": "5.3036558150051"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-289"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           174.767081,
           -36.92149
         ]
@@ -1521,7 +1521,7 @@
         "description": "SH20 Queenstown Rd - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-020-0460-S",
-        "lastUpdated": "2026-09-11T19:00:14.150+12:00",
+        "lastUpdated": "2026-09-12T19:00:15.057+12:00",
         "name": "SH20 Queenstown Rd - Southbound",
         "regions": [
           {
@@ -1658,11 +1658,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 302,
-        "currentMessage": "SH2 PAENGAROA[nl]CLOSED FROM[nl]12 SEP 5AM TO[nl]14 SEP 6AM",
+        "currentMessage": "SH2 PAENGAROA[nl]CLOSED 12-14 SEP[nl]DETOUR[nl]OLD COACH ROAD",
         "description": "SH33 Paengaroa - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-033-0010-N",
-        "lastUpdated": "2026-09-07T13:00:07.593+12:00",
+        "lastUpdated": "2026-09-12T05:00:14.447+12:00",
         "name": "SH33 Paengaroa - Northbound",
         "regions": [
           {
@@ -1709,7 +1709,7 @@
         "description": "SH20A Bader Dr - Southbound",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-20A-2610-S",
-        "lastUpdated": "2026-09-10T05:00:11.470+12:00",
+        "lastUpdated": "2026-09-12T19:23:15.617+12:00",
         "name": "SH20A Bader Dr - Southbound",
         "regions": [
           {
@@ -1850,7 +1850,7 @@
         "description": "Onewa Rd - Eastbound",
         "direction": "Eastbound",
         "identifier": "$AKL://signs/V-999-0400-N",
-        "lastUpdated": "2026-09-11T18:42:42.817+12:00",
+        "lastUpdated": "2026-09-12T12:34:43.667+12:00",
         "name": "Onewa Rd - Eastbound",
         "regions": [
           {
@@ -1879,6 +1879,100 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-306"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7166673,
+          -36.73360693
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 327,
+        "currentMessage": "ROADWORKS:[nl]LEFT LANE CLOSED[nl]AFTER OREWA",
+        "description": "SH1 Greville - Northbound",
+        "direction": "Northbound",
+        "identifier": "$AKL://signs/V-001-4365-N",
+        "lastUpdated": "2026-09-12T19:00:15.057+12:00",
+        "name": "SH1 Greville - Northbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "36",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "3",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "oteha-to-silverdale",
+            "name": "Oteha to Silverdale",
+            "totalLength": "4.304666510308"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-327"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7108508,
+          -36.7532
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 328,
+        "currentMessage": "INCIDENT:[nl]MOTORWAY CLOSED[nl]AT LINCOLN RD[np]INCIDENT:[nl]MOTORWAY CLOSED[nl]USE ALT ROUTE",
+        "description": "SH18 Unsworth Dr - Westbound",
+        "direction": "Westbound",
+        "identifier": "$AKL://signs/V-018-2050-W",
+        "lastUpdated": "2026-09-12T21:25:15.593+12:00",
+        "name": "SH18 Unsworth Dr - Westbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "24",
+            "name": "018"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "2",
+            "name": "SH18"
+          }
+        ],
+        "legs": [
+          {
+            "id": "greenhithe-to-constellation",
+            "name": "Greenhithe to Constellation",
+            "totalLength": "6.7061100838716"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-328"
       }
     },
     {
@@ -1976,5 +2070,5 @@
       }
     }
   ],
-  "lastUpdated": 1789126210
+  "lastUpdated": 1789210445
 }
