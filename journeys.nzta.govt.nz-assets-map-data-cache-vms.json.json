@@ -17,7 +17,7 @@
         "description": "SH59 Acheron T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/ACHERON",
-        "lastUpdated": "2026-11-20T09:30:03.380+13:00",
+        "lastUpdated": "2026-11-21T14:00:03.583+13:00",
         "name": "SH59 Acheron T2 - Southbound",
         "regions": [
           {
@@ -382,7 +382,7 @@
         "description": "SH59 James Street T2 - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/JAMESST",
-        "lastUpdated": "2026-11-20T09:30:33.513+13:00",
+        "lastUpdated": "2026-11-21T14:00:33.583+13:00",
         "name": "SH59 James Street T2 - Southbound",
         "regions": [
           {
@@ -429,7 +429,7 @@
         "description": "SH1 Karo Drive - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/KARO-NB",
-        "lastUpdated": "2026-11-20T15:15:33.477+13:00",
+        "lastUpdated": "2026-11-21T16:26:03.460+13:00",
         "name": "SH1 Karo Drive - Northbound",
         "regions": [
           {
@@ -523,7 +523,7 @@
         "description": "SH94 Knobs Flat - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/KNB01",
-        "lastUpdated": "2026-11-20T11:06:03.797+13:00",
+        "lastUpdated": "2026-11-21T23:14:03.430+13:00",
         "name": "SH94 Knobs Flat - Northbound",
         "regions": [
           {
@@ -570,7 +570,7 @@
         "description": "SH59 Marina T2 - Northbound",
         "direction": "Northbound",
         "identifier": "$WLG://signs/MARINA",
-        "lastUpdated": "2026-11-20T18:01:03.527+13:00",
+        "lastUpdated": "2026-11-21T14:01:03.510+13:00",
         "name": "SH59 Marina T2 - Northbound",
         "regions": [
           {
@@ -711,7 +711,7 @@
         "description": "SH94 Mossburn - Southbound",
         "direction": "Southbound",
         "identifier": "$WLG://signs/MOS01",
-        "lastUpdated": "2026-11-20T23:05:33.197+13:00",
+        "lastUpdated": "2026-11-21T19:30:33.433+13:00",
         "name": "SH94 Mossburn - Southbound",
         "regions": [
           {
@@ -1495,11 +1495,11 @@
       "properties": {
         "featureType": "vmssign",
         "id": 205,
-        "currentMessage": "SH2 PUKEHINA[nl]ROADWORKS[np]SH2 PUKEHINA[nl]6:30AM - 6:30PM",
+        "currentMessage": "SH2 PUKEHINA[nl]ROADWORKS[np]SH2 PUKEHINA[nl]MON - FRI",
         "description": "SH2 Awakeri - Westbound",
         "direction": "Westbound",
         "identifier": "$AKL://signs/AWA02",
-        "lastUpdated": "2026-11-20T18:30:33.407+13:00",
+        "lastUpdated": "2026-11-21T06:30:33.453+13:00",
         "name": "SH2 Awakeri - Westbound",
         "regions": [
           {
@@ -1770,6 +1770,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          174.897968,
+          -37.006672
+        ]
+      },
+      "properties": {
+        "featureType": "vmssign",
+        "id": 272,
+        "currentMessage": "INCIDENT:[nl]LANE BLOCKED AFTER[nl]TE IRIRANGI DR",
+        "description": "SH1 Orams Rd - Northbound",
+        "direction": "Northbound",
+        "identifier": "$AKL://signs/V-001-0570-N",
+        "lastUpdated": "2026-11-22T02:22:03.427+13:00",
+        "name": "SH1 Orams Rd - Northbound",
+        "regions": [
+          {
+            "id": "2",
+            "name": "Auckland"
+          }
+        ],
+        "ways": [
+          {
+            "id": "1274",
+            "name": "01N"
+          }
+        ],
+        "journeys": [
+          {
+            "id": "3",
+            "name": "SH1"
+          }
+        ],
+        "legs": [
+          {
+            "id": "redoubt-rd-to-papakura",
+            "name": "Redoubt Rd to Papakura",
+            "totalLength": "10.050635603567"
+          }
+        ],
+        "type": "vms",
+        "uniq": "Traffic-time-sign-272"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           176.260924,
           -37.701277
         ]
@@ -1781,7 +1828,7 @@
         "description": "SH2 Bruce Rd - Eastbound",
         "direction": "Eastbound",
         "identifier": "$AKL://signs/V-002-0020-E",
-        "lastUpdated": "2026-11-20T18:30:33.407+13:00",
+        "lastUpdated": "2026-11-21T06:30:33.453+13:00",
         "name": "SH2 Bruce Rd - Eastbound",
         "regions": [
           {
@@ -1817,19 +1864,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7923,
-          -36.945593
+          174.860295,
+          -36.99782
         ]
       },
       "properties": {
         "featureType": "vmssign",
-        "id": 294,
-        "currentMessage": "INCIDENT:[nl]LANE BLOCKED ON[nl]QUEENSTOWN OFFRAMP",
-        "description": "SH20 Coronation Rd - Northbound",
-        "direction": "Northbound",
-        "identifier": "$AKL://signs/V-020-0490-N",
-        "lastUpdated": "2026-11-21T03:50:03.460+13:00",
-        "name": "SH20 Coronation Rd - Northbound",
+        "id": 296,
+        "currentMessage": "SH1 NORTHBOUND:[nl]LANE BLOCKED AFTER[nl]TE IRIRANGI DR",
+        "description": "SH20 Cavendish Dr - Southbound",
+        "direction": "Southbound",
+        "identifier": "$AKL://signs/V-020-0530-S",
+        "lastUpdated": "2026-11-22T02:21:33.417+13:00",
+        "name": "SH20 Cavendish Dr - Southbound",
         "regions": [
           {
             "id": "2",
@@ -1838,7 +1885,7 @@
         ],
         "ways": [
           {
-            "id": "51",
+            "id": "50",
             "name": "020"
           }
         ],
@@ -1850,13 +1897,13 @@
         ],
         "legs": [
           {
-            "id": "onehunga-to-sh20a",
-            "name": "Onehunga to SH20A",
-            "totalLength": "2.5378252540076"
+            "id": "onehunga-to-waterview",
+            "name": "Onehunga to Waterview",
+            "totalLength": "9.665"
           }
         ],
         "type": "vms",
-        "uniq": "Traffic-time-sign-294"
+        "uniq": "Traffic-time-sign-296"
       }
     },
     {
@@ -1875,7 +1922,7 @@
         "description": "SH33 Paengaroa - Northbound",
         "direction": "Northbound",
         "identifier": "$AKL://signs/V-033-0010-N",
-        "lastUpdated": "2026-11-20T18:30:33.407+13:00",
+        "lastUpdated": "2026-11-21T06:30:33.453+13:00",
         "name": "SH33 Paengaroa - Northbound",
         "regions": [
           {
@@ -1904,53 +1951,6 @@
         ],
         "type": "vms",
         "uniq": "Traffic-time-sign-302"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.785431,
-          -36.986416
-        ]
-      },
-      "properties": {
-        "featureType": "vmssign",
-        "id": 304,
-        "currentMessage": "INCIDENT ON[nl]QUEENSTOWN OFFRAMP[nl]LANE BLOCKED",
-        "description": "SH20A Landing Dr - Northbound",
-        "direction": "Northbound",
-        "identifier": "$AKL://signs/V-20A-2700-N",
-        "lastUpdated": "2026-11-21T03:51:03.450+13:00",
-        "name": "SH20A Landing Dr - Northbound",
-        "regions": [
-          {
-            "id": "2",
-            "name": "Auckland"
-          }
-        ],
-        "ways": [
-          {
-            "id": "60",
-            "name": "20A"
-          }
-        ],
-        "journeys": [
-          {
-            "id": "6",
-            "name": "SH20A"
-          }
-        ],
-        "legs": [
-          {
-            "id": "george-bolt-to-kirkbride",
-            "name": "George Bolt to Kirkbride",
-            "totalLength": "1.768629030969"
-          }
-        ],
-        "type": "vms",
-        "uniq": "Traffic-time-sign-304"
       }
     },
     {
@@ -2063,7 +2063,7 @@
         "description": "SH1 - SCI - Morewa (S) VMS",
         "direction": "Southbound",
         "identifier": "$AKL://signs/V-001-6180-S",
-        "lastUpdated": "2026-11-20T05:54:33.443+13:00",
+        "lastUpdated": "2026-11-21T09:51:33.463+13:00",
         "name": "SH1 - SCI - Morewa (S) VMS",
         "regions": [
           {
@@ -2330,5 +2330,5 @@
       }
     }
   ],
-  "lastUpdated": 1795188966
+  "lastUpdated": 1795272308
 }
